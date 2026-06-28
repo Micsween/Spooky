@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ingredient_sprites",
-    "path":"folders/Ingredient_sprites.yy",
+    "name":"Condiments",
+    "path":"folders/Ingredient_sprites/Condiments.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ingredient_sprites",
-    "path":"folders/Ingredient_sprites.yy",
+    "name":"hot_dog",
+    "path":"folders/Ingredient_sprites/hot_dog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
