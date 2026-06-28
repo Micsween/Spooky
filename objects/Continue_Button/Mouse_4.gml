@@ -1,0 +1,1 @@
+room = hot_dog_van;

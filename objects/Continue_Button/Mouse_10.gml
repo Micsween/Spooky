@@ -1,0 +1,1 @@
+sprite_index = Continue_on_hover;

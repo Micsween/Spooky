@@ -1,0 +1,1 @@
+sprite_index = Start_on_hover;
