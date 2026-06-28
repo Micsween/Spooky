@@ -19,7 +19,7 @@
   "height":767,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6902f3f7-331c-4d80-9ca6-9633884a8d63","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6902f3f7-331c-4d80-9ca6-9633884a8d63","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2dd9cdad-32bc-4c4c-a5fb-70cdfae8d0e7","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"2dd9cdad-32bc-4c4c-a5fb-70cdfae8d0e7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"84211c90-49dd-4c03-ad36-3aee5824c306","blendMode":0,"displayName":"default","isLocked":false,"name":"84211c90-49dd-4c03-ad36-3aee5824c306","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sprite2",
