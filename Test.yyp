@@ -1,189 +1,61 @@
 {
-  "$GMProject": "v1",
-  "%Name": "Test",
-  "AudioGroups": [
-    {
-      "$GMAudioGroup": "v1",
-      "%Name": "audiogroup_default",
-      "exportDir": "",
-      "name": "audiogroup_default",
-      "resourceType": "GMAudioGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
+  "$GMProject":"v1",
+  "%Name":"Test",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
-  "configs": {
-    "children": [],
-    "name": "Default"
+  "configs":{
+    "children":[],
+    "name":"Default",
   },
-  "defaultScriptType": 1,
-  "Folders": [
-    {
-      "$GMFolder": "",
-      "%Name": "Menu Buttons",
-      "folderPath": "folders/Menu Buttons.yy",
-      "name": "Menu Buttons",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Objects",
-      "folderPath": "folders/Objects.yy",
-      "name": "Objects",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Menus",
-      "folderPath": "folders/Objects/Menus.yy",
-      "name": "Menus",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "rooms",
-      "folderPath": "folders/rooms.yy",
-      "name": "rooms",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Sprites",
-      "folderPath": "folders/Sprites.yy",
-      "name": "Sprites",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Menus",
-      "folderPath": "folders/Sprites/Menus.yy",
-      "name": "Menus",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Ingredient_sprites",
-      "folderPath": "folders/Ingredient_sprites.yy",
-      "name": "Ingredient_sprites",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    }
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Ingredient_sprites","folderPath":"folders/Ingredient_sprites.yy","name":"Ingredient_sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Menus","folderPath":"folders/Objects/Menus.yy","name":"Menus","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Menus","folderPath":"folders/Sprites/Menus.yy","name":"Menus","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences": [],
-  "IncludedFiles": [],
-  "isEcma": false,
-  "LibraryEmitters": [],
-  "MetaData": {
-    "IDEVersion": "2026.0.0.16"
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
   },
-  "name": "Test",
-  "resources": [
-    {
-      "id": {
-        "name": "spr_blue_soda",
-        "path": "sprites/spr_blue_soda/spr_blue_soda.yy"
-      }
-    },
-    { "id": { "name": "spr_bun", "path": "sprites/spr_bun/spr_bun.yy" } },
-    {
-      "id": {
-        "name": "spr_hot_dog_and_bun",
-        "path": "sprites/spr_hot_dog_and_bun/spr_hot_dog_and_bun.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_hot_dog",
-        "path": "sprites/spr_hot_dog/spr_hot_dog.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ketchup_bottle",
-        "path": "sprites/spr_ketchup_bottle/spr_ketchup_bottle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ketchup_drizzle",
-        "path": "sprites/spr_ketchup_drizzle/spr_ketchup_drizzle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_mustard_bottle",
-        "path": "sprites/spr_mustard_bottle/spr_mustard_bottle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_mustard_drizzle",
-        "path": "sprites/spr_mustard_drizzle/spr_mustard_drizzle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_pink_soda",
-        "path": "sprites/spr_pink_soda/spr_pink_soda.yy"
-      }
-    },
-
-    {
-      "id": {
-        "name": "rm_hot_dog_van",
-        "path": "rooms/rm_hot_dog_van/rm_hot_dog_van.yy"
-      }
-    },
-    { "id": { "name": "Sprite2", "path": "sprites/Sprite2/Sprite2.yy" } },
-    {
-      "id": {
-        "name": "Start_on_hover",
-        "path": "sprites/Start_on_hover/Start_on_hover.yy"
-      }
-    },
-    { "id": { "name": "Start", "path": "sprites/Start/Start.yy" } }
+  "name":"Test",
+  "resources":[
+    {"id":{"name":"Continue_Button","path":"objects/Continue_Button/Continue_Button.yy",},},
+    {"id":{"name":"Exit_Button","path":"objects/Exit_Button/Exit_Button.yy",},},
+    {"id":{"name":"Start_Button","path":"objects/Start_Button/Start_Button.yy",},},
+    {"id":{"name":"hot_dog_van","path":"rooms/hot_dog_van/hot_dog_van.yy",},},
+    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"id":{"name":"pause_menu","path":"rooms/pause_menu/pause_menu.yy",},},
+    {"id":{"name":"Continue","path":"sprites/Continue/Continue.yy",},},
+    {"id":{"name":"Exit","path":"sprites/Exit/Exit.yy",},},
+    {"id":{"name":"spr_blue_soda","path":"sprites/spr_blue_soda/spr_blue_soda.yy",},},
+    {"id":{"name":"spr_bun","path":"sprites/spr_bun/spr_bun.yy",},},
+    {"id":{"name":"spr_hot_dog_and_bun","path":"sprites/spr_hot_dog_and_bun/spr_hot_dog_and_bun.yy",},},
+    {"id":{"name":"spr_hot_dog","path":"sprites/spr_hot_dog/spr_hot_dog.yy",},},
+    {"id":{"name":"spr_ketchup_bottle","path":"sprites/spr_ketchup_bottle/spr_ketchup_bottle.yy",},},
+    {"id":{"name":"spr_ketchup_drizzle","path":"sprites/spr_ketchup_drizzle/spr_ketchup_drizzle.yy",},},
+    {"id":{"name":"spr_mustard_bottle","path":"sprites/spr_mustard_bottle/spr_mustard_bottle.yy",},},
+    {"id":{"name":"spr_mustard_drizzle","path":"sprites/spr_mustard_drizzle/spr_mustard_drizzle.yy",},},
+    {"id":{"name":"spr_pink_soda","path":"sprites/spr_pink_soda/spr_pink_soda.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"Start_on_hover","path":"sprites/Start_on_hover/Start_on_hover.yy",},},
+    {"id":{"name":"Start","path":"sprites/Start/Start.yy",},},
   ],
-  "resourceType": "GMProject",
-  "resourceVersion": "2.0",
-  "RoomOrderNodes": [
-    { "roomId": { "name": "menu", "path": "rooms/menu/menu.yy" } },
-    {
-      "roomId": {
-        "name": "hot_dog_van",
-        "path": "rooms/hot_dog_van/hot_dog_van.yy"
-      }
-    },
-    {
-      "roomId": {
-        "name": "pause_menu",
-        "path": "rooms/pause_menu/pause_menu.yy"
-      }
-    }
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"roomId":{"name":"hot_dog_van","path":"rooms/hot_dog_van/hot_dog_van.yy",},},
+    {"roomId":{"name":"pause_menu","path":"rooms/pause_menu/pause_menu.yy",},},
   ],
-  "templateType": "game",
-  "TextureGroups": [
-    {
-      "$GMTextureGroup": "",
-      "%Name": "Default",
-      "autocrop": true,
-      "border": 2,
-      "compressFormat": "bz2",
-      "customOptions": "",
-      "directory": "",
-      "groupParent": null,
-      "isScaled": true,
-      "loadType": "default",
-      "mipsToGenerate": 0,
-      "name": "Default",
-      "resourceType": "GMTextureGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
-  ]
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
 }
