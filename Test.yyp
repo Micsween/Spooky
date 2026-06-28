@@ -19,12 +19,15 @@
   },
   "name":"Test",
   "resources":[
+    {"id":{"name":"rm_hot_dog_van","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_hot_dog_van","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
