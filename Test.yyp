@@ -31,6 +31,8 @@
     {"id":{"name":"Continue_Button","path":"objects/Continue_Button/Continue_Button.yy",},},
     {"id":{"name":"Exit_Button","path":"objects/Exit_Button/Exit_Button.yy",},},
     {"id":{"name":"MusicManager","path":"objects/MusicManager/MusicManager.yy",},},
+    {"id":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Start_Button","path":"objects/Start_Button/Start_Button.yy",},},
     {"id":{"name":"hot_dog_van","path":"rooms/hot_dog_van/hot_dog_van.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
