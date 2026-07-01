@@ -30,10 +30,12 @@
   "resources":[
     {"id":{"name":"Continue_Button","path":"objects/Continue_Button/Continue_Button.yy",},},
     {"id":{"name":"Exit_Button","path":"objects/Exit_Button/Exit_Button.yy",},},
+    {"id":{"name":"MusicManager","path":"objects/MusicManager/MusicManager.yy",},},
     {"id":{"name":"Start_Button","path":"objects/Start_Button/Start_Button.yy",},},
     {"id":{"name":"hot_dog_van","path":"rooms/hot_dog_van/hot_dog_van.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"pause_menu","path":"rooms/pause_menu/pause_menu.yy",},},
+    {"id":{"name":"menu_music","path":"sounds/menu_music/menu_music.yy",},},
     {"id":{"name":"burnt_hot_dog","path":"sprites/burnt_hot_dog/burnt_hot_dog.yy",},},
     {"id":{"name":"Continue_on_hover","path":"sprites/Continue_on_hover/Continue_on_hover.yy",},},
     {"id":{"name":"Continue","path":"sprites/Continue/Continue.yy",},},
