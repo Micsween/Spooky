@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Chat_Box",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Chat_Box",
+  "parent":{
+    "name":"Text_Box",
+    "path":"folders/Text_Box.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
