@@ -1,3 +1,24 @@
+function create_textbox(dialogue_array, name_array = undefined) {
+    var tb = instance_create_depth(0, 0, -100, chat_box);
+    
+    with (tb) {
+        text = dialogue_array;
+        
+        if (!is_undefined(name_array)) {
+            name = name_array;
+        }
+        
+        current_text = text[0];        // Safe now
+        current_line = 0;
+        char_count = 0;
+    }
+    
+    return tb;
+}
+
+
+
+
 /// string_wrap(string, width)
 function string_wrap(_str, _width) {
     var _pos_space = -1;
