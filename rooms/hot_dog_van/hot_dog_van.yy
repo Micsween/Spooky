@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5772B6AD","path":"rooms/hot_dog_van/hot_dog_van.yy",},
   
     {"name":"inst_3E255A70","path":"rooms/hot_dog_van/hot_dog_van.yy",},
   ],
