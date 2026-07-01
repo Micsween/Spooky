@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"Chat_Box_Font",
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Text_Box",
+    "path":"folders/Text_Box.yy",
   },
   "pointRounding":0,
   "ranges":[
