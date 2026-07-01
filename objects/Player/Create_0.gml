@@ -1,4 +1,3 @@
-global.handx = x
-global.handy = y
+global.held_hand = noone
 held_item = noone
 

@@ -8,14 +8,12 @@
   "instanceCreationOrder":[
     {"name":"inst_3E255A70","path":"rooms/hot_dog_van/hot_dog_van.yy",},
     {"name":"inst_3E9262AA","path":"rooms/hot_dog_van/hot_dog_van.yy",},
-    {"name":"inst_390EDECF","path":"rooms/hot_dog_van/hot_dog_van.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3E255A70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E255A70","objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":384.0,},
         {"$GMRInstance":"v4","%Name":"inst_3E9262AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E9262AA","objectId":{"name":"obj_fridge_door_border","path":"objects/obj_fridge_door_border/obj_fridge_door_border.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.015625,"scaleY":6.515625,"x":217.0,"y":256.0,},
-        {"$GMRInstance":"v4","%Name":"inst_390EDECF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_390EDECF","objectId":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-0.51246214,"scaleX":15.0,"scaleY":15.0,"x":1116.0,"y":522.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_3E2E8825","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3E2E8825","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"spriteId":{"name":"Hot_Dog_Van_Inside","path":"sprites/Hot_Dog_Van_Inside/Hot_Dog_Van_Inside.yy",},"x":0.0,"y":0.0,},

@@ -1,2 +1,2 @@
-image_alpha = 1;
-lifetime = 60;
+visible = false;
+sprite_index = noone;
