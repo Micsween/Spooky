@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Start_Button",
+  "%Name":"obj_Exit_Button",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Start_Button",
+  "name":"obj_Exit_Button",
   "overriddenProperties":[],
   "parent":{
     "name":"Menus",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Start",
-    "path":"sprites/Start/Start.yy",
+    "name":"Exit",
+    "path":"sprites/Exit/Exit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
