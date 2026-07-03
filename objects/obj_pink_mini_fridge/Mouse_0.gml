@@ -1,4 +1,3 @@
-
 if (global.item_held == noone) {
 	global.item_held = item_sprite;
 	
@@ -7,4 +6,3 @@ if (global.item_held == noone) {
 		sprite_index = global.item_held
 	}
 }
-

@@ -7,4 +7,3 @@ if (global.item_held == noone) {
 		sprite_index = global.item_held
 	}
 }
-
