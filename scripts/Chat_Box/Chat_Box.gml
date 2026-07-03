@@ -1,3 +1,5 @@
+global.item_held = noone;
+//create held item
 function create_textbox(dialogue_array, name_array = undefined) {
     var tb = instance_create_depth(0, 0, -100, chat_box);
     
