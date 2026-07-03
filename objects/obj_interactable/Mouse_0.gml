@@ -7,6 +7,7 @@ if (item_sprite != noone && item_sprite != noone) {
 	var pickup = instance_create_depth(mouse_x, mouse_y - 40, depth - 10, obj_hand);
 
 	global.held_hand = pickup;
+	pickup.visible = true;
     pickup.sprite_index = item_sprite;
     pickup.image_xscale = 6;
     pickup.image_yscale = 6;
