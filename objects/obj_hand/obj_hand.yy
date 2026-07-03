@@ -10,8 +10,8 @@
   "name":"obj_hand",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Kitchen",
+    "path":"folders/Objects/Kitchen.yy",
   },
   "parentObjectId":null,
   "persistent":true,
