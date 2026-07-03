@@ -1,4 +1,4 @@
-item = noone;
+
 item_sprite = noone;
 
 hover = false;
