@@ -1,1 +1,1 @@
-sprite_index = Continue_on_hover;
+sprite_index = spr_Continue_on_hover;

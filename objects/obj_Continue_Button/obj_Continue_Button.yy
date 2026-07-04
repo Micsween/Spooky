@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Continue",
-    "path":"sprites/Continue/Continue.yy",
+    "name":"spr_continue",
+    "path":"sprites/spr_continue/spr_continue.yy",
   },
   "spriteMaskId":null,
   "visible":true,

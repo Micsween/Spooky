@@ -1,1 +1,1 @@
-sprite_index = Start
+sprite_index = spr_Start

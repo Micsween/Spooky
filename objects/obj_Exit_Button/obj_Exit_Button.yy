@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Exit",
-    "path":"sprites/Exit/Exit.yy",
+    "name":"spr_Exit",
+    "path":"sprites/spr_Exit/spr_Exit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

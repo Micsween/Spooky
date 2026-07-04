@@ -1,1 +1,1 @@
-sprite_index = Exit
+sprite_index = spr_Exit

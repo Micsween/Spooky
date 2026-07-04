@@ -1,6 +1,6 @@
 if(playing_music){
-	audio_stop_sound(radio_music_1);
+	audio_stop_sound(snd_radio_music_1);
 }else {
-	audio_play_sound(radio_music_1, 100, true)
+	audio_play_sound(snd_radio_music_1, 100, true)
 	playing_music = true;
 }

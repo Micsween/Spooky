@@ -1,6 +1,6 @@
 
 if (global.item_held == noone) {
-	audio_play_sound(sound_bun_bag, 100, 0)
+	audio_play_sound(snd_bun_bag, 100, 0)
 	global.item_held = spr_bun;
 	with(obj_hand){
 		visible = true
@@ -9,7 +9,7 @@ if (global.item_held == noone) {
 
 	
 } else if (global.item_held == spr_hot_dog){
-	audio_play_sound(sound_bun_bag, 100, 0)
+	audio_play_sound(snd_bun_bag, 100, 0)
 	global.item_held = spr_hot_dog_and_bun;
 	with(obj_hand){
 		visible = true

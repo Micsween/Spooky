@@ -4,7 +4,7 @@ click_cooldown = 0;
 hot_dog_done = false
 
 function can_place_dog(){
-	return global.item_held == raw_hot_dog and not has_hot_dog
+	return global.item_held == spr_raw_hot_dog and not has_hot_dog
 }
 
 function can_grab_from_stove() {

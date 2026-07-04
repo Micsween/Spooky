@@ -12,8 +12,8 @@
   "name":"obj_stove",
   "overriddenProperties":[],
   "parent":{
-    "name":"Kitchen",
-    "path":"folders/Objects/Kitchen.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Kitchen/Interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"border",
-    "path":"sprites/border/border.yy",
+    "name":"spr_border",
+    "path":"sprites/spr_border/spr_border.yy",
   },
   "spriteMaskId":null,
   "visible":false,

@@ -1,2 +1,2 @@
-item_sprite = raw_hot_dog;
+item_sprite = spr_raw_hot_dog;
 has_hot_dog = false;

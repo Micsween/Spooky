@@ -1,1 +1,1 @@
-sprite_index = Exit_on_hover;
+sprite_index = spr_Exit_on_hover;

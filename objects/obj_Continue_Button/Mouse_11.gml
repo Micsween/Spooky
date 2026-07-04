@@ -1,1 +1,1 @@
-sprite_index = Continue;
+sprite_index = spr_continue;

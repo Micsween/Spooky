@@ -1,4 +1,4 @@
-room = hot_dog_van
+room = rm_hot_dog_van
  
 //if !transition{
 //	transition = true

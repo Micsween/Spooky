@@ -4,9 +4,9 @@
 if(can_place_dog()){
 	global.item_held = noone;
 	has_hot_dog = true;
-	audio_play_sound(sound_stove, 100, 0)
+	audio_play_sound(snd_stove_sizzle, 100, 0)
 	alarm[0] = 240
-	with(obj_sizzle) {
+	with(obj_sizzle_paticle_effect) {
 		part_system_automatic_draw(partSys, true);
 		}
 } else if (can_grab_from_stove())  {
@@ -17,7 +17,7 @@ if(can_place_dog()){
 	}
 	hot_dog_done = false;
 	has_hot_dog = false;
-	audio_stop_sound(sound_stove);
+	audio_stop_sound(snd_stove_sizzle);
 
 } 
 
