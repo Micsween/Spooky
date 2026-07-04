@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"order_manager",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"order_manager",
+  "parent":{
+    "name":"OrderingSystem",
+    "path":"folders/Objects/Kitchen/OrderingSystem.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
