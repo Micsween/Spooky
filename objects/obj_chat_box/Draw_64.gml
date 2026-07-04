@@ -10,7 +10,7 @@ draw_sprite_ext(spr_Chat_box, 0, 0, 0, 5, 5, 0, c_white, 1);
 
 // Get only the typed portion
 var visible_text = string_copy(current_text, 1, floor(char_count));
-show_debug_message(visible_text)
+
 // Draw the text with proper wrapping
 
 visible_text = string_replace_all(visible_text, "#", "\n");
