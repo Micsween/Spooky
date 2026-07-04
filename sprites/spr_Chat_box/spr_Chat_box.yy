@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Text_Box",
-    "path":"folders/Text_Box.yy",
+    "path":"folders/Objects/Text_Box.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

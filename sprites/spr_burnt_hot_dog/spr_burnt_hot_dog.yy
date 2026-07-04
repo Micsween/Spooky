@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"hot_dog",
-    "path":"folders/Ingredient_sprites/hot_dog.yy",
+    "path":"folders/Sprites/Ingredient_sprites/hot_dog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

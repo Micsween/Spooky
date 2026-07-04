@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Ingredient_sprites",
-    "path":"folders/Ingredient_sprites.yy",
+    "path":"folders/Sprites/Ingredient_sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

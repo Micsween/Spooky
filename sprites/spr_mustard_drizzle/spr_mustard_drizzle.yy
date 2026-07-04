@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Condiments",
-    "path":"folders/Ingredient_sprites/Condiments.yy",
+    "path":"folders/Sprites/Ingredient_sprites/Condiments.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

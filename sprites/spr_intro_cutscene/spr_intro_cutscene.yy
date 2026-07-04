@@ -55,7 +55,7 @@
   "origin":0,
   "parent":{
     "name":"Intro",
-    "path":"folders/Intro.yy",
+    "path":"folders/Objects/Intro.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

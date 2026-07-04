@@ -6,8 +6,8 @@
   "name":"obj_intro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Intro",
+    "path":"folders/Objects/Intro.yy",
   },
   "parentObjectId":null,
   "persistent":false,

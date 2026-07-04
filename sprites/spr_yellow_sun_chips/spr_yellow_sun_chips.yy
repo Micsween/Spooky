@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"chips",
-    "path":"folders/Ingredient_sprites/chips.yy",
+    "path":"folders/Sprites/Ingredient_sprites/chips.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
