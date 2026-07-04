@@ -1,0 +1,1 @@
+item_sprite = spr_yellow_sun_chips
