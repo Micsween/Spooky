@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sound_van_ambience.mp3",
-  "volume":0.78,
+  "volume":0.54,
 }

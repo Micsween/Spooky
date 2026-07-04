@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sound_garbage",
+  "%Name":"sound_complete_order",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.1232653,
+  "duration":2.5440135,
   "exportDir":"",
-  "name":"sound_garbage",
+  "name":"sound_complete_order",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_garbage.mp3",
+  "soundFile":"sound_complete_order.mp3",
   "volume":1.0,
 }

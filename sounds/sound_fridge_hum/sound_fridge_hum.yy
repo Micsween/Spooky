@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sound_fridge_hum.wav",
-  "volume":0.61,
+  "volume":0.47,
 }

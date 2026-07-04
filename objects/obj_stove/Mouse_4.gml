@@ -1,20 +1,22 @@
 
 
-if(global.item_held == raw_hot_dog and not has_hot_dog){
+//change this so you can only get a hot dog if the hot dog is done
+if(can_place_dog()){
 	global.item_held = noone;
 	has_hot_dog = true;
 	audio_play_sound(sound_stove, 100, 0)
-	
-} else if (global.item_held == noone and has_hot_dog)  {
-	global.item_held = spr_hot_dog
+	alarm[0] = 180
+} else if (can_grab_from_stove())  {
+	if(global.item_held == noone){
+		global.item_held = spr_hot_dog
+	}else if(global.item_held == spr_bun){
+		global.item_held = spr_hot_dog_and_bun
+	}
+	hot_dog_done = false;
 	has_hot_dog = false;
-	audio_stop_sound(sound_stove)
+	audio_stop_sound(sound_stove);
 
-} else if(global.item_held == spr_bun and has_hot_dog){
-	global.item_held = spr_hot_dog_and_bun;
-	has_hot_dog = false;
-}
-
+} 
 
 
 
