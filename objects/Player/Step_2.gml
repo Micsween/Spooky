@@ -4,7 +4,7 @@
   var _cam_x = camera_get_view_x(_cam);
   var _cam_y = camera_get_view_y(_cam);
 
-  var _dead_zone_w = 200; 
+  var _dead_zone_w = 700; 
 
   var _cam_center_x = _cam_x + _cam_w / 2;
   var _dz_left  = _cam_center_x - _dead_zone_w / 2;

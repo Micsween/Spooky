@@ -1,0 +1,1 @@
+audio_play_sound(radio_music_1, 100, true)

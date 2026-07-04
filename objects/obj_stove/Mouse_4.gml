@@ -5,7 +5,10 @@ if(can_place_dog()){
 	global.item_held = noone;
 	has_hot_dog = true;
 	audio_play_sound(sound_stove, 100, 0)
-	alarm[0] = 180
+	alarm[0] = 240
+	with(obj_sizzle) {
+		part_system_automatic_draw(partSys, true);
+		}
 } else if (can_grab_from_stove())  {
 	if(global.item_held == noone){
 		global.item_held = spr_hot_dog
