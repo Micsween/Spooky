@@ -19,7 +19,8 @@ if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
     } 
     else {
         // End of dialogue
-        instance_destroy();
+		dialogue_finished = true
+        alarm[0] = 1 //gives time for the original object to detect the dialogue finished
     }
 }
 

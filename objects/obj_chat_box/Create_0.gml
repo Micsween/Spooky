@@ -3,6 +3,7 @@
 // Create Event of chat_box
 
 // Default / fallback values
+dialogue_finished = false
 text = [];
 name = [];           // if you're using speaker names
 current_line = 0; 
