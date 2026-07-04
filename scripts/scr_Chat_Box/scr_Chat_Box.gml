@@ -1,11 +1,11 @@
 global.item_held = noone;
 //create held item
-function create_textbox(dialogue_array, name_array = undefined) {
+function create_textbox(dialogue_array, name_array = undefined, txt_speed = 0.5) {
     var tb = instance_create_depth(0, 0, -100, obj_chat_box);
     
     with (tb) {
         text = dialogue_array;
-        
+        text_speed = txt_speed
         if (!is_undefined(name_array)) {
             name = name_array;
         }

@@ -5,9 +5,11 @@
 // Default / fallback values
 text = [];
 name = [];           // if you're using speaker names
-current_line = 0;
+current_line = 0; 
 char_count = 0;
-text_speed = 0.5;
+if !variable_instance_exists(id,"text_speed"){
+	text_speed = 0.5;
+}
 max_width = 261 * 5;
 text_x = 45;
 text_y = 560;
