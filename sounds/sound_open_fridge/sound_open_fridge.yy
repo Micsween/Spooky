@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sound_stove",
+  "%Name":"sound_open_fridge",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":16.228004,
+  "duration":0.33959183,
   "exportDir":"",
-  "name":"sound_stove",
+  "name":"sound_open_fridge",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Test",
+    "path":"Test.yyp",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_stove.wav",
+  "soundFile":"sound_open_fridge.mp3",
   "volume":1.0,
 }

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sound_stove",
+  "%Name":"sound_fridge_hum",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":16.228004,
+  "duration":11.912608,
   "exportDir":"",
-  "name":"sound_stove",
+  "name":"sound_fridge_hum",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_stove.wav",
-  "volume":1.0,
+  "soundFile":"sound_fridge_hum.wav",
+  "volume":0.61,
 }
