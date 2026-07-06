@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"window",
+    "path":"folders/Sprites/NPCS/window.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
