@@ -1,13 +1,13 @@
 {
-  "$GMScript": "v1",
-  "%Name": "order_manager",
-  "isCompatibility": false,
-  "isDnD": false,
-  "name": "order_manager",
-  "parent": {
-    "name": "Interactables",
-    "path": "folders/Objects/Kitchen/Interactables.yy"
+  "$GMScript":"v1",
+  "%Name":"order_manager",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"order_manager",
+  "parent":{
+    "name":"Interactables",
+    "path":"folders/Objects/Kitchen/Interactables.yy",
   },
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0"
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
