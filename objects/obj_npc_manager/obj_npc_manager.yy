@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"what_is_this_obj_for",
+  "%Name":"obj_npc_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"what_is_this_obj_for",
+  "name":"obj_npc_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Kitchen",
-    "path":"folders/Objects/Kitchen.yy",
+    "name":"NPCS",
+    "path":"folders/Objects/NPCS.yy",
   },
   "parentObjectId":null,
   "persistent":false,
