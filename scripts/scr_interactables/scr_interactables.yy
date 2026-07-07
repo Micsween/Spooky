@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_interactables",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_interactables",
+  "parent":{
+    "name":"Interactables",
+    "path":"folders/Objects/Kitchen/Interactables.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

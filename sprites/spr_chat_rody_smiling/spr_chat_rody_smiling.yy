@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"chat",
-    "path":"folders/Sprites/NPCS/chat.yy",
+    "name":"rody",
+    "path":"folders/Sprites/NPCS/chat/rody.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

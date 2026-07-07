@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"window",
-    "path":"folders/Sprites/NPCS/window.yy",
+    "name":"special_characters",
+    "path":"folders/Sprites/NPCS/window/special_characters.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

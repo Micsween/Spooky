@@ -1,1 +1,2 @@
 item_sprite = spr_blue_sun_chips;
+sound = snd_chips_bag;

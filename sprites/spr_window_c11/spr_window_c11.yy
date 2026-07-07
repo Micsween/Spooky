@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"window",
-    "path":"folders/Sprites/NPCS/window.yy",
+    "name":"construction_workers",
+    "path":"folders/Sprites/NPCS/window/construction_workers.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
