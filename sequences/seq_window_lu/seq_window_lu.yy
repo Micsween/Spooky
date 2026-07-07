@@ -57,7 +57,7 @@
   "showBackdropImage":false,
   "timeUnits":1,
   "tracks":[
-    {"$GMGraphicTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<GraphicKeyframe>":"","Keyframes":[
+    {"$GMGraphicTrack":"","%Name":"spr_window_lu","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<GraphicKeyframe>":"","Keyframes":[
           {"$Keyframe<GraphicKeyframe>":"","Channels":{
               "0":{"$GraphicKeyframe":"","Id":{"name":"spr_window_lu","path":"sprites/spr_window_lu/spr_window_lu.yy",},"resourceType":"GraphicKeyframe","resourceVersion":"2.0",},
             },"Disabled":false,"id":"8f44e295-0d74-4fc1-9333-95d93a832903","IsCreationKey":false,"Key":0.0,"Length":60.0,"resourceType":"Keyframe<GraphicKeyframe>","resourceVersion":"2.0","Stretch":false,},
