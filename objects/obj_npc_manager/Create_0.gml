@@ -1,27 +1,38 @@
+npc_queue = [
+	{
+		name: "Lu",
+		sequence: seq_window_lu,
+		chat_sprite: spr_chat_lu_talking,
+		intro_dialogue: ["Hey! I heard you were setting up shop out here.", "Can I get something to eat?"],
+		intro_names: ["Lu", "Lu"],
+		outro_dialogue: ["Thanks! That hit the spot.", "Good luck out here tonight."],
+		outro_names: ["Lu", "Lu"]
+	},
+	{
+		name: "Rody",
+		sequence: seq_window_rody,
+		chat_sprite: spr_chat_rody_talking,
+		intro_dialogue: ["Yo! What's good?", "Let me get something real quick."],
+		intro_names: ["Rody", "Rody"],
+		outro_dialogue: ["Appreciate it, that was fire.", "I'll probably be back later."],
+		outro_names: ["Rody", "Rody"]
+	}
+]
 
+current_npc_index = 0
+current_seq = noone
+state = "idle"
+waiting_for_dialogue = false
 
-npc = instance_create_layer(1344, 220, "Instances", obj_npc, {
-	name: "Lu",
-	chat_sprite: spr_chat_lu_talking,
-	window_sprite: spr_window_lu,
-	dialogues: []
-		} )
-npc.image_xscale = 2
-npc.image_yscale = 2
-npc.sprite_index = spr_window_lu
+function start_next_npc() {
+	if (current_npc_index >= array_length(npc_queue)) {
+		state = "all_done"
+		return
+	}
 
-with(obj_npc) {
-show_debug_message("NPC Created!");
-show_debug_message("Sprite: " + sprite_get_name(sprite_index));
-show_debug_message("Position: " + string(x) + ", " + string(y));
-show_debug_message("Scale: " + string(image_xscale) + "x" + string(image_yscale));
+	var _npc = npc_queue[current_npc_index]
+	current_seq = layer_sequence_create("Sequences", 960, 165, _npc.sequence)
+	state = "playing"
 }
 
-
-
-
-//name
-//name
-//chat_sprite
-//wiindow_sprite
-//dialogues
+start_next_npc()
