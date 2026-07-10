@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"1a02cebc-f10f-4662-89ba-da07decf9b77","blendMode":0,"displayName":"default","isLocked":false,"name":"1a02cebc-f10f-4662-89ba-da07decf9b77","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"433c4fd1-1c2d-4a16-8720-3d4e327db936","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"433c4fd1-1c2d-4a16-8720-3d4e327db936","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_Hot_Dog_Van_Inside",
   "nineSlice":null,
