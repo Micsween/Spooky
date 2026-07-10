@@ -30,17 +30,17 @@
     {"$GMObjectProperty":"v2","%Name":"name","filters":[],"listItems":[],"multiselect":false,"name":"name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Construction Worker\"","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"chat_sprite","filters":[],"listItems":[],"multiselect":false,"name":"chat_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"window_sprite","filters":[],"listItems":[],"multiselect":false,"name":"window_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-    {"$GMObjectProperty":"v2","%Name":"dialogues","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"intro_text","filters":[],"listItems":[
         "\"\"",
-      ],"multiselect":false,"name":"dialogues","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"\"","varType":6,},
+      ],"multiselect":false,"name":"intro_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"\"","varType":6,},
+    {"$GMObjectProperty":"v2","%Name":"outro_text","filters":[],"listItems":[
+        "\"\"",
+      ],"multiselect":false,"name":"outro_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_window_lu",
-    "path":"sprites/spr_window_lu/spr_window_lu.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
