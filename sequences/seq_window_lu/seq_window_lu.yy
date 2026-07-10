@@ -1,68 +1,209 @@
 {
-  "$GMSequence":"v1",
-  "%Name":"seq_window_lu",
-  "autoRecord":true,
-  "backdropHeight":768,
-  "backdropImageOpacity":0.5,
-  "backdropImagePath":"",
-  "backdropWidth":1366,
-  "backdropXOffset":0.0,
-  "backdropYOffset":0.0,
-  "events":{
-    "$KeyframeStore<MessageEventKeyframe>":"",
-    "Keyframes":[
-      {"$Keyframe<MessageEventKeyframe>":"","Channels":{"0":{"$MessageEventKeyframe":"","Events":[
-              "npc_enter",
-            ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9d6de2c9-c58f-4d28-9ed0-2afeb3eb5a33","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
-      {"$Keyframe<MessageEventKeyframe>":"","Channels":{"0":{"$MessageEventKeyframe":"","Events":[
-              "npc_intro",
-            ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6eab2487-0fee-4ad7-981e-f4de24a85d27","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
-      {"$Keyframe<MessageEventKeyframe>":"","Channels":{"0":{"$MessageEventKeyframe":"","Events":[
-              "npc_order",
-            ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8ec3cc06-75d8-4675-a29b-f79d8f78cbfa","IsCreationKey":false,"Key":30.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
-      {"$Keyframe<MessageEventKeyframe>":"","Channels":{"0":{"$MessageEventKeyframe":"","Events":[
-              "npc_accept",
-            ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"908fc0ea-3387-4695-aada-24db06f56add","IsCreationKey":false,"Key":35.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
-      {"$Keyframe<MessageEventKeyframe>":"","Channels":{"0":{"$MessageEventKeyframe":"","Events":[
-              "npc_outro",
-            ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8cf53ab8-b15a-44a4-87bd-196f6c139f26","IsCreationKey":false,"Key":40.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
-      {"$Keyframe<MessageEventKeyframe>":"","Channels":{"0":{"$MessageEventKeyframe":"","Events":[
-              "npc_done",
-            ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dd40231a-749d-42bc-a975-0b000db47452","IsCreationKey":false,"Key":55.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+  "$GMSequence": "v1",
+  "%Name": "seq_window_lu",
+  "autoRecord": true,
+  "backdropHeight": 768,
+  "backdropImageOpacity": 0.5,
+  "backdropImagePath": "",
+  "backdropWidth": 1366,
+  "backdropXOffset": 0.0,
+  "backdropYOffset": 0.0,
+  "events": {
+    "$KeyframeStore<MessageEventKeyframe>": "",
+    "Keyframes": [
+      {
+        "$Keyframe<MessageEventKeyframe>": "",
+        "Channels": {
+          "0": {
+            "$MessageEventKeyframe": "",
+            "Events": ["npc_enter"],
+            "resourceType": "MessageEventKeyframe",
+            "resourceVersion": "2.0"
+          }
+        },
+        "Disabled": false,
+        "id": "9d6de2c9-c58f-4d28-9ed0-2afeb3eb5a33",
+        "IsCreationKey": false,
+        "Key": 0.0,
+        "Length": 1.0,
+        "resourceType": "Keyframe<MessageEventKeyframe>",
+        "resourceVersion": "2.0",
+        "Stretch": false
+      },
+      {
+        "$Keyframe<MessageEventKeyframe>": "",
+        "Channels": {
+          "0": {
+            "$MessageEventKeyframe": "",
+            "Events": ["npc_intro"],
+            "resourceType": "MessageEventKeyframe",
+            "resourceVersion": "2.0"
+          }
+        },
+        "Disabled": false,
+        "id": "6eab2487-0fee-4ad7-981e-f4de24a85d27",
+        "IsCreationKey": false,
+        "Key": 15.0,
+        "Length": 1.0,
+        "resourceType": "Keyframe<MessageEventKeyframe>",
+        "resourceVersion": "2.0",
+        "Stretch": false
+      },
+      {
+        "$Keyframe<MessageEventKeyframe>": "",
+        "Channels": {
+          "0": {
+            "$MessageEventKeyframe": "",
+            "Events": ["npc_order"],
+            "resourceType": "MessageEventKeyframe",
+            "resourceVersion": "2.0"
+          }
+        },
+        "Disabled": false,
+        "id": "8ec3cc06-75d8-4675-a29b-f79d8f78cbfa",
+        "IsCreationKey": false,
+        "Key": 30.0,
+        "Length": 1.0,
+        "resourceType": "Keyframe<MessageEventKeyframe>",
+        "resourceVersion": "2.0",
+        "Stretch": false
+      },
+      {
+        "$Keyframe<MessageEventKeyframe>": "",
+        "Channels": {
+          "0": {
+            "$MessageEventKeyframe": "",
+            "Events": ["npc_accept"],
+            "resourceType": "MessageEventKeyframe",
+            "resourceVersion": "2.0"
+          }
+        },
+        "Disabled": false,
+        "id": "908fc0ea-3387-4695-aada-24db06f56add",
+        "IsCreationKey": false,
+        "Key": 35.0,
+        "Length": 1.0,
+        "resourceType": "Keyframe<MessageEventKeyframe>",
+        "resourceVersion": "2.0",
+        "Stretch": false
+      },
+      {
+        "$Keyframe<MessageEventKeyframe>": "",
+        "Channels": {
+          "0": {
+            "$MessageEventKeyframe": "",
+            "Events": ["npc_outro"],
+            "resourceType": "MessageEventKeyframe",
+            "resourceVersion": "2.0"
+          }
+        },
+        "Disabled": false,
+        "id": "8cf53ab8-b15a-44a4-87bd-196f6c139f26",
+        "IsCreationKey": false,
+        "Key": 40.0,
+        "Length": 1.0,
+        "resourceType": "Keyframe<MessageEventKeyframe>",
+        "resourceVersion": "2.0",
+        "Stretch": false
+      },
+      {
+        "$Keyframe<MessageEventKeyframe>": "",
+        "Channels": {
+          "0": {
+            "$MessageEventKeyframe": "",
+            "Events": ["npc_done"],
+            "resourceType": "MessageEventKeyframe",
+            "resourceVersion": "2.0"
+          }
+        },
+        "Disabled": false,
+        "id": "dd40231a-749d-42bc-a975-0b000db47452",
+        "IsCreationKey": false,
+        "Key": 55.0,
+        "Length": 1.0,
+        "resourceType": "Keyframe<MessageEventKeyframe>",
+        "resourceVersion": "2.0",
+        "Stretch": false
+      }
     ],
-    "resourceType":"KeyframeStore<MessageEventKeyframe>",
-    "resourceVersion":"2.0",
+    "resourceType": "KeyframeStore<MessageEventKeyframe>",
+    "resourceVersion": "2.0"
   },
-  "eventStubScript":null,
-  "eventToFunction":{},
-  "length":60.0,
-  "lockOrigin":false,
-  "moments":{
-    "$KeyframeStore<MomentsEventKeyframe>":"",
-    "Keyframes":[],
-    "resourceType":"KeyframeStore<MomentsEventKeyframe>",
-    "resourceVersion":"2.0",
+  "eventStubScript": null,
+  "eventToFunction": {},
+  "length": 60.0,
+  "lockOrigin": false,
+  "moments": {
+    "$KeyframeStore<MomentsEventKeyframe>": "",
+    "Keyframes": [],
+    "resourceType": "KeyframeStore<MomentsEventKeyframe>",
+    "resourceVersion": "2.0"
   },
-  "name":"seq_window_lu",
-  "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+  "name": "seq_window_lu",
+  "parent": {
+    "name": "Sequences",
+    "path": "folders/Sequences.yy"
   },
-  "playback":1,
-  "playbackSpeed":30.0,
-  "playbackSpeedType":0,
-  "resourceType":"GMSequence",
-  "resourceVersion":"2.0",
-  "showBackdrop":true,
-  "showBackdropImage":false,
-  "timeUnits":1,
-  "tracks":[
-    {"$GMGraphicTrack":"","%Name":"spr_window_lu","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<GraphicKeyframe>":"","Keyframes":[
-          {"$Keyframe<GraphicKeyframe>":"","Channels":{"0":{"$GraphicKeyframe":"","Id":{"name":"spr_window_lu","path":"sprites/spr_window_lu/spr_window_lu.yy",},"resourceType":"GraphicKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8f44e295-0d74-4fc1-9333-95d93a832903","IsCreationKey":false,"Key":0.0,"Length":60.0,"resourceType":"Keyframe<GraphicKeyframe>","resourceVersion":"2.0","Stretch":false,},
-        ],"resourceType":"KeyframeStore<GraphicKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"spr_window_lu","resourceType":"GMGraphicTrack","spriteId":{"name":"spr_window_lu","path":"sprites/spr_window_lu/spr_window_lu.yy",},"trackColour":0,"tracks":[],"traits":0,},
+  "playback": 1,
+  "playbackSpeed": 30.0,
+  "playbackSpeedType": 0,
+  "resourceType": "GMSequence",
+  "resourceVersion": "2.0",
+  "showBackdrop": true,
+  "showBackdropImage": false,
+  "timeUnits": 1,
+  "tracks": [
+    {
+      "$GMGraphicTrack": "",
+      "%Name": "spr_window_lu",
+      "builtinName": 0,
+      "events": [],
+      "inheritsTrackColour": true,
+      "interpolation": 1,
+      "isCreationTrack": false,
+      "keyframes": {
+        "$KeyframeStore<GraphicKeyframe>": "",
+        "Keyframes": [
+          {
+            "$Keyframe<GraphicKeyframe>": "",
+            "Channels": {
+              "0": {
+                "$GraphicKeyframe": "",
+                "Id": {
+                  "name": "spr_window_lu",
+                  "path": "sprites/spr_window_lu/spr_window_lu.yy"
+                },
+                "resourceType": "GraphicKeyframe",
+                "resourceVersion": "2.0"
+              }
+            },
+            "Disabled": false,
+            "id": "8f44e295-0d74-4fc1-9333-95d93a832903",
+            "IsCreationKey": false,
+            "Key": 0.0,
+            "Length": 60.0,
+            "resourceType": "Keyframe<GraphicKeyframe>",
+            "resourceVersion": "2.0",
+            "Stretch": false
+          }
+        ],
+        "resourceType": "KeyframeStore<GraphicKeyframe>",
+        "resourceVersion": "2.0"
+      },
+      "modifiers": [],
+      "name": "spr_window_lu",
+      "resourceType": "GMGraphicTrack",
+      "spriteId": {
+        "name": "spr_window_lu",
+        "path": "sprites/spr_window_lu/spr_window_lu.yy"
+      },
+      "trackColour": 0,
+      "tracks": [],
+      "traits": 0
+    }
   ],
-  "visibleRange":null,
-  "volume":1.0,
-  "xorigin":65,
-  "yorigin":65,
+  "visibleRange": null,
+  "volume": 1.0,
+  "xorigin": 65,
+  "yorigin": 65
 }

@@ -22,7 +22,7 @@ npc_queue = [
 current_npc_index = 0
 current_seq = noone
 state = "idle"
-waiting_for_dialogue = false
+intro_triggered = false
 
 function start_next_npc() {
 	if (current_npc_index >= array_length(npc_queue)) {
@@ -32,6 +32,7 @@ function start_next_npc() {
 
 	var _npc = npc_queue[current_npc_index]
 	current_seq = layer_sequence_create("Sequences", 960, 165, _npc.sequence)
+	intro_triggered = false
 	state = "playing"
 }
 
