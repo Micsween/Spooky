@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"seq_npc_Events6",
+  "%Name":"scr_npc_actions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"seq_npc_Events6",
+  "name":"scr_npc_actions",
   "parent":{
     "name":"Test",
     "path":"Test.yyp",

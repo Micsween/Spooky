@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_border",
-    "path":"sprites/spr_border/spr_border.yy",
+    "name":"border",
+    "path":"sprites/border/border.yy",
   },
   "spriteMaskId":null,
   "visible":false,

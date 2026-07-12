@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"seq_npc_enter_Events7",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"seq_npc_enter_Events7",
+  "parent":{
+    "name":"Test",
+    "path":"Test.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

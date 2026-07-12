@@ -1,3 +1,6 @@
-sprite_index = window_sprite
-show_debug_message("I was created")
-layer_sequence_create("Assets_2", self.x, self.y, seq_npc)
+name = global.current_npc.name
+chat_sprite = global.current_npc.chat_sprite
+window_sprite = global.current_npc.window_sprite
+intro_text = global.current_npc.intro_text
+outro_text = global.current_npc.outro_text
+sprite_index = window_sprite;
