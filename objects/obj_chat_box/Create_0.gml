@@ -12,8 +12,8 @@ if !variable_instance_exists(id,"text_speed"){
 	text_speed = 0.5;
 }
 max_width = 261 * 5;
-text_x = 45;
-text_y = 560;
+text_x = 300;
+text_y = 500;
 current_text = "";
 
 // Only set defaults if no text was passed in

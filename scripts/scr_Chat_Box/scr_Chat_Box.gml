@@ -1,8 +1,22 @@
 global.item_held = noone;
 //create held item
-function create_textbox(dialogue_array, name_array = undefined, txt_speed = 0.5) {
+function create_textbox(dialogue_array = undefined, txt_speed = 0.5) {
     var tb = instance_create_depth(0, 0, -100, obj_chat_box);
     
+	var name_array = []
+	
+	for (var index = 0; index< array_length(dialogue_array); index++){
+		
+		if string_char_at(name_array[index],"N"){
+			array_push(name_array,global.current_npc.name)
+		}else{
+			array_push(name_array,"you")
+		}
+		string_delete(dialogue_array[index],1,2)
+		
+	}
+	
+	
     with (tb) {
         text = dialogue_array;
         text_speed = txt_speed
