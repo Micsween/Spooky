@@ -37,7 +37,9 @@
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gmparticlepresets-1.0.0","name":"io.gamemaker.gmparticlepresets-1.0.0","path":"io.gamemaker.gmparticlepresets-1.0.0.yyp",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"npc_data.json","CopyToMask":-1,"filePath":"datafiles","name":"npc_data.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -82,11 +84,12 @@
     {"id":{"name":"npc_information","path":"scripts/npc_information/npc_information.yy",},},
     {"id":{"name":"order_manager","path":"scripts/order_manager/order_manager.yy",},},
     {"id":{"name":"scr_Chat_Box","path":"scripts/scr_Chat_Box/scr_Chat_Box.yy",},},
+    {"id":{"name":"scr_global_variables","path":"scripts/scr_global_variables/scr_global_variables.yy",},},
     {"id":{"name":"scr_interactables","path":"scripts/scr_interactables/scr_interactables.yy",},},
     {"id":{"name":"scr_npc_actions","path":"scripts/scr_npc_actions/scr_npc_actions.yy",},},
     {"id":{"name":"scr_object_functions","path":"scripts/scr_object_functions/scr_object_functions.yy",},},
     {"id":{"name":"seq_npc_enter_Events7","path":"scripts/seq_npc_enter_Events7/seq_npc_enter_Events7.yy",},},
-    {"id":{"name":"seq_npc_enter","path":"sequences/seq_npc_enter/seq_npc_enter.yy",},},
+    {"id":{"name":"seq_move_npc","path":"sequences/seq_move_npc/seq_move_npc.yy",},},
     {"id":{"name":"snd_bun_bag","path":"sounds/snd_bun_bag/snd_bun_bag.yy",},},
     {"id":{"name":"snd_chips_bag","path":"sounds/snd_chips_bag/snd_chips_bag.yy",},},
     {"id":{"name":"snd_complete_order","path":"sounds/snd_complete_order/snd_complete_order.yy",},},

@@ -1,0 +1,1 @@
+global.current_game_day = 0

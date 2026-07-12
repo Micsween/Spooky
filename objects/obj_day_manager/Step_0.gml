@@ -3,7 +3,7 @@ switch(current_state) {
 		//if you're not waiting for the enter seq
 		if (not waiting){
 			waiting = true;
-			layer_sequence_create("Assets_2", x, y, seq_npc_enter)
+			sequence_id = layer_sequence_create("Assets_2", x, y, seq_move_npc)
 			// play the enter sequence
 			//enter sequence will switch to next state intro_dialogue
 			// it will also set waiting to false
@@ -26,15 +26,20 @@ switch(current_state) {
 		create_order()
 		break;
 	case NPC_STATE.WAIT_FOR_ORDER:
-		if (order_fulfilled and order_created){
+		if (order_fulfilled){
 			complete_order();
 			order_fulfilled = false;
-			order_created = false;
 			current_state = NPC_STATE.OUTRO_DIALOGUE
 		}
 		break;
 	case NPC_STATE.OUTRO_DIALOGUE:
-		print_outro_dialogue()
+		if (not waiting) {
+			waiting = true;
+			print_outro_dialogue()
+		}
+		break;
+	case NPC_STATE.EXIT:
+		layer_sequence_play(sequence_id)
 		break;
 }
 

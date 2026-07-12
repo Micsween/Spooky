@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Lu",
+    "window_sprite": "spr_window_lu",
+    "chat_sprite": "spr_chat_lu_talking",
+    "intro_text": [
+      [
+        "N: Hi,"
+      ],
+      [
+        "N: Dude. You need to get out of here.",
+        "P: Yeah, I know. I've been trying. There's like nothing in this town.",
+        "N: No, I mean- whatever they dug up at the excavation site.. it's coming this way.",
+        "P: ...",
+        "N: Actually, don't leave yet. You'll be safest in here. If you're outside and you see it, run. Just- run.",
+        "P: Did the thing they found escape??",
+        "N: Yes, and it's more horrifying than anything I've ever seen.",
+        "N: Look, I have to get back to my post. I'm safer in there than out here.",
+        "N: I just wanted to make sure you were alright. But...",
+        "N: I'll need one of those caffeinated sodas and a hot dog to keep me awake.",
+        "P: You sure it won't put you on edge?",
+        "N: I don't think I can get any more 'on-edge' than I already am.",
+        "P: Fair.",
+        "N: *sigh* ...Maybe I should quit."
+      ]
+    ],
+    "outro_text": [
+      [
+        "N: Thanks, man.",
+        "P: You working as a security guard for the excavation site?",
+        "N: Yeah. You think they wouldn't have anyone here at night, but... no. They have people here almost 24 hours.",
+        "P: 24 hours? Must be a big project.",
+        "N: Bigger than big. People are saying this is the largest discovery in thousands of years.",
+        "P: Really? What is it?",
+        "N: That's the thing. That's all they'll say. As soon as I try to ask them for more information, they clam up.",
+        "P: ...",
+        "N: Yeah. kinda feels like I'm working at area 51. But the pay is good, so I'm not asking any more questions.",
+        "N: Anyway. Thanks for the meal. I gotta get back to work."
+      ],
+      [
+        "N: Stay safe.",
+        "P: Thanks, I will."
+      ]
+    ]
+  }
+]
