@@ -1,31 +1,39 @@
-[
-  {
-    "name": "Lu",
-    "window_sprite": "spr_window_lu",
-    "chat_sprite": "spr_chat_lu_talking",
-    "intro_text": [
-      [
+{
+  "npc_info" : {
+     "L": {
+        "name": "Lu",
+        "window_sprite": "spr_window_lu",
+        "chat_sprite": "spr_chat_lu_talking"
+      },
+      "R" :{
+        "name" : "Rody",
+        "window_sprite" : "spr_window_rody",
+        "chat_sprite" : "spr_rody_chat_rody_talking"
+      },
+      "C0" : {
+        "name" : "Construction Worker",
+        "window_sprite": "spr_window_c0",
+        "chat_sprite":"spr_chat_lu_tired" 
+      }
+    },
+  "day1" : [
+    {
+      "id" : "C0",
+      "intro_text": [
+        "N: What do you sell here?",
+        "P: Hot dogs, chips, cookies, and soda.",
+        "N: Awesome. The only other place open this late is a tofu burger place, so I'm so grateful you're here."
+      ],
+      "outro_text": [
+        "N: This smells so good."
+      ]
+    },
+    {
+      "id" : "L",
+      "intro_text" :  [
         "N: Hi,"
       ],
-      [
-        "N: Dude. You need to get out of here.",
-        "P: Yeah, I know. I've been trying. There's like nothing in this town.",
-        "N: No, I mean- whatever they dug up at the excavation site.. it's coming this way.",
-        "P: ...",
-        "N: Actually, don't leave yet. You'll be safest in here. If you're outside and you see it, run. Just- run.",
-        "P: Did the thing they found escape??",
-        "N: Yes, and it's more horrifying than anything I've ever seen.",
-        "N: Look, I have to get back to my post. I'm safer in there than out here.",
-        "N: I just wanted to make sure you were alright. But...",
-        "N: I'll need one of those caffeinated sodas and a hot dog to keep me awake.",
-        "P: You sure it won't put you on edge?",
-        "N: I don't think I can get any more 'on-edge' than I already am.",
-        "P: Fair.",
-        "N: *sigh* ...Maybe I should quit."
-      ]
-    ],
-    "outro_text": [
-      [
+      "outro_text" :   [
         "N: Thanks, man.",
         "P: You working as a security guard for the excavation site?",
         "N: Yeah. You think they wouldn't have anyone here at night, but... no. They have people here almost 24 hours.",
@@ -36,11 +44,62 @@
         "P: ...",
         "N: Yeah. kinda feels like I'm working at area 51. But the pay is good, so I'm not asking any more questions.",
         "N: Anyway. Thanks for the meal. I gotta get back to work."
-      ],
-      [
-        "N: Stay safe.",
-        "P: Thanks, I will."
       ]
-    ]
-  }
-]
+    },
+    {
+      "id" : "R",
+      "intro_text" : [
+        "N: Good evening! My name is Rody, I work with the local newspaper.",
+        "N: I’ve been working as a reporter for 2 years, and I’ve recently found the best scoop of my life!",
+        "N: I’ve been scouting the area, and..",
+        "P: Rody, I’d love to chat, but I don’t get paid by the hour. I get paid by the hot dog.",
+        "P: You plan to buy something?",
+        "N: Uh, anyway- That excavation site has some exciting discoveries.",
+        "N: Have you heard anything from the employees that come by for lunch?",
+        "P: I have, actually... One of the lab technicians told me they dug up a living creature.",
+        "N: A living creature?! Man, that is the biggest scoop of my life!",
+        "N: I’m going to do some looking around the premises. I’ll catch up with you tomorrow.",
+        "N: Oh, and could I also get a hot dog? Haha."
+        ],
+      "outro_text": [
+        "N: Thanks!!"
+      ]
+    }
+  ],
+  "day2" : [
+    {
+      "name" : "Lu",
+      "intro_text" :  [
+          "N: Dude. You need to get out of here.",
+          "P: Yeah, I know. I've been trying. There's like nothing in this town.",
+          "N: No, I mean- whatever they dug up at the excavation site.. it's coming this way.",
+          "P: ...",
+          "N: Actually, don't leave yet. You'll be safest in here. If you're outside and you see it, run. Just- run.",
+          "P: Did the thing they found escape??",
+          "N: Yes, and it's more horrifying than anything I've ever seen.",
+          "N: Look, I have to get back to my post. I'm safer in there than out here.",
+          "N: I just wanted to make sure you were alright. But...",
+          "N: I'll need one of those caffeinated sodas and a hot dog to keep me awake.",
+          "P: You sure the soda won't put you on edge?",
+          "N: I don't think I can get any more 'on-edge' than I already am.",
+          "P: Fair."
+        ],
+      "outro_text" :  [
+          "N: *sigh* ...Maybe I should quit.",
+          "P: I wouldn't judge you if you did. In fact, I think it's a good idea..",
+          "N: Haha, you're probably right. But then I think about all the people who are still working at the excavation site who don't know any better...",
+          "P: You think it will come back for them?",
+          "N: Yes, I do. And some part of me is saying I need to be there for them.",
+          "N: Well... stay safe.",
+          "P: Thanks, I will."
+        ]
+    }
+  ],
+  "day3": [
+    {
+      "name" : "Lu",
+      "intro_text": "N: This is a test.",
+      "outro_text" : "N: This is also a test. OUTROOO"
+    }
+  ]
+}

@@ -40,7 +40,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_window_c11",
+    "path":"sprites/spr_window_c11/spr_window_c11.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

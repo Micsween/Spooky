@@ -15,7 +15,7 @@ current_state = NPC_STATE.ENTER
 //THIS IS TEMPORARY, THIS NEEDS TO CHANGE
 
 // get the npc
-current_day_list = ["me"]
+
 function load_npcs() {
 	var file_name = "npc_data.json"
 	if (file_exists(file_name))
@@ -23,15 +23,27 @@ function load_npcs() {
 		var buffer = buffer_load(file_name);
 		var json_string = buffer_read(buffer, buffer_string); 
 		buffer_delete(buffer);
-		current_day_list = json_parse(json_string);
+		all_data = json_parse(json_string);
+		npc_info = all_data[$ "npc_info"];
+		day  = all_data[$ "day1"][0];
 	} else {
 		show_message("uhh.. I couldn't find the npc_data.json file. we're cooked.")
 	}
 }
+
 load_npcs();
-global.current_npc = current_day_list[0]
-global.current_npc.window_sprite = asset_get_index(global.current_npc.window_sprite);
-global.current_npc.chat_sprite = asset_get_index(global.current_npc.chat_sprite)
+
+
+
+name_and_sprite_info =  npc_info[$ day[$ "id"]]
+window_sprite_name = name_and_sprite_info[$ "window_sprite"];
+chat_sprite_name = name_and_sprite_info[$ "chat_sprite"];
+
+global.current_npc.name = name_and_sprite_info[$ "name"];
+global.current_npc.intro_text = day[$ "intro_text"];
+global.current_npc.outro_text = day[$ "outro_text"];
+global.current_npc.window_sprite = asset_get_index(window_sprite_name);
+global.current_npc.chat_sprite = asset_get_index(chat_sprite_name)
 
 
 
