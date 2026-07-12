@@ -86,7 +86,7 @@
     {"id":{"name":"scr_npc_actions","path":"scripts/scr_npc_actions/scr_npc_actions.yy",},},
     {"id":{"name":"scr_object_functions","path":"scripts/scr_object_functions/scr_object_functions.yy",},},
     {"id":{"name":"seq_npc_enter_Events7","path":"scripts/seq_npc_enter_Events7/seq_npc_enter_Events7.yy",},},
-    {"id":{"name":"seq_npc_enter","path":"sequences/seq_npc_enter/seq_npc_enter.yy",},},
+    {"id":{"name":"seq_move_npc","path":"sequences/seq_move_npc/seq_move_npc.yy",},},
     {"id":{"name":"snd_bun_bag","path":"sounds/snd_bun_bag/snd_bun_bag.yy",},},
     {"id":{"name":"snd_chips_bag","path":"sounds/snd_chips_bag/snd_chips_bag.yy",},},
     {"id":{"name":"snd_complete_order","path":"sounds/snd_complete_order/snd_complete_order.yy",},},

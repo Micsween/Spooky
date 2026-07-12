@@ -2,8 +2,7 @@
 /// ["Hey.", "this is", "padding", "so I can test", "if this works"]
 function print_intro_dialogue()
 {
-	create_textbox(global.current_npc.intro_text, [global.current_npc.name,"a", "b", "c", 
-	"eee"], 0.6);
+	create_textbox(global.current_npc.intro_text, [global.current_npc.name], 0.6);
 	
 }
 

@@ -1,5 +1,4 @@
 item_sprite = noone;
-order_created = false;
 order_fulfilled = false;
 waiting = false;
 enum NPC_STATE {
@@ -30,7 +29,7 @@ var lu = {
 	name: "Lu", 
 	window_sprite: spr_window_lu,
 	chat_sprite: spr_chat_lu_talking, //there are multiple chat sprites. brainstorm what to do about this.
-	intro_text: ["Hey.", "this is", "padding", "so I can test", "if this works"],
+	intro_text: ["Hey."],
 	outro_text: outro,
 	order: noone,
 }
