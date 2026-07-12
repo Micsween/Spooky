@@ -73,11 +73,7 @@
     {"id":{"name":"obj_van_shade","path":"objects/obj_van_shade/obj_van_shade.yy",},},
     {"id":{"name":"obj_yellow_chips","path":"objects/obj_yellow_chips/obj_yellow_chips.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
-<<<<<<< HEAD
-    {"id":{"name":"testing_sequence","path":"objects/testing_sequence/testing_sequence.yy",},},
     {"id":{"name":"prt_atmosphere","path":"particles/prt_atmosphere/prt_atmosphere.yy",},},
-=======
->>>>>>> 62de905edd45a34b025c8ff90c86889531c65216
     {"id":{"name":"prt_sizzle","path":"particles/prt_sizzle/prt_sizzle.yy",},},
     {"id":{"name":"rm_hot_dog_van","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},},
     {"id":{"name":"rm_pause_menu","path":"rooms/rm_pause_menu/rm_pause_menu.yy",},},
