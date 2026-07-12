@@ -30,6 +30,9 @@ function load_npcs() {
 }
 load_npcs();
 global.current_npc = current_day_list[0]
+global.current_npc.window_sprite = asset_get_index(global.current_npc.window_sprite);
+global.current_npc.chat_sprite = asset_get_index(global.current_npc.chat_sprite)
+
 
 
 

@@ -84,6 +84,7 @@
     {"id":{"name":"npc_information","path":"scripts/npc_information/npc_information.yy",},},
     {"id":{"name":"order_manager","path":"scripts/order_manager/order_manager.yy",},},
     {"id":{"name":"scr_Chat_Box","path":"scripts/scr_Chat_Box/scr_Chat_Box.yy",},},
+    {"id":{"name":"scr_global_variables","path":"scripts/scr_global_variables/scr_global_variables.yy",},},
     {"id":{"name":"scr_interactables","path":"scripts/scr_interactables/scr_interactables.yy",},},
     {"id":{"name":"scr_npc_actions","path":"scripts/scr_npc_actions/scr_npc_actions.yy",},},
     {"id":{"name":"scr_object_functions","path":"scripts/scr_object_functions/scr_object_functions.yy",},},
