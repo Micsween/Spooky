@@ -30,9 +30,11 @@ switch(current_state) {
 			complete_order();
 			order_fulfilled = false;
 			order_created = false;
+			current_state = NPC_STATE.OUTRO_DIALOGUE
 		}
 		break;
 	case NPC_STATE.OUTRO_DIALOGUE:
+		print_outro_dialogue()
 		break;
 }
 
