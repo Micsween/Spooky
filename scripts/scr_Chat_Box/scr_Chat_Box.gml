@@ -1,34 +1,12 @@
 global.item_held = noone;
 //create held item
-function create_textbox(dialogue_array = undefined, txt_speed = 0.5) {
-    var tb = instance_create_depth(0, 0, -100, obj_chat_box);
-    
-	var name_array = []
+function create_textbox(dialogue_array = [], txt_speed = 0.5) {
+    var tb = instance_create_depth(0, 0, -100, obj_chat_box,
+	{
+		text: dialogue_array,
+		text_speed : txt_speed
+	});
 	
-	for (var index = 0; index< array_length(dialogue_array); index++){
-		
-		if string_char_at(name_array[index],"N"){
-			array_push(name_array,global.current_npc.name)
-		}else{
-			array_push(name_array,"you")
-		}
-		string_delete(dialogue_array[index],1,2)
-		
-	}
-	
-	
-    with (tb) {
-        text = dialogue_array;
-        text_speed = txt_speed
-        if (!is_undefined(name_array)) {
-            name = name_array;
-        }
-        
-        current_text = text[0];        // Safe now
-        current_line = 0;
-        char_count = 0;
-    }
-    
     return tb;
 }
 
