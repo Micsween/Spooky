@@ -7,7 +7,6 @@ if(current_state == NPC_STATE.WAIT_FOR_ORDER){
 			audio_play_sound(snd_complete_order, 100, false);
 		} else {
 			audio_play_sound(snd_wrong_order, 100, false);
-			show_message(global.item_held)
 		}
 	}
 
