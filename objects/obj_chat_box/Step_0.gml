@@ -20,6 +20,10 @@ if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
     else {
         // End of dialogue
 		dialogue_finished = true
+		with(obj_day_manager){
+		waiting = false;
+		current_state = NPC_STATE.PLACE_ORDER
+		}
         alarm[0] = 1 //gives time for the original object to detect the dialogue finished
     }
 }
