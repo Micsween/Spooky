@@ -98,7 +98,7 @@
   ],
   "visibleRange":{
     "x":0.0,
-    "y":104.0,
+    "y":105.0,
   },
   "volume":1.0,
   "xorigin":0,

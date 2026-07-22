@@ -2,9 +2,8 @@
 
 function update_state()
 {
-	layer_sequence_pause(self.elementID)
-	with(obj_day_manager){
+	with(obj_order_manager){
 		current_state = NPC_STATE.INTRO_DIALOGUE
-		waiting = false;
 	}
+	layer_sequence_pause(self.elementID)
 }

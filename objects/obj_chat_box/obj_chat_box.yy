@@ -38,6 +38,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Sprite75",
+    "path":"sprites/Sprite75/Sprite75.yy",
+  },
   "visible":true,
 }

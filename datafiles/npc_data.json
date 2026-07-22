@@ -1,31 +1,46 @@
-{
+{ 
+  
   "npc_info" : {
      "L": {
-        "name": "Lu",
+        "name": "Security Guard",
         "window_sprite": "spr_window_lu",
-        "chat_sprite": "spr_chat_lu_talking"
+        "chat_sprite": "spr_lu_talking"
       },
       "R" :{
         "name" : "Rody",
         "window_sprite" : "spr_window_rody",
-        "chat_sprite" : "spr_rody_chat_rody_talking"
+        "chat_sprite" : "spr_rody_talking"
       },
-      "C0" : {
+      "C" :{
         "name" : "Construction Worker",
-        "window_sprite": "spr_window_c0",
-        "chat_sprite":"spr_chat_lu_tired" 
+        "chat_sprite" : "spr_construction_worker",
+        "window_sprite" : "spr_window_"
+      }, 
+      "G":{
+        "name" : "Dr. Grace",
+        "chat_sprite" : "spr_grace",
+        "window_sprite" : "spr_window_grace"
       }
-    },
+    },    
   "day1" : [
     {
       "id" : "C0",
       "intro_text": [
         "N: What do you sell here?",
         "P: Hot dogs, chips, cookies, and soda.",
-        "N: Awesome. The only other place open this late is a tofu burger place, so I'm so grateful you're here."
+        "N: Awesome. The only other place open this late sells vegan chicken sandwiches, so I'm so grateful you're here."
       ],
       "outro_text": [
-        "N: This smells so good."
+        "N: This smells so good. Thank you."
+      ]
+    },
+     {
+      "id" : "C1",
+      "intro_text": [
+        "N: Just give me my food."
+      ],
+      "outro_text": [
+        "N: You charge this much for this crap?"
       ]
     },
     {
@@ -34,39 +49,139 @@
         "N: Hi,"
       ],
       "outro_text" :   [
-        "N: Thanks, man.",
+        "N: Thanks.",
         "P: You working as a security guard for the excavation site?",
-        "N: Yeah. You think they wouldn't have anyone here at night, but... no. They have people here almost 24 hours.",
-        "P: 24 hours? Must be a big project.",
-        "N: Bigger than big. People are saying this is the largest discovery in thousands of years.",
+        "N: Yeah.",
+        "P: Must be a big project.",
+        "N: They found something revolutionary.",
         "P: Really? What is it?",
-        "N: That's the thing. That's all they'll say. As soon as I try to ask them for more information, they clam up.",
+        "N: I keep asking, but they refuse to tell me.",
         "P: ...",
-        "N: Yeah. kinda feels like I'm working at area 51. But the pay is good, so I'm not asking any more questions.",
+        "N: ",
         "N: Anyway. Thanks for the meal. I gotta get back to work."
+      ]
+    }, 
+    {
+      "id" : "C2",
+      "intro_text": [
+        "N: Could I get..."
+      ],
+      "outro_text": [
+        "N: Smells great."
+      ]
+    },
+     {
+      "id" : "G",
+      "intro_text" : [
+        "N: Evening."
+        ],
+      "outro_text": [
+        "P: *He's got an ID badge. Must be someone important.*",
+        "P: Working late?",
+        "N: Yeah. I'm working as a lab technician on-site.",
+        "P: How does it feel to be working on such a big project?",
+        "N: You know too?",
+        "N: ...Does anyone honor the non-disclosure agreement?",
+        "N: Well, it is an amazing discovery.",
+        "P: What kind of discovery?",
+        "N: The big kind. Like, changing our understanding of the universe big.",
+        "N: We dug up something that's still... alive.",
+        "P: ... what.",
+        "N: I know. I thought they were crazy when they called me in.",
+        "N: But, I've been examining samples of it...",
+        "N: And it's real. But they won't let me see it in person.",
+        "P: *And he says his coworkers are loose-lipped.*",
+        "P: They found something that's really alive?",
+        "N: Shoot. Look, don't tell anyone I told you that, alright? I gotta go. Thanks for the food."
+      ]
+    },
+      {
+      "id" : "C3",
+      "intro_text": [
+        "N: There's a lot going on around here."
+      ],
+      "outro_text": [
+        "N: You're not safe."
+      ]
+    },
+      {
+      "id" : "C4",
+      "intro_text": [
+        "N: I haven't eaten at a food truck in years. "
+      ],
+      "outro_text": [
+        "N: So much nostalgia..."
       ]
     },
     {
       "id" : "R",
       "intro_text" : [
-        "N: Good evening! My name is Rody, I work with the local newspaper.",
-        "N: I’ve been working as a reporter for 2 years, and I’ve recently found the best scoop of my life!",
-        "N: I’ve been scouting the area, and..",
-        "P: Rody, I’d love to chat, but I don’t get paid by the hour. I get paid by the hot dog.",
+        "N: Good evening! My name is Rody. I work with the local newspaper.",
+        "N: I've stumbled on something exciting, and I'd like to ask you a few questions about my discoveries.",
+        "N: I've been scouting the area, and..",
+        "P: Let me guess, is this about the excavation site?",
+        "N: ...",
+        "N: How'd you know?",
+        "P: Rody, I'd love to chat, but I don't get paid by the hour. I get paid by the hot dog.",
         "P: You plan to buy something?",
-        "N: Uh, anyway- That excavation site has some exciting discoveries.",
-        "N: Have you heard anything from the employees that come by for lunch?",
+        "N: Uhhh..",
+        "N: Anyway- That excavation site had an exciting discovery.",
+        "N: But they've been keeping it under wraps. They're acting like it's Area 51.",
+        "N: ...",
+        "N: Do you think they found aliens?",
+        "P: ...",
+        "N: Have you heard anything from the employees that come by for dinner?",
         "P: I have, actually... One of the lab technicians told me they dug up a living creature.",
-        "N: A living creature?! Man, that is the biggest scoop of my life!",
-        "N: I’m going to do some looking around the premises. I’ll catch up with you tomorrow.",
+        "N: A living creature?! Man, this is about to be the biggest scoop of my life!",
+        "N: I'm going to do some looking around the premises. I'll catch up with you tomorrow.",
         "N: Oh, and could I also get a hot dog? Haha."
         ],
       "outro_text": [
         "N: Thanks!!"
       ]
+    },    
+    {
+      "id" : "C5",
+      "intro_text": [
+        "N: ..."
+      ],
+      "outro_text": [
+        "N: ...",
+        "N: You shouldn't be here."
+      ]
     }
   ],
   "day2" : [
+      {
+      "id" : "C6",
+      "intro_text": [
+        "N: Food."
+      ],
+      "outro_text": [
+        
+      ]
+    },
+    {
+      "id" : "C7",
+      "intro_text": [
+        "N: Could I get a hot dog? I'm famished."
+      ],
+      "outro_text": [
+        "N: Yum!"
+      ]
+    },
+        {
+      "id" : "C5",
+      "intro_text": [
+        "N: ..."
+      ],
+      "outro_text": [
+        "P: It's you again..",
+        "N: ...",
+        "N: ...",
+        "N: There's no turning back now."
+      ]
+    },
     {
       "name" : "Lu",
       "intro_text" :  [

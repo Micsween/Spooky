@@ -1,4 +1,9 @@
 
+
+if current_char == 0 {
+	update_name();
+}
+
 if not_done_printing_line() {
     current_char += text_speed;
 }
@@ -12,7 +17,7 @@ if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
     } 
     else {
 		dialogue_finished = true
-		with(obj_day_manager){
+		with(obj_order_manager){
 			waiting = false;
 			current_state += 1
 		}

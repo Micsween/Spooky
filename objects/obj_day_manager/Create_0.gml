@@ -1,59 +1,28 @@
-item_sprite = noone;
-order_fulfilled = false;
-waiting = false;
-enum NPC_STATE {
-	ENTER,
-	INTRO_DIALOGUE,
-	PLACE_ORDER,
-	WAIT_FOR_ORDER,
-	OUTRO_DIALOGUE,
-	EXIT
+enum DAY_STATE {
+	BEGIN_DAY,
+	TAKING_ORDERS,
+	TAKING_OUT_TRASH,
+	TURNING_OFF_GENERATOR,
+	END_DAY,
+	TRANSITION_TO_NEXT_DAY
 }
+waiting = false
+current_state = DAY_STATE.BEGIN_DAY
 
-current_state = NPC_STATE.ENTER
+//day state:
+// begin day: intro dialogue, spooky events, adding a longer delay before your first customer arrives,
+//also gives me room to decide if I want to add a tutorial or stocking.
+// taking_orders: lets me add spooky stuff between customers
+// taking_out_trash: lets me add spooky stuff outside
+//officially night
+// turning off generator: lets me add spooky generator stuff
+// end day also more spooky stuff and an opportunity to reset
 
-//THIS IS TEMPORARY, THIS NEEDS TO CHANGE
-
-// get the npc
-
-function load_npcs() {
-	var file_name = "npc_data.json"
-	if (file_exists(file_name))
-	{
-		var buffer = buffer_load(file_name);
-		var json_string = buffer_read(buffer, buffer_string); 
-		buffer_delete(buffer);
-		all_data = json_parse(json_string);
-		npc_info = all_data[$ "npc_info"];
-		day  = all_data[$ "day1"][0];
-	} else {
-		show_message("uhh.. I couldn't find the npc_data.json file. we're cooked.")
-	}
-}
-
-load_npcs();
-
-
-
-name_and_sprite_info =  npc_info[$ day[$ "id"]]
-window_sprite_name = name_and_sprite_info[$ "window_sprite"];
-chat_sprite_name = name_and_sprite_info[$ "chat_sprite"];
-
-global.current_npc.name = name_and_sprite_info[$ "name"];
-global.current_npc.intro_text = day[$ "intro_text"];
-global.current_npc.outro_text = day[$ "outro_text"];
-global.current_npc.window_sprite = asset_get_index(window_sprite_name);
-global.current_npc.chat_sprite = asset_get_index(chat_sprite_name)
-
-
-
-
-//layer_sequence_create("Assets_2", x, y, seq_npc_enter)
-//THIS ALL NEEDS TO BE PLACED SOMEWHERE ELSE
-
-current_npc_index = 0
-
-
-
-
-
+//game_state
+// these are for controlling spooky events.
+// DAY1: 
+// NIGHT1: distant gunshots. 
+// DAY2:
+// NIGHT2:
+// DAY3:
+// NIGHT3:

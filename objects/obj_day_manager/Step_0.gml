@@ -1,46 +1,22 @@
-switch(current_state) {
-	case NPC_STATE.ENTER:
-		//if you're not waiting for the enter seq
-		if (not waiting){
-			waiting = true;
-			sequence_id = layer_sequence_create("Assets_2", x, y, seq_move_npc)
-			// play the enter sequence
-			//enter sequence will switch to next state intro_dialogue
-			// it will also set waiting to false
+switch(current_state){
+	case DAY_STATE.BEGIN_DAY:
+		break
+	case DAY_STATE.TAKING_ORDERS:
+		break
+	case DAY_STATE.TAKING_OUT_TRASH:
+		break
+	case DAY_STATE.TURNING_OFF_GENERATOR:
+		break
+	case DAY_STATE.END_DAY:
+		global.current_game_day +=1;
+		current_state = DAY_STATE.TRANSITION_TO_NEXT_DAY
+		break
+	case DAY_STATE.TRANSITION_TO_NEXT_DAY:
+		if not waiting {
+			waiting = true
+			//play whatever transition we decide to use
+			//	
 		}
-		break;
-	case NPC_STATE.INTRO_DIALOGUE:
-		if (not waiting) {
-			waiting = true;
-			print_intro_dialogue()
-			//calls print dialogue on current npc_intro
-			//print dialogue
-			//when dialogue  is finished, set waiting to false.
-			// sends broadcast message
-			// broadcast message sets state to place_orde
 	
-		}
-		break;
-	case NPC_STATE.PLACE_ORDER:
-		current_state = NPC_STATE.WAIT_FOR_ORDER
-		create_order()
-		break;
-	case NPC_STATE.WAIT_FOR_ORDER:
-		if (order_fulfilled){
-			complete_order();
-			order_fulfilled = false;
-			current_state = NPC_STATE.OUTRO_DIALOGUE
-		}
-		break;
-	case NPC_STATE.OUTRO_DIALOGUE:
-		if (not waiting) {
-			waiting = true;
-			print_outro_dialogue()
-		}
-		break;
-	case NPC_STATE.EXIT:
-		layer_sequence_play(sequence_id)
 		break;
 }
-
-
