@@ -1,4 +1,5 @@
 dialogue_finished = false      
+global.chatting = true
 current_line = 0; 
 current_char = 0;
 max_width = 1000;

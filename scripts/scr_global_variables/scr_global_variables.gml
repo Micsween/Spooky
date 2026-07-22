@@ -1,5 +1,6 @@
-global.current_game_day = 0
+global.current_game_day = 2
 
+global.chatting = false
 global.current_npc = {
 	name : noone,
 	intro_text: noone,

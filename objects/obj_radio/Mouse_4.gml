@@ -1,3 +1,6 @@
+if (global.chatting) {
+	return
+}
 if(playing_music){
 	audio_stop_sound(snd_radio_music_1);
 	playing_music = false;

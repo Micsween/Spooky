@@ -60,6 +60,7 @@
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_fridge","path":"objects/obj_fridge/obj_fridge.yy",},},
     {"id":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},},
+    {"id":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},},
     {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},},
     {"id":{"name":"obj_ketchup","path":"objects/obj_ketchup/obj_ketchup.yy",},},
     {"id":{"name":"obj_music_manager","path":"objects/obj_music_manager/obj_music_manager.yy",},},

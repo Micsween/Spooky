@@ -22,7 +22,9 @@ function load_npcs() {
 		buffer_delete(buffer);
 		all_data = json_parse(json_string);
 		npc_info = all_data[$ "npc_info"];
-		day  = all_data[$ "day1"];
+		
+		day = "day" + string(global.current_game_day)
+		day = all_data[$ day];
 	} else {
 		show_message("uhh.. I couldn't find the npc_data.json file. we're cooked.")
 	}

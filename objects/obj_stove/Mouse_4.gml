@@ -1,6 +1,8 @@
 
+if(global.chatting){
+	return;
+}
 
-//change this so you can only get a hot dog if the hot dog is done
 if(can_place_dog()){
 	global.item_held = noone;
 	has_hot_dog = true;
@@ -8,7 +10,7 @@ if(can_place_dog()){
 	alarm[0] = 240
 	with(obj_sizzle_paticle_effect) {
 		part_system_automatic_draw(partSys, true);
-		}
+	}
 } else if (can_grab_from_stove())  {
 	if(global.item_held == noone){
 		global.item_held = spr_hot_dog
@@ -22,10 +24,3 @@ if(can_place_dog()){
 } 
 
 
-
-//if the held item is a raw_hot dog and grill does not have a hot dog:
-// set held item to noone:
-//play a sizzle sounds
-// count to 3s
-//
-// 

@@ -1,5 +1,8 @@
 { 
-  
+  "dialogue_options": {
+    "0": "e"
+
+  },
   "npc_info" : {
      "L": {
         "name": "Security Guard",
@@ -34,15 +37,7 @@
         "N: This smells so good. Thank you."
       ]
     },
-     {
-      "id" : "C1",
-      "intro_text": [
-        "N: Just give me my food."
-      ],
-      "outro_text": [
-        "N: You charge this much for this crap?"
-      ]
-    },
+    
     {
       "id" : "L",
       "intro_text" :  [
@@ -61,13 +56,22 @@
         "N: Anyway. Thanks for the meal. I gotta get back to work."
       ]
     }, 
+     {
+      "id" : "C1",
+      "intro_text": [
+        "N: Just give me my food."
+      ],
+      "outro_text": [
+        "N: You charge this much for this crap?"
+      ]
+    },
     {
       "id" : "C2",
       "intro_text": [
         "N: Could I get..."
       ],
       "outro_text": [
-        "N: Smells great."
+        "N: Looks great."
       ]
     },
      {
@@ -152,13 +156,19 @@
     }
   ],
   "day2" : [
+     
       {
       "id" : "C6",
       "intro_text": [
         "N: Food."
       ],
       "outro_text": [
-        
+        "N: Must be nice to work such a relaxin' job. Meanwhile I'm stuck with this crappy one.",
+        "N: Out here riskin' my life for a measly 7.50 an hour.",
+        "P: ...",
+        "N: But... I'm start'n to think I wouldn't be safe no matter where I was.",
+        "N: Somethin's going wrong around here...",
+        "N: ...and I don't want no part of it."
       ]
     },
     {
@@ -170,49 +180,115 @@
         "N: Yum!"
       ]
     },
-        {
-      "id" : "C5",
-      "intro_text": [
-        "N: ..."
+         {
+      "id" : "G",
+      "intro_text" : [
+        "N: I.. need a hot dog.",
+        "P: Gotcha."
       ],
       "outro_text": [
-        "P: It's you again..",
+        "N: Ugh.. I think I'm going to throw up.",
+        "P: Is the food bad?",
+        "N: No.. it's not that... One of my friends didn't show up for his shift today.",
+        "N: I was making fun of him to my coworkers for slacking off...",
+        "N: ...",
+        "N: They found his mutilated body outside the site. He was attacked last night.",
+        "N: His face was unrecognizable. They almost couldn't ID him because his badge was missing.", 
+        "P: That's horrible.",
+        "N: He was dead. I was making fun of him...",
+        "N: and he was dead.",
+        "N: I'm gonna be sick.",
+        "P: *Should I give him the ID badge I found? Someone else might need it.*",
+        "N: Who would do this...?"
+      ]
+    },
+    {
+      "id" : "C8",
+      "intro_text": [
+        "N: I'm starving. Give me something good."
+      ],
+      "outro_text": [
+        "N: Thanks, I guess."
+      ]
+    },
+    {
+      "id" : "C9",
+      "intro_text": [
+        "N: I'm lucky I've got the night shift. It's too hot to work out there during the day."
+
+      ],
+      "outro_text": [
+        "N: Thank you for the food."
+      ]
+      },
+      {
+      "id" : "C5",
+      "intro_text": [
+        "N: ...",
+        "P: It's you again.."
+      ],
+      "outro_text": [
         "N: ...",
         "N: ...",
         "N: There's no turning back now."
       ]
     },
-    {
-      "name" : "Lu",
+     {
+      "id" : "R",
       "intro_text" :  [
-          "N: Dude. You need to get out of here.",
-          "P: Yeah, I know. I've been trying. There's like nothing in this town.",
-          "N: No, I mean- whatever they dug up at the excavation site.. it's coming this way.",
-          "P: ...",
-          "N: Actually, don't leave yet. You'll be safest in here. If you're outside and you see it, run. Just- run.",
-          "P: Did the thing they found escape??",
-          "N: Yes, and it's more horrifying than anything I've ever seen.",
-          "N: Look, I have to get back to my post. I'm safer in there than out here.",
-          "N: I just wanted to make sure you were alright. But...",
-          "N: I'll need one of those caffeinated sodas and a hot dog to keep me awake.",
-          "P: You sure the soda won't put you on edge?",
-          "N: I don't think I can get any more 'on-edge' than I already am.",
-          "P: Fair."
+        "N: Hey."
+      ],
+      "outro_text" :  [
+        "P: Find anything for your article?",
+        "N: Yes... One of the lab technicians was found dead off-site. I got some photos of his body. It's pretty gruesome.",
+        "P: ...",
+        "N: I don't feel good reporting on this. Making his death into some big publicity stunt.",
+        "N: But I overheard the forensics talking.",
+        "N: And whatever killed him wasn't human.",
+        "P: Was it was the creature they dug up?",
+        "N: I think so. But it's business as usual at the site.",
+        "N: You'd think they'd be on high alert after that, but.. it's almost like they're trying to cover it up.",
+        "P: Do you think they are?",
+        "N: I do. I need to shift gears.",
+        "N: I'm going to expose this whole project. That'll get the government to shut it down.",
+        "N: And get the police involved.",
+        "N: If I could just get inside.",
+        "P: {CHOICE: GIVE ID BADGE}",
+        "P: [YES]: This ID badge would get you inside.",
+        "N: Woah! Where did you get this? Thanks!",
+        "P: [NO]: Good luck with that. Security's pretty tight.",
+        "N: Yeah, thanks. I'm going to try my best.",
+        "P: Good luck",
+        "N: I'll come back tomorrow to give you more updates.",
+        "P: Come back alive.",
+        "N: I will. I need to."
+    ]
+    },
+     {
+      "id" : "L",
+      "intro_text" :  [
+          "N: Did you see it?",
+          "P: See what?",
+          "N: That monster they dug up at the excavation site? It's gotten out.",
+          "N: I saw it head this way. So, did you see it?",
+          "P: I haven't seen anything.",
+          "N: Crap...",
+          "N: Stay in your van. You'll be safest in here.",
+          "P: Can you radio for help?",
+          "N: I tried. Radio's down.",
+          "P: Not good.",
+          "N: I need to get back to my post.",
+          "P: Here, I'll get you some food in case you get stuck in there."
         ],
       "outro_text" :  [
-          "N: *sigh* ...Maybe I should quit.",
-          "P: I wouldn't judge you if you did. In fact, I think it's a good idea..",
-          "N: Haha, you're probably right. But then I think about all the people who are still working at the excavation site who don't know any better...",
-          "P: You think it will come back for them?",
-          "N: Yes, I do. And some part of me is saying I need to be there for them.",
-          "N: Well... stay safe.",
-          "P: Thanks, I will."
+          "N: ...",
+          "N: You'll see its eyes first."
         ]
     }
   ],
   "day3": [
     {
-      "name" : "Lu",
+      "id" : "L",
       "intro_text": "N: This is a test.",
       "outro_text" : "N: This is also a test. OUTROOO"
     }
