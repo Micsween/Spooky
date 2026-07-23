@@ -1,1034 +1,204 @@
 {
-  "$GMProject": "v1",
-  "%Name": "Test",
-  "AudioGroups": [
-    {
-      "$GMAudioGroup": "v1",
-      "%Name": "audiogroup_default",
-      "exportDir": "",
-      "name": "audiogroup_default",
-      "resourceType": "GMAudioGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
+  "$GMProject":"v1",
+  "%Name":"Test",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
-  "configs": {
-    "children": [],
-    "name": "Default"
+  "configs":{
+    "children":[],
+    "name":"Default",
   },
-  "defaultScriptType": 1,
-  "Folders": [
-    {
-      "$GMFolder": "",
-      "%Name": "Objects",
-      "folderPath": "folders/Objects.yy",
-      "name": "Objects",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Intro",
-      "folderPath": "folders/Objects/Intro.yy",
-      "name": "Intro",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Kitchen",
-      "folderPath": "folders/Objects/Kitchen.yy",
-      "name": "Kitchen",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Interactables",
-      "folderPath": "folders/Objects/Kitchen/Interactables.yy",
-      "name": "Interactables",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Menus",
-      "folderPath": "folders/Objects/Menus.yy",
-      "name": "Menus",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "NPCS",
-      "folderPath": "folders/Objects/NPCS.yy",
-      "name": "NPCS",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "outside",
-      "folderPath": "folders/Objects/outside.yy",
-      "name": "outside",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Text_Box",
-      "folderPath": "folders/Objects/Text_Box.yy",
-      "name": "Text_Box",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "rooms",
-      "folderPath": "folders/rooms.yy",
-      "name": "rooms",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Sounds",
-      "folderPath": "folders/Sounds.yy",
-      "name": "Sounds",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Sprites",
-      "folderPath": "folders/Sprites.yy",
-      "name": "Sprites",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Ingredient_sprites",
-      "folderPath": "folders/Sprites/Ingredient_sprites.yy",
-      "name": "Ingredient_sprites",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "chips",
-      "folderPath": "folders/Sprites/Ingredient_sprites/chips.yy",
-      "name": "chips",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Condiments",
-      "folderPath": "folders/Sprites/Ingredient_sprites/Condiments.yy",
-      "name": "Condiments",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "cookies",
-      "folderPath": "folders/Sprites/Ingredient_sprites/cookies.yy",
-      "name": "cookies",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "hot_dog",
-      "folderPath": "folders/Sprites/Ingredient_sprites/hot_dog.yy",
-      "name": "hot_dog",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "Menus",
-      "folderPath": "folders/Sprites/Menus.yy",
-      "name": "Menus",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "NPCS",
-      "folderPath": "folders/Sprites/NPCS.yy",
-      "name": "NPCS",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "chat",
-      "folderPath": "folders/Sprites/NPCS/chat.yy",
-      "name": "chat",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "lu",
-      "folderPath": "folders/Sprites/NPCS/chat/lu.yy",
-      "name": "lu",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "rody",
-      "folderPath": "folders/Sprites/NPCS/chat/rody.yy",
-      "name": "rody",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "window",
-      "folderPath": "folders/Sprites/NPCS/window.yy",
-      "name": "window",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "construction_workers",
-      "folderPath": "folders/Sprites/NPCS/window/construction_workers.yy",
-      "name": "construction_workers",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "special_characters",
-      "folderPath": "folders/Sprites/NPCS/window/special_characters.yy",
-      "name": "special_characters",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    }
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Intro","folderPath":"folders/Objects/Intro.yy","name":"Intro","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Kitchen","folderPath":"folders/Objects/Kitchen.yy","name":"Kitchen","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Interactables","folderPath":"folders/Objects/Kitchen/Interactables.yy","name":"Interactables","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Menus","folderPath":"folders/Objects/Menus.yy","name":"Menus","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"NPCS","folderPath":"folders/Objects/NPCS.yy","name":"NPCS","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"outside","folderPath":"folders/Objects/outside.yy","name":"outside","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Text_Box","folderPath":"folders/Objects/Text_Box.yy","name":"Text_Box","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Ingredient_sprites","folderPath":"folders/Sprites/Ingredient_sprites.yy","name":"Ingredient_sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"chips","folderPath":"folders/Sprites/Ingredient_sprites/chips.yy","name":"chips","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Condiments","folderPath":"folders/Sprites/Ingredient_sprites/Condiments.yy","name":"Condiments","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"cookies","folderPath":"folders/Sprites/Ingredient_sprites/cookies.yy","name":"cookies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"hot_dog","folderPath":"folders/Sprites/Ingredient_sprites/hot_dog.yy","name":"hot_dog","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Menus","folderPath":"folders/Sprites/Menus.yy","name":"Menus","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"NPCS","folderPath":"folders/Sprites/NPCS.yy","name":"NPCS","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"chat","folderPath":"folders/Sprites/NPCS/chat.yy","name":"chat","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"lu","folderPath":"folders/Sprites/NPCS/chat/lu.yy","name":"lu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rody","folderPath":"folders/Sprites/NPCS/chat/rody.yy","name":"rody","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"window","folderPath":"folders/Sprites/NPCS/window.yy","name":"window","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"construction_workers","folderPath":"folders/Sprites/NPCS/window/construction_workers.yy","name":"construction_workers","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"special_characters","folderPath":"folders/Sprites/NPCS/window/special_characters.yy","name":"special_characters","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences": [
-    {
-      "link": "io.gamemaker.gmparticlepresets-1.0.0",
-      "name": "io.gamemaker.gmparticlepresets-1.0.0",
-      "path": "io.gamemaker.gmparticlepresets-1.0.0.yyp"
-    }
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gmparticlepresets-1.0.0","name":"io.gamemaker.gmparticlepresets-1.0.0","path":"io.gamemaker.gmparticlepresets-1.0.0.yyp",},
   ],
-  "IncludedFiles": [
-    {
-      "$GMIncludedFile": "",
-      "%Name": "npc_data.json",
-      "CopyToMask": -1,
-      "filePath": "datafiles",
-      "name": "npc_data.json",
-      "resourceType": "GMIncludedFile",
-      "resourceVersion": "2.0"
-    }
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"npc_data.json","CopyToMask":-1,"filePath":"datafiles","name":"npc_data.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
-  "isEcma": false,
-  "LibraryEmitters": [],
-  "MetaData": {
-    "IDEVersion": "2026.0.0.16"
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
   },
-  "name": "Test",
-  "resources": [
-    {
-      "id": {
-        "name": "fnt_Chat_Box_Font",
-        "path": "fonts/fnt_Chat_Box_Font/fnt_Chat_Box_Font.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_blue_chips",
-        "path": "objects/obj_blue_chips/obj_blue_chips.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_blue_mini_fridge",
-        "path": "objects/obj_blue_mini_fridge/obj_blue_mini_fridge.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_brownie_cookie",
-        "path": "objects/obj_brownie_cookie/obj_brownie_cookie.yy"
-      }
-    },
-    { "id": { "name": "obj_buns", "path": "objects/obj_buns/obj_buns.yy" } },
-    {
-      "id": {
-        "name": "obj_chat_box",
-        "path": "objects/obj_chat_box/obj_chat_box.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_choc_chip_cookie",
-        "path": "objects/obj_choc_chip_cookie/obj_choc_chip_cookie.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_Continue_Button",
-        "path": "objects/obj_Continue_Button/obj_Continue_Button.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_day_manager",
-        "path": "objects/obj_day_manager/obj_day_manager.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_enter_van",
-        "path": "objects/obj_enter_van/obj_enter_van.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_Exit_Button",
-        "path": "objects/obj_Exit_Button/obj_Exit_Button.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_exit_van",
-        "path": "objects/obj_exit_van/obj_exit_van.yy"
-      }
-    },
-    { "id": { "name": "obj_fade", "path": "objects/obj_fade/obj_fade.yy" } },
-    {
-      "id": { "name": "obj_fridge", "path": "objects/obj_fridge/obj_fridge.yy" }
-    },
-    { "id": { "name": "obj_hand", "path": "objects/obj_hand/obj_hand.yy" } },
-    {
-      "id": {
-        "name": "obj_interactable",
-        "path": "objects/obj_interactable/obj_interactable.yy"
-      }
-    },
-    { "id": { "name": "obj_intro", "path": "objects/obj_intro/obj_intro.yy" } },
-    {
-      "id": {
-        "name": "obj_ketchup",
-        "path": "objects/obj_ketchup/obj_ketchup.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_music_manager",
-        "path": "objects/obj_music_manager/obj_music_manager.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_mustard",
-        "path": "objects/obj_mustard/obj_mustard.yy"
-      }
-    },
-    { "id": { "name": "obj_npc", "path": "objects/obj_npc/obj_npc.yy" } },
-    {
-      "id": {
-        "name": "obj_order_manager",
-        "path": "objects/obj_order_manager/obj_order_manager.yy"
-      }
-    },
-    { "id": { "name": "obj_order", "path": "objects/obj_order/obj_order.yy" } },
-    {
-      "id": {
-        "name": "obj_pink_mini_fridge",
-        "path": "objects/obj_pink_mini_fridge/obj_pink_mini_fridge.yy"
-      }
-    },
-    { "id": { "name": "obj_radio", "path": "objects/obj_radio/obj_radio.yy" } },
-    {
-      "id": {
-        "name": "obj_sizzle_paticle_effect",
-        "path": "objects/obj_sizzle_paticle_effect/obj_sizzle_paticle_effect.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_Start_Button",
-        "path": "objects/obj_Start_Button/obj_Start_Button.yy"
-      }
-    },
-    { "id": { "name": "obj_stove", "path": "objects/obj_stove/obj_stove.yy" } },
-    { "id": { "name": "obj_trash", "path": "objects/obj_trash/obj_trash.yy" } },
-    {
-      "id": {
-        "name": "obj_van_shade",
-        "path": "objects/obj_van_shade/obj_van_shade.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_yellow_chips",
-        "path": "objects/obj_yellow_chips/obj_yellow_chips.yy"
-      }
-    },
-    { "id": { "name": "Player", "path": "objects/Player/Player.yy" } },
-    {
-      "id": {
-        "name": "prt_atmosphere",
-        "path": "particles/prt_atmosphere/prt_atmosphere.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "prt_sizzle",
-        "path": "particles/prt_sizzle/prt_sizzle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "rm_hot_dog_van",
-        "path": "rooms/rm_hot_dog_van/rm_hot_dog_van.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "rm_outside_van",
-        "path": "rooms/rm_outside_van/rm_outside_van.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "rm_pause_menu",
-        "path": "rooms/rm_pause_menu/rm_pause_menu.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "rm_starting_cutscene",
-        "path": "rooms/rm_starting_cutscene/rm_starting_cutscene.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "rm_starting_menu",
-        "path": "rooms/rm_starting_menu/rm_starting_menu.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "order_manager",
-        "path": "scripts/order_manager/order_manager.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "scr_Chat_Box",
-        "path": "scripts/scr_Chat_Box/scr_Chat_Box.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "scr_global_variables",
-        "path": "scripts/scr_global_variables/scr_global_variables.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "scr_interactables",
-        "path": "scripts/scr_interactables/scr_interactables.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "scr_npc_actions",
-        "path": "scripts/scr_npc_actions/scr_npc_actions.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "scr_object_functions",
-        "path": "scripts/scr_object_functions/scr_object_functions.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "seq_npc_enter_Events7",
-        "path": "scripts/seq_npc_enter_Events7/seq_npc_enter_Events7.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "seq_move_npc",
-        "path": "sequences/seq_move_npc/seq_move_npc.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bun_bag",
-        "path": "sounds/snd_bun_bag/snd_bun_bag.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_chips_bag",
-        "path": "sounds/snd_chips_bag/snd_chips_bag.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_complete_order",
-        "path": "sounds/snd_complete_order/snd_complete_order.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_condiment_use",
-        "path": "sounds/snd_condiment_use/snd_condiment_use.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_cookies",
-        "path": "sounds/snd_cookies/snd_cookies.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_driving_ambiance",
-        "path": "sounds/snd_driving_ambiance/snd_driving_ambiance.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_fridge_hum",
-        "path": "sounds/snd_fridge_hum/snd_fridge_hum.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_garbage_use",
-        "path": "sounds/snd_garbage_use/snd_garbage_use.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_grab_can",
-        "path": "sounds/snd_grab_can/snd_grab_can.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_menu_music",
-        "path": "sounds/snd_menu_music/snd_menu_music.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_open_fridge",
-        "path": "sounds/snd_open_fridge/snd_open_fridge.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_radio_music_1",
-        "path": "sounds/snd_radio_music_1/snd_radio_music_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_stove_sizzle",
-        "path": "sounds/snd_stove_sizzle/snd_stove_sizzle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_van_ambience",
-        "path": "sounds/snd_van_ambience/snd_van_ambience.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_wrong_order",
-        "path": "sounds/snd_wrong_order/snd_wrong_order.yy"
-      }
-    },
-    { "id": { "name": "border", "path": "sprites/border/border.yy" } },
-    {
-      "id": {
-        "name": "spr_blue_soda",
-        "path": "sprites/spr_blue_soda/spr_blue_soda.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_blue_sun_chips",
-        "path": "sprites/spr_blue_sun_chips/spr_blue_sun_chips.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_brownie_cookie",
-        "path": "sprites/spr_brownie_cookie/spr_brownie_cookie.yy"
-      }
-    },
-    { "id": { "name": "spr_bun", "path": "sprites/spr_bun/spr_bun.yy" } },
-    {
-      "id": {
-        "name": "spr_burnt_hot_dog",
-        "path": "sprites/spr_burnt_hot_dog/spr_burnt_hot_dog.yy"
-      }
-    },
-    { "id": { "name": "spr_case", "path": "sprites/spr_case/spr_case.yy" } },
-    {
-      "id": {
-        "name": "spr_Chat_box",
-        "path": "sprites/spr_Chat_box/spr_Chat_box.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_chocolate_chip_cookie",
-        "path": "sprites/spr_chocolate_chip_cookie/spr_chocolate_chip_cookie.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_color_platte",
-        "path": "sprites/spr_color_platte/spr_color_platte.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_construction_worker",
-        "path": "sprites/spr_construction_worker/spr_construction_worker.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_Continue_on_hover",
-        "path": "sprites/spr_Continue_on_hover/spr_Continue_on_hover.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_continue",
-        "path": "sprites/spr_continue/spr_continue.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_Exit_on_hover",
-        "path": "sprites/spr_Exit_on_hover/spr_Exit_on_hover.yy"
-      }
-    },
-    { "id": { "name": "spr_Exit", "path": "sprites/spr_Exit/spr_Exit.yy" } },
-    { "id": { "name": "spr_grace", "path": "sprites/spr_grace/spr_grace.yy" } },
-    {
-      "id": {
-        "name": "spr_hot_dog_and_bun",
-        "path": "sprites/spr_hot_dog_and_bun/spr_hot_dog_and_bun.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_hot_dog_ketchup_and_mustard",
-        "path": "sprites/spr_hot_dog_ketchup_and_mustard/spr_hot_dog_ketchup_and_mustard.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_hot_dog_ketchup",
-        "path": "sprites/spr_hot_dog_ketchup/spr_hot_dog_ketchup.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_hot_dog_mustard",
-        "path": "sprites/spr_hot_dog_mustard/spr_hot_dog_mustard.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_Hot_Dog_Van_Inside",
-        "path": "sprites/spr_Hot_Dog_Van_Inside/spr_Hot_Dog_Van_Inside.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_hot_dog",
-        "path": "sprites/spr_hot_dog/spr_hot_dog.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_intro_cutscene",
-        "path": "sprites/spr_intro_cutscene/spr_intro_cutscene.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ketchup_bottle",
-        "path": "sprites/spr_ketchup_bottle/spr_ketchup_bottle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ketchup_drizzle",
-        "path": "sprites/spr_ketchup_drizzle/spr_ketchup_drizzle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_lu_eyes_closed",
-        "path": "sprites/spr_lu_eyes_closed/spr_lu_eyes_closed.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_lu_mouth_shut",
-        "path": "sprites/spr_lu_mouth_shut/spr_lu_mouth_shut.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_lu_talking",
-        "path": "sprites/spr_lu_talking/spr_lu_talking.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_lu_tired",
-        "path": "sprites/spr_lu_tired/spr_lu_tired.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_main_menu_background",
-        "path": "sprites/spr_main_menu_background/spr_main_menu_background.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_mustard_bottle",
-        "path": "sprites/spr_mustard_bottle/spr_mustard_bottle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_mustard_drizzle",
-        "path": "sprites/spr_mustard_drizzle/spr_mustard_drizzle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_outside_van_layer",
-        "path": "sprites/spr_outside_van_layer/spr_outside_van_layer.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_outside_van",
-        "path": "sprites/spr_outside_van/spr_outside_van.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_pink_soda",
-        "path": "sprites/spr_pink_soda/spr_pink_soda.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_player_boy",
-        "path": "sprites/spr_player_boy/spr_player_boy.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_player_girl",
-        "path": "sprites/spr_player_girl/spr_player_girl.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_raw_hot_dog",
-        "path": "sprites/spr_raw_hot_dog/spr_raw_hot_dog.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rody_eyes_closed",
-        "path": "sprites/spr_rody_eyes_closed/spr_rody_eyes_closed.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rody_smiling",
-        "path": "sprites/spr_rody_smiling/spr_rody_smiling.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_rody_talking",
-        "path": "sprites/spr_rody_talking/spr_rody_talking.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_Start_on_hover",
-        "path": "sprites/spr_Start_on_hover/spr_Start_on_hover.yy"
-      }
-    },
-    { "id": { "name": "spr_Start", "path": "sprites/spr_Start/spr_Start.yy" } },
-    {
-      "id": {
-        "name": "spr_van_light",
-        "path": "sprites/spr_van_light/spr_van_light.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_van_shade",
-        "path": "sprites/spr_van_shade/spr_van_shade.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_ahri",
-        "path": "sprites/spr_window_ahri/spr_window_ahri.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c0",
-        "path": "sprites/spr_window_c0/spr_window_c0.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c1",
-        "path": "sprites/spr_window_c1/spr_window_c1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c10",
-        "path": "sprites/spr_window_c10/spr_window_c10.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c11",
-        "path": "sprites/spr_window_c11/spr_window_c11.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c12",
-        "path": "sprites/spr_window_c12/spr_window_c12.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c13",
-        "path": "sprites/spr_window_c13/spr_window_c13.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c14",
-        "path": "sprites/spr_window_c14/spr_window_c14.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c15",
-        "path": "sprites/spr_window_c15/spr_window_c15.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c16",
-        "path": "sprites/spr_window_c16/spr_window_c16.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c17",
-        "path": "sprites/spr_window_c17/spr_window_c17.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c18",
-        "path": "sprites/spr_window_c18/spr_window_c18.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c19",
-        "path": "sprites/spr_window_c19/spr_window_c19.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c2",
-        "path": "sprites/spr_window_c2/spr_window_c2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c20",
-        "path": "sprites/spr_window_c20/spr_window_c20.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c3",
-        "path": "sprites/spr_window_c3/spr_window_c3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c4",
-        "path": "sprites/spr_window_c4/spr_window_c4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c5",
-        "path": "sprites/spr_window_c5/spr_window_c5.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c6",
-        "path": "sprites/spr_window_c6/spr_window_c6.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c7",
-        "path": "sprites/spr_window_c7/spr_window_c7.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c8",
-        "path": "sprites/spr_window_c8/spr_window_c8.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_c9",
-        "path": "sprites/spr_window_c9/spr_window_c9.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_case",
-        "path": "sprites/spr_window_case/spr_window_case.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_grace",
-        "path": "sprites/spr_window_grace/spr_window_grace.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_invis",
-        "path": "sprites/spr_window_invis/spr_window_invis.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_link",
-        "path": "sprites/spr_window_link/spr_window_link.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_lu",
-        "path": "sprites/spr_window_lu/spr_window_lu.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_rody",
-        "path": "sprites/spr_window_rody/spr_window_rody.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_window_superman",
-        "path": "sprites/spr_window_superman/spr_window_superman.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_yellow_sun_chips",
-        "path": "sprites/spr_yellow_sun_chips/spr_yellow_sun_chips.yy"
-      }
-    },
-    { "id": { "name": "Sprite75", "path": "sprites/Sprite75/Sprite75.yy" } }
+  "name":"Test",
+  "resources":[
+    {"id":{"name":"fnt_Chat_Box_Font","path":"fonts/fnt_Chat_Box_Font/fnt_Chat_Box_Font.yy",},},
+    {"id":{"name":"obj_blue_chips","path":"objects/obj_blue_chips/obj_blue_chips.yy",},},
+    {"id":{"name":"obj_blue_mini_fridge","path":"objects/obj_blue_mini_fridge/obj_blue_mini_fridge.yy",},},
+    {"id":{"name":"obj_brownie_cookie","path":"objects/obj_brownie_cookie/obj_brownie_cookie.yy",},},
+    {"id":{"name":"obj_buns","path":"objects/obj_buns/obj_buns.yy",},},
+    {"id":{"name":"obj_chat_box","path":"objects/obj_chat_box/obj_chat_box.yy",},},
+    {"id":{"name":"obj_choc_chip_cookie","path":"objects/obj_choc_chip_cookie/obj_choc_chip_cookie.yy",},},
+    {"id":{"name":"obj_Continue_Button","path":"objects/obj_Continue_Button/obj_Continue_Button.yy",},},
+    {"id":{"name":"obj_day_manager","path":"objects/obj_day_manager/obj_day_manager.yy",},},
+    {"id":{"name":"obj_enter_van","path":"objects/obj_enter_van/obj_enter_van.yy",},},
+    {"id":{"name":"obj_Exit_Button","path":"objects/obj_Exit_Button/obj_Exit_Button.yy",},},
+    {"id":{"name":"obj_exit_van","path":"objects/obj_exit_van/obj_exit_van.yy",},},
+    {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
+    {"id":{"name":"obj_fridge","path":"objects/obj_fridge/obj_fridge.yy",},},
+    {"id":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},},
+    {"id":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},},
+    {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},},
+    {"id":{"name":"obj_ketchup","path":"objects/obj_ketchup/obj_ketchup.yy",},},
+    {"id":{"name":"obj_music_manager","path":"objects/obj_music_manager/obj_music_manager.yy",},},
+    {"id":{"name":"obj_mustard","path":"objects/obj_mustard/obj_mustard.yy",},},
+    {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
+    {"id":{"name":"obj_order_manager","path":"objects/obj_order_manager/obj_order_manager.yy",},},
+    {"id":{"name":"obj_order","path":"objects/obj_order/obj_order.yy",},},
+    {"id":{"name":"obj_pink_mini_fridge","path":"objects/obj_pink_mini_fridge/obj_pink_mini_fridge.yy",},},
+    {"id":{"name":"obj_radio","path":"objects/obj_radio/obj_radio.yy",},},
+    {"id":{"name":"obj_sizzle_paticle_effect","path":"objects/obj_sizzle_paticle_effect/obj_sizzle_paticle_effect.yy",},},
+    {"id":{"name":"obj_Start_Button","path":"objects/obj_Start_Button/obj_Start_Button.yy",},},
+    {"id":{"name":"obj_stove","path":"objects/obj_stove/obj_stove.yy",},},
+    {"id":{"name":"obj_trash","path":"objects/obj_trash/obj_trash.yy",},},
+    {"id":{"name":"obj_van_shade","path":"objects/obj_van_shade/obj_van_shade.yy",},},
+    {"id":{"name":"obj_yellow_chips","path":"objects/obj_yellow_chips/obj_yellow_chips.yy",},},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"prt_atmosphere","path":"particles/prt_atmosphere/prt_atmosphere.yy",},},
+    {"id":{"name":"prt_sizzle","path":"particles/prt_sizzle/prt_sizzle.yy",},},
+    {"id":{"name":"rm_hot_dog_van","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},},
+    {"id":{"name":"rm_outside_van","path":"rooms/rm_outside_van/rm_outside_van.yy",},},
+    {"id":{"name":"rm_pause_menu","path":"rooms/rm_pause_menu/rm_pause_menu.yy",},},
+    {"id":{"name":"rm_starting_cutscene","path":"rooms/rm_starting_cutscene/rm_starting_cutscene.yy",},},
+    {"id":{"name":"rm_starting_menu","path":"rooms/rm_starting_menu/rm_starting_menu.yy",},},
+    {"id":{"name":"order_manager","path":"scripts/order_manager/order_manager.yy",},},
+    {"id":{"name":"scr_Chat_Box","path":"scripts/scr_Chat_Box/scr_Chat_Box.yy",},},
+    {"id":{"name":"scr_global_variables","path":"scripts/scr_global_variables/scr_global_variables.yy",},},
+    {"id":{"name":"scr_interactables","path":"scripts/scr_interactables/scr_interactables.yy",},},
+    {"id":{"name":"scr_npc_actions","path":"scripts/scr_npc_actions/scr_npc_actions.yy",},},
+    {"id":{"name":"scr_object_functions","path":"scripts/scr_object_functions/scr_object_functions.yy",},},
+    {"id":{"name":"seq_npc_enter_Events7","path":"scripts/seq_npc_enter_Events7/seq_npc_enter_Events7.yy",},},
+    {"id":{"name":"seq_move_npc","path":"sequences/seq_move_npc/seq_move_npc.yy",},},
+    {"id":{"name":"snd_bun_bag","path":"sounds/snd_bun_bag/snd_bun_bag.yy",},},
+    {"id":{"name":"snd_chips_bag","path":"sounds/snd_chips_bag/snd_chips_bag.yy",},},
+    {"id":{"name":"snd_complete_order","path":"sounds/snd_complete_order/snd_complete_order.yy",},},
+    {"id":{"name":"snd_condiment_use","path":"sounds/snd_condiment_use/snd_condiment_use.yy",},},
+    {"id":{"name":"snd_cookies","path":"sounds/snd_cookies/snd_cookies.yy",},},
+    {"id":{"name":"snd_driving_ambiance","path":"sounds/snd_driving_ambiance/snd_driving_ambiance.yy",},},
+    {"id":{"name":"snd_fridge_hum","path":"sounds/snd_fridge_hum/snd_fridge_hum.yy",},},
+    {"id":{"name":"snd_garbage_use","path":"sounds/snd_garbage_use/snd_garbage_use.yy",},},
+    {"id":{"name":"snd_grab_can","path":"sounds/snd_grab_can/snd_grab_can.yy",},},
+    {"id":{"name":"snd_menu_music","path":"sounds/snd_menu_music/snd_menu_music.yy",},},
+    {"id":{"name":"snd_open_fridge","path":"sounds/snd_open_fridge/snd_open_fridge.yy",},},
+    {"id":{"name":"snd_radio_music_1","path":"sounds/snd_radio_music_1/snd_radio_music_1.yy",},},
+    {"id":{"name":"snd_stove_sizzle","path":"sounds/snd_stove_sizzle/snd_stove_sizzle.yy",},},
+    {"id":{"name":"snd_van_ambience","path":"sounds/snd_van_ambience/snd_van_ambience.yy",},},
+    {"id":{"name":"snd_wrong_order","path":"sounds/snd_wrong_order/snd_wrong_order.yy",},},
+    {"id":{"name":"border","path":"sprites/border/border.yy",},},
+    {"id":{"name":"spr_blue_soda","path":"sprites/spr_blue_soda/spr_blue_soda.yy",},},
+    {"id":{"name":"spr_blue_sun_chips","path":"sprites/spr_blue_sun_chips/spr_blue_sun_chips.yy",},},
+    {"id":{"name":"spr_brownie_cookie","path":"sprites/spr_brownie_cookie/spr_brownie_cookie.yy",},},
+    {"id":{"name":"spr_bun","path":"sprites/spr_bun/spr_bun.yy",},},
+    {"id":{"name":"spr_burnt_hot_dog","path":"sprites/spr_burnt_hot_dog/spr_burnt_hot_dog.yy",},},
+    {"id":{"name":"spr_case","path":"sprites/spr_case/spr_case.yy",},},
+    {"id":{"name":"spr_Chat_box","path":"sprites/spr_Chat_box/spr_Chat_box.yy",},},
+    {"id":{"name":"spr_chocolate_chip_cookie","path":"sprites/spr_chocolate_chip_cookie/spr_chocolate_chip_cookie.yy",},},
+    {"id":{"name":"spr_color_platte","path":"sprites/spr_color_platte/spr_color_platte.yy",},},
+    {"id":{"name":"spr_construction_worker","path":"sprites/spr_construction_worker/spr_construction_worker.yy",},},
+    {"id":{"name":"spr_Continue_on_hover","path":"sprites/spr_Continue_on_hover/spr_Continue_on_hover.yy",},},
+    {"id":{"name":"spr_continue","path":"sprites/spr_continue/spr_continue.yy",},},
+    {"id":{"name":"spr_Exit_on_hover","path":"sprites/spr_Exit_on_hover/spr_Exit_on_hover.yy",},},
+    {"id":{"name":"spr_Exit","path":"sprites/spr_Exit/spr_Exit.yy",},},
+    {"id":{"name":"spr_grace","path":"sprites/spr_grace/spr_grace.yy",},},
+    {"id":{"name":"spr_hot_dog_and_bun","path":"sprites/spr_hot_dog_and_bun/spr_hot_dog_and_bun.yy",},},
+    {"id":{"name":"spr_hot_dog_ketchup_and_mustard","path":"sprites/spr_hot_dog_ketchup_and_mustard/spr_hot_dog_ketchup_and_mustard.yy",},},
+    {"id":{"name":"spr_hot_dog_ketchup","path":"sprites/spr_hot_dog_ketchup/spr_hot_dog_ketchup.yy",},},
+    {"id":{"name":"spr_hot_dog_mustard","path":"sprites/spr_hot_dog_mustard/spr_hot_dog_mustard.yy",},},
+    {"id":{"name":"spr_Hot_Dog_Van_Inside","path":"sprites/spr_Hot_Dog_Van_Inside/spr_Hot_Dog_Van_Inside.yy",},},
+    {"id":{"name":"spr_hot_dog","path":"sprites/spr_hot_dog/spr_hot_dog.yy",},},
+    {"id":{"name":"spr_intro_cutscene","path":"sprites/spr_intro_cutscene/spr_intro_cutscene.yy",},},
+    {"id":{"name":"spr_ketchup_bottle","path":"sprites/spr_ketchup_bottle/spr_ketchup_bottle.yy",},},
+    {"id":{"name":"spr_ketchup_drizzle","path":"sprites/spr_ketchup_drizzle/spr_ketchup_drizzle.yy",},},
+    {"id":{"name":"spr_lu_eyes_closed","path":"sprites/spr_lu_eyes_closed/spr_lu_eyes_closed.yy",},},
+    {"id":{"name":"spr_lu_mouth_shut","path":"sprites/spr_lu_mouth_shut/spr_lu_mouth_shut.yy",},},
+    {"id":{"name":"spr_lu_talking","path":"sprites/spr_lu_talking/spr_lu_talking.yy",},},
+    {"id":{"name":"spr_lu_tired","path":"sprites/spr_lu_tired/spr_lu_tired.yy",},},
+    {"id":{"name":"spr_main_menu_background","path":"sprites/spr_main_menu_background/spr_main_menu_background.yy",},},
+    {"id":{"name":"spr_mustard_bottle","path":"sprites/spr_mustard_bottle/spr_mustard_bottle.yy",},},
+    {"id":{"name":"spr_mustard_drizzle","path":"sprites/spr_mustard_drizzle/spr_mustard_drizzle.yy",},},
+    {"id":{"name":"spr_outside_van_layer","path":"sprites/spr_outside_van_layer/spr_outside_van_layer.yy",},},
+    {"id":{"name":"spr_outside_van_secolnd_half","path":"sprites/spr_outside_van_secolnd_half/spr_outside_van_secolnd_half.yy",},},
+    {"id":{"name":"spr_outside_van","path":"sprites/spr_outside_van/spr_outside_van.yy",},},
+    {"id":{"name":"spr_pink_soda","path":"sprites/spr_pink_soda/spr_pink_soda.yy",},},
+    {"id":{"name":"spr_player_boy","path":"sprites/spr_player_boy/spr_player_boy.yy",},},
+    {"id":{"name":"spr_player_girl","path":"sprites/spr_player_girl/spr_player_girl.yy",},},
+    {"id":{"name":"spr_raw_hot_dog","path":"sprites/spr_raw_hot_dog/spr_raw_hot_dog.yy",},},
+    {"id":{"name":"spr_rody_eyes_closed","path":"sprites/spr_rody_eyes_closed/spr_rody_eyes_closed.yy",},},
+    {"id":{"name":"spr_rody_smiling","path":"sprites/spr_rody_smiling/spr_rody_smiling.yy",},},
+    {"id":{"name":"spr_rody_talking","path":"sprites/spr_rody_talking/spr_rody_talking.yy",},},
+    {"id":{"name":"spr_Start_on_hover","path":"sprites/spr_Start_on_hover/spr_Start_on_hover.yy",},},
+    {"id":{"name":"spr_Start","path":"sprites/spr_Start/spr_Start.yy",},},
+    {"id":{"name":"spr_van_light","path":"sprites/spr_van_light/spr_van_light.yy",},},
+    {"id":{"name":"spr_van_shade","path":"sprites/spr_van_shade/spr_van_shade.yy",},},
+    {"id":{"name":"spr_window_ahri","path":"sprites/spr_window_ahri/spr_window_ahri.yy",},},
+    {"id":{"name":"spr_window_c0","path":"sprites/spr_window_c0/spr_window_c0.yy",},},
+    {"id":{"name":"spr_window_c1","path":"sprites/spr_window_c1/spr_window_c1.yy",},},
+    {"id":{"name":"spr_window_c10","path":"sprites/spr_window_c10/spr_window_c10.yy",},},
+    {"id":{"name":"spr_window_c11","path":"sprites/spr_window_c11/spr_window_c11.yy",},},
+    {"id":{"name":"spr_window_c12","path":"sprites/spr_window_c12/spr_window_c12.yy",},},
+    {"id":{"name":"spr_window_c13","path":"sprites/spr_window_c13/spr_window_c13.yy",},},
+    {"id":{"name":"spr_window_c14","path":"sprites/spr_window_c14/spr_window_c14.yy",},},
+    {"id":{"name":"spr_window_c15","path":"sprites/spr_window_c15/spr_window_c15.yy",},},
+    {"id":{"name":"spr_window_c16","path":"sprites/spr_window_c16/spr_window_c16.yy",},},
+    {"id":{"name":"spr_window_c17","path":"sprites/spr_window_c17/spr_window_c17.yy",},},
+    {"id":{"name":"spr_window_c18","path":"sprites/spr_window_c18/spr_window_c18.yy",},},
+    {"id":{"name":"spr_window_c19","path":"sprites/spr_window_c19/spr_window_c19.yy",},},
+    {"id":{"name":"spr_window_c2","path":"sprites/spr_window_c2/spr_window_c2.yy",},},
+    {"id":{"name":"spr_window_c20","path":"sprites/spr_window_c20/spr_window_c20.yy",},},
+    {"id":{"name":"spr_window_c3","path":"sprites/spr_window_c3/spr_window_c3.yy",},},
+    {"id":{"name":"spr_window_c4","path":"sprites/spr_window_c4/spr_window_c4.yy",},},
+    {"id":{"name":"spr_window_c5","path":"sprites/spr_window_c5/spr_window_c5.yy",},},
+    {"id":{"name":"spr_window_c6","path":"sprites/spr_window_c6/spr_window_c6.yy",},},
+    {"id":{"name":"spr_window_c7","path":"sprites/spr_window_c7/spr_window_c7.yy",},},
+    {"id":{"name":"spr_window_c8","path":"sprites/spr_window_c8/spr_window_c8.yy",},},
+    {"id":{"name":"spr_window_c9","path":"sprites/spr_window_c9/spr_window_c9.yy",},},
+    {"id":{"name":"spr_window_case","path":"sprites/spr_window_case/spr_window_case.yy",},},
+    {"id":{"name":"spr_window_grace","path":"sprites/spr_window_grace/spr_window_grace.yy",},},
+    {"id":{"name":"spr_window_invis","path":"sprites/spr_window_invis/spr_window_invis.yy",},},
+    {"id":{"name":"spr_window_link","path":"sprites/spr_window_link/spr_window_link.yy",},},
+    {"id":{"name":"spr_window_lu","path":"sprites/spr_window_lu/spr_window_lu.yy",},},
+    {"id":{"name":"spr_window_rody","path":"sprites/spr_window_rody/spr_window_rody.yy",},},
+    {"id":{"name":"spr_window_superman","path":"sprites/spr_window_superman/spr_window_superman.yy",},},
+    {"id":{"name":"spr_yellow_sun_chips","path":"sprites/spr_yellow_sun_chips/spr_yellow_sun_chips.yy",},},
+    {"id":{"name":"Sprite75","path":"sprites/Sprite75/Sprite75.yy",},},
   ],
-  "resourceType": "GMProject",
-  "resourceVersion": "2.0",
-  "RoomOrderNodes": [
-    {
-      "roomId": {
-        "name": "rm_starting_menu",
-        "path": "rooms/rm_starting_menu/rm_starting_menu.yy"
-      }
-    },
-    {
-      "roomId": {
-        "name": "rm_hot_dog_van",
-        "path": "rooms/rm_hot_dog_van/rm_hot_dog_van.yy"
-      }
-    },
-    {
-      "roomId": {
-        "name": "rm_pause_menu",
-        "path": "rooms/rm_pause_menu/rm_pause_menu.yy"
-      }
-    },
-    {
-      "roomId": {
-        "name": "rm_starting_cutscene",
-        "path": "rooms/rm_starting_cutscene/rm_starting_cutscene.yy"
-      }
-    },
-    {
-      "roomId": {
-        "name": "rm_outside_van",
-        "path": "rooms/rm_outside_van/rm_outside_van.yy"
-      }
-    }
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"rm_starting_menu","path":"rooms/rm_starting_menu/rm_starting_menu.yy",},},
+    {"roomId":{"name":"rm_hot_dog_van","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},},
+    {"roomId":{"name":"rm_pause_menu","path":"rooms/rm_pause_menu/rm_pause_menu.yy",},},
+    {"roomId":{"name":"rm_starting_cutscene","path":"rooms/rm_starting_cutscene/rm_starting_cutscene.yy",},},
+    {"roomId":{"name":"rm_outside_van","path":"rooms/rm_outside_van/rm_outside_van.yy",},},
   ],
-  "templateType": "game",
-  "TextureGroups": [
-    {
-      "$GMTextureGroup": "",
-      "%Name": "Default",
-      "autocrop": true,
-      "border": 2,
-      "compressFormat": "bz2",
-      "customOptions": "",
-      "directory": "",
-      "groupParent": null,
-      "isScaled": true,
-      "loadType": "default",
-      "mipsToGenerate": 0,
-      "name": "Default",
-      "resourceType": "GMTextureGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
-  ]
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
 }
