@@ -2,7 +2,7 @@
 switch(room){
 	case rm_starting_menu:
 		audio_stop_all();
-		audio_play_sound(snd_menu_music, 100, true);
+		//audio_play_sound(snd_menu_music, 100, true);
 		break;
 	case rm_starting_cutscene:
 		audio_stop_all();

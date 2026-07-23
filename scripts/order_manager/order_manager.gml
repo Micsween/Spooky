@@ -12,7 +12,7 @@ function create_order(){
 	cookie_i = irandom(1)
 
 
-	instance_create_layer(1664, 192, "Instances", obj_order, {
+	instance_create_layer(1965, 192, "Instances", obj_order, {
 		soda: soda_options[soda_i],
 		hot_dog: hot_dog_options[hd_i],
 		chips: chip_options[chip_i], 
