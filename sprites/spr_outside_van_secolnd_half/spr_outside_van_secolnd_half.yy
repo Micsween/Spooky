@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_outside_van",
+  "%Name":"spr_outside_van_secolnd_half",
   "bboxMode":0,
   "bbox_bottom":153,
   "bbox_left":0,
-  "bbox_right":1194,
+  "bbox_right":1502,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,9 +19,9 @@
   "height":154,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"96ae6747-fed4-4b3a-87f1-58bdedfa12d5","blendMode":0,"displayName":"default","isLocked":false,"name":"96ae6747-fed4-4b3a-87f1-58bdedfa12d5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"955ffae4-d7a8-4add-88b2-c9ff0c0b85ae","blendMode":0,"displayName":"default","isLocked":false,"name":"955ffae4-d7a8-4add-88b2-c9ff0c0b85ae","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_outside_van",
+  "name":"spr_outside_van_secolnd_half",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_outside_van",
+    "%Name":"spr_outside_van_secolnd_half",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_outside_van",
+    "name":"spr_outside_van_secolnd_half",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"489b57ed-55fc-4267-8cd3-6622a60fdb7c","path":"sprites/spr_outside_van/spr_outside_van.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"489b57ed-55fc-4267-8cd3-6622a60fdb7c","path":"sprites/spr_outside_van_secolnd_half/spr_outside_van_secolnd_half.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9c6ad047-dd9d-488e-87c7-8cb8eee386ab","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1195,
+  "width":1503,
 }
