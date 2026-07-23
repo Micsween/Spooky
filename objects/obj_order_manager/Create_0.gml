@@ -10,6 +10,10 @@ enum NPC_STATE {
 	OUTRO_DIALOGUE,
 	EXIT
 }
+// save the current state
+// swithces to the spooky event state
+//	go do something 
+// goes back to intro dialogue state
 current_npc_index =0;
 current_state = NPC_STATE.LOAD_NEW_NPC
 
