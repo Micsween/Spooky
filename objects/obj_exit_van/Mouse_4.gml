@@ -1,2 +1,4 @@
-
-room_goto_fade(rm_outside_van,0.09)
+with(obj_order_manager) {
+	save_state()	
+}
+alarm[0] = 1

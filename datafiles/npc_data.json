@@ -289,8 +289,8 @@
   "day3": [
     {
       "id" : "L",
-      "intro_text": "N: This is a test.",
-      "outro_text" : "N: This is also a test. OUTROOO"
+      "intro_text": ["N: This is a test."],
+      "outro_text" : ["N: This is also a test. OUTROOO"]
     }
   ]
 }

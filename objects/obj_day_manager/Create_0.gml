@@ -1,3 +1,5 @@
+
+
 enum DAY_STATE {
 	BEGIN_DAY,
 	TAKING_ORDERS,
@@ -9,14 +11,6 @@ enum DAY_STATE {
 waiting = false
 current_state = DAY_STATE.BEGIN_DAY
 
-//day state:
-// begin day: intro dialogue, spooky events, adding a longer delay before your first customer arrives,
-//also gives me room to decide if I want to add a tutorial or stocking.
-// taking_orders: lets me add spooky stuff between customers
-// taking_out_trash: lets me add spooky stuff outside
-//officially night
-// turning off generator: lets me add spooky generator stuff
-// end day also more spooky stuff and an opportunity to reset
 
 //game_state
 // these are for controlling spooky events.

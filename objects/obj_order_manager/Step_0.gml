@@ -2,7 +2,7 @@ switch(current_state) {
 	case NPC_STATE.LOAD_NEW_NPC:
 		if (not waiting) {
 			waiting = true;
-			get_next_npc(current_npc_index);
+			load_next_npc();
 			alarm[0] = 300;
 		}
 	case NPC_STATE.ENTER:
@@ -21,7 +21,7 @@ switch(current_state) {
 		break;
 	case NPC_STATE.PLACE_ORDER:
 		current_state = NPC_STATE.WAIT_FOR_ORDER
-		create_order()
+		order = create_order()
 		break;
 	case NPC_STATE.WAIT_FOR_ORDER:
 		if (order_fulfilled){
@@ -37,8 +37,8 @@ switch(current_state) {
 		}
 		break;
 	case NPC_STATE.EXIT:
+		global.current_npc_index +=1;
 		layer_sequence_play(sequence_id)
-		current_npc_index +=1;
 		current_state = NPC_STATE.LOAD_NEW_NPC
 		break;
 }

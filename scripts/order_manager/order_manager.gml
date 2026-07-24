@@ -1,4 +1,5 @@
 function create_order(){
+	
 	randomize();
 	soda_options = [spr_blue_soda, spr_pink_soda]
 	hot_dog_options = [spr_hot_dog_and_bun, spr_hot_dog_ketchup, spr_hot_dog_mustard, spr_hot_dog_ketchup_and_mustard]
@@ -10,15 +11,19 @@ function create_order(){
 	hd_i = irandom(3)
 	chip_i = irandom(1)
 	cookie_i = irandom(1)
-
-
-	instance_create_layer(1965, 192, "Instances", obj_order, {
+	order = {
 		soda: soda_options[soda_i],
 		hot_dog: hot_dog_options[hd_i],
 		chips: chip_options[chip_i], 
-		cookie: cookie_options[cookie_i]} )
+		cookie: cookie_options[cookie_i]}
+
+	instance_create_layer(1965, 192, "Instances", obj_order, order )
+	return order
 }
 
+function create_existing_order(order){
+	instance_create_layer(1965, 192, "Instances", obj_order, order)
+}
 
 function complete_order() {
 	instance_destroy(obj_order)
