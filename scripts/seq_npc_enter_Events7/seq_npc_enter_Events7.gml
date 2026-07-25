@@ -3,7 +3,16 @@
 function update_state()
 {
 	with(obj_order_manager){
-		current_state = NPC_STATE.INTRO_DIALOGUE
+		alarm[2] = 10
 	}
 	layer_sequence_pause(self.elementID)
 }
+
+
+
+function move_on_to_next_npc()
+{
+	with(obj_order_manager) {
+		alarm[0] = 10
+	}
+}	

@@ -36,7 +36,12 @@
           "0":{"$MomentsEventKeyframe":"","Events":[
               "update_state",
             ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
-        },"Disabled":false,"id":"2e399cc4-1e00-46f9-acdc-b0fc7be4d96e","IsCreationKey":false,"Key":49.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+        },"Disabled":false,"id":"1cc10f51-8567-4b9a-923d-8049903c2ea1","IsCreationKey":false,"Key":49.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+      {"$Keyframe<MomentsEventKeyframe>":"","Channels":{
+          "0":{"$MomentsEventKeyframe":"","Events":[
+              "move_on_to_next_npc",
+            ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
+        },"Disabled":false,"id":"ce7b79f8-84d5-46fb-9de7-f2b758c0c779","IsCreationKey":false,"Key":94.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
     ],
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
@@ -61,7 +66,7 @@
     {"$GMInstanceTrack":"","%Name":"obj_npc","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetInstanceKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetInstanceKeyframe>":"","Channels":{
               "0":{"$AssetInstanceKeyframe":"","Id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},"resourceType":"AssetInstanceKeyframe","resourceVersion":"2.0",},
-            },"Disabled":false,"id":"ddc66471-f874-49c5-9b21-1c5b41a9f893","IsCreationKey":false,"Key":0.0,"Length":105.0,"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            },"Disabled":false,"id":"ddc66471-f874-49c5-9b21-1c5b41a9f893","IsCreationKey":false,"Key":0.0,"Length":108.0,"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetInstanceKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"obj_npc","resourceType":"GMInstanceTrack","resourceVersion":"2.0","trackColour":4294068406,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
               {"$Keyframe<RealKeyframe>":"","Channels":{
@@ -98,7 +103,7 @@
   ],
   "visibleRange":{
     "x":0.0,
-    "y":105.0,
+    "y":108.0,
   },
   "volume":1.0,
   "xorigin":0,

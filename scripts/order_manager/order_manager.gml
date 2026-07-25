@@ -11,21 +11,46 @@ function create_order(){
 	hd_i = irandom(3)
 	chip_i = irandom(1)
 	cookie_i = irandom(1)
-	order = {
-		soda: soda_options[soda_i],
-		hot_dog: hot_dog_options[hd_i],
-		chips: chip_options[chip_i], 
-		cookie: cookie_options[cookie_i]}
-
-	instance_create_layer(1965, 192, "Instances", obj_order, order )
+	
+	obj = instance_create_layer(1965, 192, "Instances", obj_order )
+	order = [soda_options[soda_i], hot_dog_options[hd_i], chip_options[chip_i], cookie_options[cookie_i]]
+	obj_order.order = order
 	return order
 }
 
-function create_existing_order(order){
-	instance_create_layer(1965, 192, "Instances", obj_order, order)
+function create_existing_order(existing_order){
+	order_obj = instance_create_layer(1965, 192, "Instances", obj_order)
+	with(order_obj) {
+		order = existing_order
+	}
 }
 
 function complete_order() {
 	instance_destroy(obj_order)
 }
 
+
+function accept_order_item(){
+		
+	with(obj_order) {
+		if array_contains(order, global.item_held) {
+			//array_find_index 
+			item_index = array_get_index(order, global.item_held);
+			array_delete(order, item_index, 1);
+			
+			global.item_held = noone;
+			audio_play_sound(snd_complete_order, 100, false);
+		} else {
+			audio_play_sound(snd_wrong_order, 100, false);
+		}
+		
+	}
+	order_object = instance_find(obj_order, 0); 
+	if array_length(order_object.order) == 0 {
+		with(obj_order_manager) {
+			//move on to print the outro dialogue
+			alarm[4] = 10
+		}
+	}
+	return order_object.order
+}

@@ -14,7 +14,7 @@ function load_npcs() {
 	}
 }
 
-global.current_game_day = 3
+global.current_game_day = 1
 global.chatting = false
 global.current_npc = {
 	name : noone,

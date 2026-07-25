@@ -17,10 +17,6 @@ if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
     } 
     else {
 		dialogue_finished = true
-		with(obj_order_manager){
-			waiting = false;
-			current_state += 1
-		}
         alarm[0] = 1 //wait a second, and then die
     }
 }

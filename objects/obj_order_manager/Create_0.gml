@@ -8,20 +8,15 @@ enum NPC_STATE {
 		EXIT
 }
 
-if global.obj_order_manager_state == noone {
-	order_fulfilled = false;
-	waiting = false;
-	current_state = NPC_STATE.LOAD_NEW_NPC
-	sequence_id = noone
-	order = noone
-} else {
-	load_state()
-}
+load_state()
+
+
 
 
 function load_next_npc(){
 	if out_of_npcs() {
 		global.finished_todays_orders = true //we are done handling npcs
+		global.current_npc_index = -1
 		instance_destroy()
 		return 
 	}
@@ -29,7 +24,7 @@ function load_next_npc(){
 }
 
 
-function out_of_npcs(){
+function out_of_npcs() {
 	return global.current_npc_index >= array_length(global.npc_json[$ "day" + string(global.current_game_day)])
 }
 
@@ -57,19 +52,41 @@ function load_global_current_npc() {
 	global.current_npc.chat_sprite = asset_get_index(name_and_sprite_info[$ "chat_sprite"])
 }
 
+function save_state()	{
+	global.obj_order_manager_state = {
+		current_state : current_state,
+		alarm_0_timer : alarm_get(0), 
+		alarm_1_timer : alarm_get(1),
+		alarm_2_timer : alarm_get(2),
+		alarm_3_timer : alarm_get(3),
+		alarm_4_timer : alarm_get(4),
+		alarm_5_timer : alarm_get(5),
+		sequence_id : sequence_id,
+		sequence_frame : sequence_id == noone ? -1 : layer_sequence_get_headpos(sequence_id),	// if the sequence hasnt been started, save as -1. otherwise save the current frame.
+		sequence_paused : layer_sequence_is_paused(sequence_id),
+		order : order
+	}
+}
 
 function load_state() {
+	if global.obj_order_manager_state == noone {
+		current_state = NPC_STATE.LOAD_NEW_NPC
+		sequence_id = noone
+		order = noone
+		alarm[0] = 10;
+		return
+	}
 	
 	state = global.obj_order_manager_state
-	//show_message(state)
-	current_state = state.current_state
-	waiting = state.waiting
-	order_fulfilled  = state.order_fulfilled
 	alarm[0] = state.alarm_0_timer
-	alarm[1] = state.alarm_1_timer //might not need this
-	order = state.order
+	alarm[1] = state.alarm_1_timer
+	alarm[2] = state.alarm_2_timer
+	alarm[3] = state.alarm_3_timer
+	alarm[4] = state.alarm_4_timer
+	alarm[5] = state.alarm_5_timer
+	current_state = state.current_state
 	sequence_id	= state.sequence_id
-
+	order = state.order
 	
 	if state.sequence_frame > 0 { 
 		sequence_id =  layer_sequence_create("Assets_2", x, y, seq_move_npc)
@@ -85,16 +102,7 @@ function load_state() {
 }
 
 
-function save_state()	{
-	global.obj_order_manager_state = {
-		current_state : current_state,
-		waiting : waiting,
-		order_fulfilled : order_fulfilled,
-		alarm_0_timer : alarm_get(0), 
-		alarm_1_timer : alarm_get(1),
-		sequence_id : sequence_id,
-		sequence_frame : sequence_id == noone ? -1 : layer_sequence_get_headpos(sequence_id),	// if the sequence hasnt been started, save as -1. otherwise save the current frame.
-		sequence_paused : layer_sequence_is_paused(sequence_id),
-		order : order
-	}
-}
+
+
+
+

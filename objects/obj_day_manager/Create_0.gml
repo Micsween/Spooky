@@ -1,5 +1,4 @@
 
-
 enum DAY_STATE {
 	BEGIN_DAY,
 	TAKING_ORDERS,
@@ -8,9 +7,7 @@ enum DAY_STATE {
 	END_DAY,
 	TRANSITION_TO_NEXT_DAY
 }
-waiting = false
-current_state = DAY_STATE.BEGIN_DAY
-
+current_state = DAY_STATE.TAKING_ORDERS
 
 //game_state
 // these are for controlling spooky events.
@@ -20,3 +17,4 @@ current_state = DAY_STATE.BEGIN_DAY
 // NIGHT2:
 // DAY3:
 // NIGHT3:
+
