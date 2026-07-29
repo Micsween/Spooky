@@ -1,0 +1,1 @@
+current_day_state = DAY_STATE.CLEANING_UP

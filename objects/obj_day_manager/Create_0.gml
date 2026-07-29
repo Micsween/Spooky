@@ -1,13 +1,12 @@
 
 enum DAY_STATE {
-	BEGIN_DAY,
-	TAKING_ORDERS,
-	TAKING_OUT_TRASH,
-	TURNING_OFF_GENERATOR,
-	END_DAY,
-	TRANSITION_TO_NEXT_DAY
+	WORKING,
+	CLEANING_UP,
+	END_DAY
 }
-current_state = DAY_STATE.TAKING_ORDERS
+
+current_day_state = DAY_STATE.CLEANING_UP
+
 
 //game_state
 // these are for controlling spooky events.
@@ -18,3 +17,10 @@ current_state = DAY_STATE.TAKING_ORDERS
 // DAY3:
 // NIGHT3:
 
+//there are different states the game can be in
+//depending on those states, different flags can be set to cause events.
+// like: transition to a new state
+// play a sound
+// 
+// example: if it is day 1, you are in the cleaning up state, and you are in the rm_outside van, you will here gunshots 
+// after being  out there for at least 5 seconds.
