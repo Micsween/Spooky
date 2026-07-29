@@ -42,9 +42,16 @@ function accept_order_item(){
 		}
 		if array_contains(order, global.item_held) {
 			item_index = array_get_index(order, global.item_held);
-			array_delete(order, item_index, 1);	
+			array_delete(order, item_index, 1);
 			global.item_held = noone;
 			audio_play_sound(snd_complete_order, 100, false);
+
+			if array_length(order) == 0 {
+				with(obj_order_manager) {
+					//move on to print the outro dialogue
+					alarm[NPC_OUTRO_DIALOGUE_ALARM] = 10
+				}
+			}
 		} else {
 			audio_play_sound(snd_wrong_order, 100, false);
 		}		
