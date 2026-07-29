@@ -48,7 +48,6 @@ function accept_order_item(){
 
 			if array_length(order) == 0 {
 				with(obj_order_manager) {
-					//move on to print the outro dialogue
 					alarm[NPC_OUTRO_DIALOGUE_ALARM] = 10
 				}
 			}
