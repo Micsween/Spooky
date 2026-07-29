@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"seq_npc_enter_Events7",
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

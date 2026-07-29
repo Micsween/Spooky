@@ -1,9 +1,9 @@
 // Auto-generated stubs for each available event.
 
-function update_state()
+function move_to_intro()
 {
 	with(obj_order_manager){
-		alarm[2] = 10
+		alarm[NPC_INTRO_DIALOGUE_ALARM] = 10
 	}
 	layer_sequence_pause(self.elementID)
 }
@@ -13,6 +13,6 @@ function update_state()
 function move_on_to_next_npc()
 {
 	with(obj_order_manager) {
-		alarm[0] = 10
+		alarm[LOAD_NEW_NPC_ALARM] = 10
 	}
 }	

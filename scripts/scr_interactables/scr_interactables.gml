@@ -9,13 +9,13 @@ function grab_item(item, sound) {
 }
 
 function trash_item(sound) {
-	if (global.chatting) {
+	if (global.chatting) or global.item_held == spr_trash_bag {
 		return
-	}
+	} 
 	grab_item(noone, sound);
 }
 
-
+ 
 
 function interact(item_sprite, sound) {
 	if (global.chatting){

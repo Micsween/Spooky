@@ -49,8 +49,9 @@ function accept_order_item(){
 	if array_length(order_object.order) == 0 {
 		with(obj_order_manager) {
 			//move on to print the outro dialogue
-			alarm[4] = 10
+			alarm[NPC_OUTRO_DIALOGUE_ALARM] = 10
 		}
 	}
 	return order_object.order
 }
+

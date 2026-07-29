@@ -27,3 +27,11 @@ global.npc_json = load_npcs();
 global.obj_order_manager_state = noone
 global.current_npc_index = 0
 global.finished_todays_orders = false
+global.item_held = noone
+
+#macro LOAD_NEW_NPC_ALARM 0
+#macro NPC_ENTER_ALARM 1
+#macro NPC_INTRO_DIALOGUE_ALARM 2
+#macro NPC_CREATE_AND_WAIT_FOR_ORDER_ALARM 3
+#macro NPC_OUTRO_DIALOGUE_ALARM 4
+#macro NPC_EXIT_ALARM 5
