@@ -31,27 +31,25 @@ function complete_order() {
 
 
 function accept_order_item(){
-		
+	order_object = instance_find(obj_order, 0); 
+	if global.item_held == noone{
+		return order_object.order
+	}
+	
 	with(obj_order) {
+		if array_length(order) == 0 {
+			instance_destroy()
+		}
 		if array_contains(order, global.item_held) {
-			//array_find_index 
 			item_index = array_get_index(order, global.item_held);
-			array_delete(order, item_index, 1);
-			
+			array_delete(order, item_index, 1);	
 			global.item_held = noone;
 			audio_play_sound(snd_complete_order, 100, false);
 		} else {
 			audio_play_sound(snd_wrong_order, 100, false);
-		}
-		
+		}		
 	}
-	order_object = instance_find(obj_order, 0); 
-	if array_length(order_object.order) == 0 {
-		with(obj_order_manager) {
-			//move on to print the outro dialogue
-			alarm[NPC_OUTRO_DIALOGUE_ALARM] = 10
-		}
-	}
+
 	return order_object.order
 }
 
