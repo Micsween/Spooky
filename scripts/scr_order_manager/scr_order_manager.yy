@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"order_manager",
+  "%Name":"scr_order_manager",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"order_manager",
+  "name":"scr_order_manager",
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Kitchen/Interactables.yy",
+    "name":"Test",
+    "path":"Test.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -8,15 +8,13 @@ enum NPC_STATE {
 		EXIT
 }
 
-load_state()
 
 
 
 
 function load_next_npc(){
 	if out_of_npcs() {
-		global.finished_todays_orders = true //we are done handling npcs
-		global.current_npc_index = -1
+		set_state_cleaning_up()
 		instance_destroy()
 		return 
 	}
@@ -70,20 +68,13 @@ function save_state()	{
 
 function load_state() {
 	if global.obj_order_manager_state == noone {
-		current_state = NPC_STATE.LOAD_NEW_NPC
 		sequence_id = noone
 		order = noone
-		alarm[0] = 10;
+		set_state_load_new_npc()
 		return
 	}
 	
 	state = global.obj_order_manager_state
-	alarm[0] = state.alarm_0_timer
-	alarm[1] = state.alarm_1_timer
-	alarm[2] = state.alarm_2_timer
-	alarm[3] = state.alarm_3_timer
-	alarm[4] = state.alarm_4_timer
-	alarm[5] = state.alarm_5_timer
 	current_state = state.current_state
 	sequence_id	= state.sequence_id
 	order = state.order
@@ -102,6 +93,7 @@ function load_state() {
 }
 
 
+load_state()
 
 
 

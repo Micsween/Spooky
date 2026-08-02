@@ -26,7 +26,6 @@ global.current_npc = {
 global.npc_json = load_npcs();
 global.obj_order_manager_state = noone
 global.current_npc_index = 0
-global.finished_todays_orders = false
 global.item_held = noone
 
 #macro LOAD_NEW_NPC_ALARM 0
@@ -35,3 +34,16 @@ global.item_held = noone
 #macro NPC_CREATE_AND_WAIT_FOR_ORDER_ALARM 3
 #macro NPC_OUTRO_DIALOGUE_ALARM 4
 #macro NPC_EXIT_ALARM 5
+
+#macro SET_STATE_WORKING_ALARM 0
+#macro SET_STATE_CLEANING_UP_ALARM 1
+#macro SET_STATE_END_DAY_ALARM 2
+
+enum DAY_STATE {
+	INTRO,
+	WORKING,
+	CLEANING_UP,
+	END_DAY
+}
+
+global.current_day_state = DAY_STATE.WORKING // CHANGE THIS TO INTRO LATER

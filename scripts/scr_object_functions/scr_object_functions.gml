@@ -6,3 +6,4 @@ function room_goto_fade(target_room, fade_spd = 0.025) {
         fade_speed : fade_spd
     });
 }
+

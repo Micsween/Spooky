@@ -1,1 +1,4 @@
-current_day_state = DAY_STATE.CLEANING_UP
+//GO TO BED
+ go_to_rm_sleeping()
+ //CHANGE THIS
+alarm[1] = 300

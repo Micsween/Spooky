@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_state_management",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_state_management",
+  "parent":{
+    "name":"Test",
+    "path":"Test.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,6 +1,4 @@
-if global.item_held == spr_trash_bag {
+if global.item_held == spr_trash_bag and global.current_state == DAY_STATE.CLEANING_UP {
 	grab_item(noone, snd_complete_order);
-	with(obj_day_manager) {
-		current_day_state = DAY_STATE.END_DAY
-	}
+	set_state_end_day()
 }

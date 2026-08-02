@@ -1,11 +1,13 @@
 
 function print_intro_dialogue()
 {	
-	create_textbox(global.current_npc.intro_text);
+	global.chatting = true
+	create_textbox(global.current_npc.intro_text,0.5, set_state_place_order_and_wait_for_order);
 }
 
 function print_outro_dialogue()
 {
-	create_textbox(global.current_npc.outro_text);
+	global.chatting = true
+	create_textbox(global.current_npc.outro_text, 0.5, set_state_exit);
 	
 }

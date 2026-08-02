@@ -28,4 +28,7 @@ var dialogue = ["Hey man, you hear about the new excavation site downtown?",
 var names = ["Friend","You","Friend","Friend","Friend","You","Friend","Friend","Friend","You","Friend","You","You"]
 
 
-create_textbox(dialogue,names, 0.35)
+//create textbox
+//create_textbox(dialogue, 0.35, function() {
+//    alarm[1] = 100;
+//});

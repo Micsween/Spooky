@@ -1,11 +1,14 @@
 global.item_held = noone;
 //create held item
-function create_textbox(dialogue_array = [], txt_speed = 0.5) {
+//when done: what to do when you're done displaying the text
+function create_textbox(dialogue_array = [], txt_speed = 0.5, on_complete = undefined) {
     var tb = instance_create_depth(0, 0, -100, obj_chat_box,
 	{
 		text: dialogue_array,
-		text_speed : txt_speed
-	});
+		text_speed : txt_speed,
+		on_complete: on_complete
+	}
+	);
 	
     return tb;
 }
