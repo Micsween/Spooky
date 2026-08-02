@@ -46,4 +46,4 @@ enum DAY_STATE {
 	END_DAY
 }
 
-global.current_day_state = DAY_STATE.WORKING // CHANGE THIS TO INTRO LATER
+global.current_day_state = DAY_STATE.CLEANING_UP // CHANGE THIS TO INTRO LATER

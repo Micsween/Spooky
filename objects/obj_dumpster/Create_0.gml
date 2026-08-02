@@ -1,0 +1,1 @@
+trash_bags_dumped = 0

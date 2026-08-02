@@ -1,4 +1,7 @@
-if global.item_held == spr_trash_bag and global.current_state == DAY_STATE.CLEANING_UP {
+if global.item_held == spr_trash_bag and global.current_day_state == DAY_STATE.CLEANING_UP and not global.chatting {
 	grab_item(noone, snd_complete_order);
-	set_state_end_day()
+	trash_bags_dumped +=1
+	if trash_bags_dumped == 2 {
+		set_state_end_day()
+	}
 }
