@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":162.15974,
+  "duration":3.5003855,
   "exportDir":"",
   "name":"snd_van_ambience",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_van_ambience.mp3",
-  "volume":0.51,
+  "volume":1.0,
 }

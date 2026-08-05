@@ -41,7 +41,7 @@
     {
       "id" : "L",
       "intro_text" :  [
-        "N: Hi,"
+        "N: Hi."
       ],
       "outro_text" :   [
         "N: Thanks.",
@@ -233,6 +233,15 @@
         "N: There's no turning back now."
       ]
     },
+    {
+      "id" : "L",
+      "intro_text" :  [
+          "N: "
+        ],
+      "outro_text" :  [
+          "P: "
+        ]
+      },
      {
       "id" : "R",
       "intro_text" :  [
@@ -259,12 +268,12 @@
         "P: [NO]: Good luck with that. Security's pretty tight.",
         "N: Yeah, thanks. I'm going to try my best.",
         "P: Good luck",
-        "N: I'll come back tomorrow to give you more updates.",
-        "P: Come back alive.",
-        "N: I will. I need to."
+        "N: I'll come back tomorrow to give you more updates."
     ]
-    },
-     {
+    }
+  ],
+  "day3": [
+   {
       "id" : "L",
       "intro_text" :  [
           "N: Did you see it?",
@@ -284,13 +293,6 @@
           "N: ...",
           "N: You'll see its eyes first."
         ]
-    }
-  ],
-  "day3": [
-    {
-      "id" : "L",
-      "intro_text": ["N: This is a test."],
-      "outro_text" : ["N: This is also a test. OUTROOO"]
     }
   ]
 }

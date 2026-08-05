@@ -68,7 +68,7 @@ function set_state_load_new_npc(){
 		load_next_npc();
 		current_state = NPC_STATE.LOAD_NEW_NPC
 		global.current_npc_index +=1;
-		alarm[0] = 600; 
+		alarm[0] = 400; 
 	}
 }
 
@@ -103,12 +103,20 @@ function set_state_outro_dialogue() {
 }
 
 function set_state_exit() {
+	if global.current_npc_index == 4 {
+		play_breath()
+	}
 	with(obj_order_manager) {
 		current_state = NPC_STATE.EXIT
 		layer_sequence_play(sequence_id)
 	}
 }
 
+function play_breath(){
+	with(obj_audio_manager){
+		alarm[0] = 120
+	}
+}
 
 
 

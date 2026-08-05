@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_fridge_hum",
+  "%Name":"snd_breathing",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":11.912608,
+  "duration":3.5003855,
   "exportDir":"",
-  "name":"snd_fridge_hum",
+  "name":"snd_breathing",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Scary",
+    "path":"folders/Sounds/Scary.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_fridge_hum.wav",
-  "volume":0.26,
+  "soundFile":"snd_breathing.mp3",
+  "volume":1.0,
 }
