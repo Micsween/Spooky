@@ -35,10 +35,3 @@ function pickup_trash_bag() {
 function held_item_can_be_thrown_away() {
 	return  global.item_held != noone and global.item_held != spr_trash_bag
 }
-function handle_trash() {
-	if held_item_can_be_thrown_away() {
-		trash_item(sound)
-	} else if global.current_day_state == DAY_STATE.CLEANING_UP {
-		pickup_trash_bag()
-}
-}

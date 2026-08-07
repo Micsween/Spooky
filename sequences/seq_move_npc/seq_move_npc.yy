@@ -48,8 +48,8 @@
   },
   "name":"seq_move_npc",
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Sequences",
+    "path":"folders/Sequences.yy",
   },
   "playback":0,
   "playbackSpeed":30.0,

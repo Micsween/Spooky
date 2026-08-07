@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_driving_ambiance",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"General",
+    "path":"folders/Sounds/General.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

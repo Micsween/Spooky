@@ -14,13 +14,13 @@
   "exportDir":"",
   "name":"snd_fridge_hum",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"General",
+    "path":"folders/Sounds/General.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_fridge_hum.wav",
-  "volume":0.26,
+  "volume":0.54,
 }

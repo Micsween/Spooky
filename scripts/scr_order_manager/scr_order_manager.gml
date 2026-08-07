@@ -75,12 +75,13 @@ function set_state_load_new_npc(){
 function set_state_enter() {
 	with(obj_order_manager) {
 		current_state = NPC_STATE.ENTER
-		sequence_id = layer_sequence_create("Assets_2", x, y, seq_move_npc)
+		sequence_id = layer_sequence_create("Inside_Window", x, y, seq_move_npc)
 	}
 }
 	
 
 function set_state_intro_dialogue(){
+
 	with(obj_order_manager) {
 		current_state = NPC_STATE.INTRO_DIALOGUE
 	}	
@@ -103,6 +104,10 @@ function set_state_outro_dialogue() {
 }
 
 function set_state_exit() {
+	//make this super refined later
+	if global.current_npc_index == 2 {
+		create_shadow_in_window_2()
+	}
 	if global.current_npc_index == 4 {
 		play_breath()
 	}
@@ -118,5 +123,16 @@ function play_breath(){
 	}
 }
 
+function shadow_in_window() {
+	layer_sequence_create("Inside_Window", WINDOW_X_LEFT, WINDOW_Y, seq_object_in_window)
+}
 
-
+function shadow_in_window_2() {
+	sequence_id = layer_sequence_create("Inside_Window", WINDOW_X_LEFT, WINDOW_Y, seq_object_in_window_2)
+	return sequence_id
+}
+function create_shadow_in_window_2() {
+	with(obj_scary_event_manager){
+			alarm[0] = 120
+		}
+}

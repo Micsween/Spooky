@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_object_functions",
   "parent":{
-    "name":"Intro",
-    "path":"folders/Objects/Intro.yy",
+    "name":"Test",
+    "path":"Test.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

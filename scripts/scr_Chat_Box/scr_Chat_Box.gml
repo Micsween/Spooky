@@ -1,7 +1,7 @@
 global.item_held = noone;
 //create held item
 //when done: what to do when you're done displaying the text
-function create_textbox(dialogue_array = [], txt_speed = 0.5, on_complete = undefined) {
+function create_textbox(dialogue_array = [], on_complete = undefined,  txt_speed = 0.5) {
     var tb = instance_create_depth(0, 0, -100, obj_chat_box,
 	{
 		text: dialogue_array,

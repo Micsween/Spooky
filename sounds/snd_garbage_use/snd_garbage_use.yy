@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_garbage_use",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"General",
+    "path":"folders/Sounds/General.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

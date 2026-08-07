@@ -1,5 +1,7 @@
 if room == rm_hot_dog_van and global.current_day_state = DAY_STATE.WORKING {
-	
+	if global.current_game_day == 2 {
+		shadow_in_window()
+	}
 	obj_id = instance_create_layer(1602,167,"Instances", obj_order_manager)
 	with(obj_id){
 		image_xscale = 5.015625

@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_radio_music_2",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"radio",
+    "path":"folders/Sounds/General/radio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

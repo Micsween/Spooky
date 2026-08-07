@@ -27,6 +27,11 @@ global.npc_json = load_npcs();
 global.obj_order_manager_state = noone
 global.current_npc_index = 0
 global.item_held = noone
+global.obtained_id_badge = false
+
+#macro WINDOW_X_LEFT 832
+#macro WINDOW_X_RIGHT 1602
+#macro WINDOW_Y 167
 
 enum DAY_STATE {
 	INTRO,
@@ -35,4 +40,4 @@ enum DAY_STATE {
 	END_DAY
 }
 
-global.current_day_state = DAY_STATE.WORKING // CHANGE THIS TO INTRO LATER
+global.current_day_state = DAY_STATE.CLEANING_UP // CHANGE THIS TO INTRO LATER

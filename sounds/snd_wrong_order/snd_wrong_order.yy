@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_wrong_order",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"General",
+    "path":"folders/Sounds/General.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

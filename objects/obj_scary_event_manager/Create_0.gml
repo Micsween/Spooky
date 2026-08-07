@@ -1,0 +1,1 @@
+object_in_window = false

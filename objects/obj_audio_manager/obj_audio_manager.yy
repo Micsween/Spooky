@@ -9,8 +9,8 @@
   "name":"obj_audio_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

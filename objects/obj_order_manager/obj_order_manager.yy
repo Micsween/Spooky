@@ -10,8 +10,8 @@
   "name":"obj_order_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_interactable",

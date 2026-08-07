@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_open_fridge",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"General",
+    "path":"folders/Sounds/General.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -13,8 +13,8 @@
   ],
   "name":"prt_sizzle",
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Particles",
+    "path":"folders/Particles.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",
