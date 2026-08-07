@@ -29,7 +29,6 @@ function handle_finish_cleaning() {
 		case 1:
 			audio_play_sound(snd_stove_sizzle, 100, false)
 			instance_create_layer(x-100 ,y+260,"Instances", obj_id_badge)
-		
 			break;
 		case 2:
 			set_state_end_day()
