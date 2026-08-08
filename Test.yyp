@@ -55,6 +55,7 @@
   "name":"Test",
   "resources":[
     {"id":{"name":"fnt_Chat_Box_Font","path":"fonts/fnt_Chat_Box_Font/fnt_Chat_Box_Font.yy",},},
+    {"id":{"name":"Rain","path":"particles/Rain/Rain.yy",},},
     {"id":{"name":"obj_audio_manager","path":"objects/obj_audio_manager/obj_audio_manager.yy",},},
     {"id":{"name":"obj_blue_chips","path":"objects/obj_blue_chips/obj_blue_chips.yy",},},
     {"id":{"name":"obj_blue_mini_fridge","path":"objects/obj_blue_mini_fridge/obj_blue_mini_fridge.yy",},},
