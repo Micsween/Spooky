@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"cookies",
-    "path":"folders/Sprites/Ingredient_sprites/cookies.yy",
+    "path":"folders/Ingredient_sprites/cookies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -123,6 +123,9 @@ function play_breath(){
 	}
 }
 
+
+//SCARY EVENT NUMBERS
+
 function shadow_in_window() {
 	layer_sequence_create("Inside_Window", WINDOW_X_LEFT, WINDOW_Y, seq_object_in_window)
 }
@@ -136,3 +139,8 @@ function create_shadow_in_window_2() {
 			alarm[0] = 120
 		}
 }
+function create_shadow_by_van_outside() {
+	//this should run when the player reaches a point in the scene where it can see the animation.
+	seq_id = layer_sequence_create("Assets_2", 320, 352, seq_object_moving_by_van)
+}
+
