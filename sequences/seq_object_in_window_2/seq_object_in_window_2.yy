@@ -1,424 +1,104 @@
 {
-  "$GMSequence": "v1",
-  "%Name": "seq_object_in_window_2",
-  "autoRecord": true,
-  "backdropHeight": 768,
-  "backdropImageOpacity": 0.5,
-  "backdropImagePath": "",
-  "backdropWidth": 1366,
-  "backdropXOffset": 0.0,
-  "backdropYOffset": 0.0,
-  "events": {
-    "$KeyframeStore<MessageEventKeyframe>": "",
-    "Keyframes": [],
-    "resourceType": "KeyframeStore<MessageEventKeyframe>",
-    "resourceVersion": "2.0"
+  "$GMSequence":"v1",
+  "%Name":"seq_object_in_window_2",
+  "autoRecord":true,
+  "backdropHeight":768,
+  "backdropImageOpacity":0.5,
+  "backdropImagePath":"",
+  "backdropWidth":1366,
+  "backdropXOffset":0.0,
+  "backdropYOffset":0.0,
+  "events":{
+    "$KeyframeStore<MessageEventKeyframe>":"",
+    "Keyframes":[],
+    "resourceType":"KeyframeStore<MessageEventKeyframe>",
+    "resourceVersion":"2.0",
   },
-  "eventStubScript": {
-    "name": "sequence_management",
-    "path": "scripts/sequence_management/sequence_management.yy"
+  "eventStubScript":{
+    "name":"sequence_management",
+    "path":"scripts/sequence_management/sequence_management.yy",
   },
-  "eventToFunction": {},
-  "length": 300.0,
-  "lockOrigin": false,
-  "moments": {
-    "$KeyframeStore<MomentsEventKeyframe>": "",
-    "Keyframes": [
-      {
-        "$Keyframe<MomentsEventKeyframe>": "",
-        "Channels": {
-          "0": {
-            "$MomentsEventKeyframe": "",
-            "Events": ["pause"],
-            "resourceType": "MomentsEventKeyframe",
-            "resourceVersion": "2.0"
-          }
-        },
-        "Disabled": false,
-        "id": "c5a13723-018c-4f5a-9a1d-3bd726b8e48d",
-        "IsCreationKey": false,
-        "Key": 95.0,
-        "Length": 1.0,
-        "resourceType": "Keyframe<MomentsEventKeyframe>",
-        "resourceVersion": "2.0",
-        "Stretch": false
-      },
-      {
-        "$Keyframe<MomentsEventKeyframe>": "",
-        "Channels": {
-          "0": {
-            "$MomentsEventKeyframe": "",
-            "Events": ["delete_self"],
-            "resourceType": "MomentsEventKeyframe",
-            "resourceVersion": "2.0"
-          }
-        },
-        "Disabled": false,
-        "id": "72f3906e-6016-4492-803b-af2f6bfcb938",
-        "IsCreationKey": false,
-        "Key": 284.0,
-        "Length": 1.0,
-        "resourceType": "Keyframe<MomentsEventKeyframe>",
-        "resourceVersion": "2.0",
-        "Stretch": false
-      }
+  "eventToFunction":{},
+  "length":300.0,
+  "lockOrigin":false,
+  "moments":{
+    "$KeyframeStore<MomentsEventKeyframe>":"",
+    "Keyframes":[
+      {"$Keyframe<MomentsEventKeyframe>":"","Channels":{
+          "0":{"$MomentsEventKeyframe":"","Events":[
+              "pause",
+            ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
+        },"Disabled":false,"id":"c5a13723-018c-4f5a-9a1d-3bd726b8e48d","IsCreationKey":false,"Key":95.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+      {"$Keyframe<MomentsEventKeyframe>":"","Channels":{
+          "0":{"$MomentsEventKeyframe":"","Events":[
+              "delete_self",
+            ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
+        },"Disabled":false,"id":"72f3906e-6016-4492-803b-af2f6bfcb938","IsCreationKey":false,"Key":284.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
     ],
-    "resourceType": "KeyframeStore<MomentsEventKeyframe>",
-    "resourceVersion": "2.0"
+    "resourceType":"KeyframeStore<MomentsEventKeyframe>",
+    "resourceVersion":"2.0",
   },
-  "name": "seq_object_in_window_2",
-  "parent": {
-    "name": "Sequences",
-    "path": "folders/Sequences.yy"
+  "name":"seq_object_in_window_2",
+  "parent":{
+    "name":"Sequences",
+    "path":"folders/Sequences.yy",
   },
-  "playback": 0,
-  "playbackSpeed": 60.0,
-  "playbackSpeedType": 0,
-  "resourceType": "GMSequence",
-  "resourceVersion": "2.0",
-  "seqHeight": 438.0,
-  "seqWidth": 320.0,
-  "showBackdrop": true,
-  "showBackdropImage": false,
-  "spriteId": null,
-  "timeUnits": 1,
-  "tracks": [
-    {
-      "$GMGraphicTrack": "",
-      "%Name": "Sprite79",
-      "builtinName": 0,
-      "events": [],
-      "inheritsTrackColour": true,
-      "interpolation": 1,
-      "isCreationTrack": false,
-      "keyframes": {
-        "$KeyframeStore<AssetSpriteKeyframe>": "",
-        "Keyframes": [
-          {
-            "$Keyframe<AssetSpriteKeyframe>": "",
-            "Channels": {
-              "0": {
-                "$AssetSpriteKeyframe": "",
-                "Id": {
-                  "name": "spr_shadow_in_window_2",
-                  "path": "sprites/spr_shadow_in_window_2/spr_shadow_in_window_2.yy"
-                },
-                "resourceType": "AssetSpriteKeyframe",
-                "resourceVersion": "2.0"
-              }
-            },
-            "Disabled": false,
-            "id": "5c9b7c23-c98e-4f82-b534-75da7d4782d3",
-            "IsCreationKey": false,
-            "Key": 0.0,
-            "Length": 400.0,
-            "resourceType": "Keyframe<AssetSpriteKeyframe>",
-            "resourceVersion": "2.0",
-            "Stretch": false
-          }
-        ],
-        "resourceType": "KeyframeStore<AssetSpriteKeyframe>",
-        "resourceVersion": "2.0"
-      },
-      "modifiers": [],
-      "name": "Sprite79",
-      "resourceType": "GMGraphicTrack",
-      "resourceVersion": "2.0",
-      "trackColour": 4282970845,
-      "tracks": [
-        {
-          "$GMRealTrack": "",
-          "%Name": "origin",
-          "builtinName": 16,
-          "events": [],
-          "inheritsTrackColour": true,
-          "interpolation": 1,
-          "isCreationTrack": false,
-          "keyframes": {
-            "$KeyframeStore<RealKeyframe>": "",
-            "Keyframes": [
-              {
-                "$Keyframe<RealKeyframe>": "",
-                "Channels": {
-                  "0": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 0.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  },
-                  "1": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 0.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  }
-                },
-                "Disabled": false,
-                "id": "f0dc2dc5-4c68-48b9-bd84-3a152524a9e7",
-                "IsCreationKey": false,
-                "Key": 69.0,
-                "Length": 1.0,
-                "resourceType": "Keyframe<RealKeyframe>",
-                "resourceVersion": "2.0",
-                "Stretch": false
-              }
-            ],
-            "resourceType": "KeyframeStore<RealKeyframe>",
-            "resourceVersion": "2.0"
-          },
-          "modifiers": [],
-          "name": "origin",
-          "resourceType": "GMRealTrack",
-          "resourceVersion": "2.0",
-          "trackColour": 4282970845,
-          "tracks": [],
-          "traits": 0
-        },
-        {
-          "$GMRealTrack": "",
-          "%Name": "position",
-          "builtinName": 14,
-          "events": [],
-          "inheritsTrackColour": true,
-          "interpolation": 1,
-          "isCreationTrack": false,
-          "keyframes": {
-            "$KeyframeStore<RealKeyframe>": "",
-            "Keyframes": [
-              {
-                "$Keyframe<RealKeyframe>": "",
-                "Channels": {
-                  "0": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 0.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  },
-                  "1": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 118.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  }
-                },
-                "Disabled": false,
-                "id": "e8362708-27ca-49e7-a5e9-0f3a76ab42e2",
-                "IsCreationKey": false,
-                "Key": 0.0,
-                "Length": 1.0,
-                "resourceType": "Keyframe<RealKeyframe>",
-                "resourceVersion": "2.0",
-                "Stretch": false
-              },
-              {
-                "$Keyframe<RealKeyframe>": "",
-                "Channels": {
-                  "0": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 0.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  },
-                  "1": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": -29.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  }
-                },
-                "Disabled": false,
-                "id": "55a7c03c-c15d-478b-8073-79da261a6e6d",
-                "IsCreationKey": false,
-                "Key": 69.0,
-                "Length": 1.0,
-                "resourceType": "Keyframe<RealKeyframe>",
-                "resourceVersion": "2.0",
-                "Stretch": false
-              },
-              {
-                "$Keyframe<RealKeyframe>": "",
-                "Channels": {
-                  "0": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 0.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  },
-                  "1": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": -29.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  }
-                },
-                "Disabled": false,
-                "id": "3fb9e4f2-e1bb-4545-8d20-0ae33db0920f",
-                "IsCreationKey": false,
-                "Key": 100.0,
-                "Length": 1.0,
-                "resourceType": "Keyframe<RealKeyframe>",
-                "resourceVersion": "2.0",
-                "Stretch": false
-              },
-              {
-                "$Keyframe<RealKeyframe>": "",
-                "Channels": {
-                  "0": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": -230.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  },
-                  "1": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": -6.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  }
-                },
-                "Disabled": false,
-                "id": "e63da9c9-21d5-4314-b407-692bf77a6716",
-                "IsCreationKey": false,
-                "Key": 111.0,
-                "Length": 1.0,
-                "resourceType": "Keyframe<RealKeyframe>",
-                "resourceVersion": "2.0",
-                "Stretch": false
-              }
-            ],
-            "resourceType": "KeyframeStore<RealKeyframe>",
-            "resourceVersion": "2.0"
-          },
-          "modifiers": [],
-          "name": "position",
-          "resourceType": "GMRealTrack",
-          "resourceVersion": "2.0",
-          "trackColour": 4282970845,
-          "tracks": [],
-          "traits": 0
-        },
-        {
-          "$GMRealTrack": "",
-          "%Name": "rotation",
-          "builtinName": 8,
-          "events": [],
-          "inheritsTrackColour": true,
-          "interpolation": 1,
-          "isCreationTrack": false,
-          "keyframes": {
-            "$KeyframeStore<RealKeyframe>": "",
-            "Keyframes": [
-              {
-                "$Keyframe<RealKeyframe>": "",
-                "Channels": {
-                  "0": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 0.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  }
-                },
-                "Disabled": false,
-                "id": "5a9f9f48-c8a3-4948-b448-fcf6a3a3e9d1",
-                "IsCreationKey": false,
-                "Key": 69.0,
-                "Length": 1.0,
-                "resourceType": "Keyframe<RealKeyframe>",
-                "resourceVersion": "2.0",
-                "Stretch": false
-              }
-            ],
-            "resourceType": "KeyframeStore<RealKeyframe>",
-            "resourceVersion": "2.0"
-          },
-          "modifiers": [],
-          "name": "rotation",
-          "resourceType": "GMRealTrack",
-          "resourceVersion": "2.0",
-          "trackColour": 4282970845,
-          "tracks": [],
-          "traits": 0
-        },
-        {
-          "$GMRealTrack": "",
-          "%Name": "scale",
-          "builtinName": 15,
-          "events": [],
-          "inheritsTrackColour": true,
-          "interpolation": 1,
-          "isCreationTrack": false,
-          "keyframes": {
-            "$KeyframeStore<RealKeyframe>": "",
-            "Keyframes": [
-              {
-                "$Keyframe<RealKeyframe>": "",
-                "Channels": {
-                  "0": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 5.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  },
-                  "1": {
-                    "$RealKeyframe": "",
-                    "AnimCurveId": null,
-                    "EmbeddedAnimCurve": null,
-                    "RealValue": 5.0,
-                    "resourceType": "RealKeyframe",
-                    "resourceVersion": "2.0"
-                  }
-                },
-                "Disabled": false,
-                "id": "120e9faa-02ac-47b8-a878-8f8402a5fb16",
-                "IsCreationKey": false,
-                "Key": 69.0,
-                "Length": 1.0,
-                "resourceType": "Keyframe<RealKeyframe>",
-                "resourceVersion": "2.0",
-                "Stretch": false
-              }
-            ],
-            "resourceType": "KeyframeStore<RealKeyframe>",
-            "resourceVersion": "2.0"
-          },
-          "modifiers": [],
-          "name": "scale",
-          "resourceType": "GMRealTrack",
-          "resourceVersion": "2.0",
-          "trackColour": 4282970845,
-          "tracks": [],
-          "traits": 0
-        }
-      ],
-      "traits": 0
-    }
+  "playback":0,
+  "playbackSpeed":60.0,
+  "playbackSpeedType":0,
+  "resourceType":"GMSequence",
+  "resourceVersion":"2.0",
+  "seqHeight":438.0,
+  "seqWidth":320.0,
+  "showBackdrop":true,
+  "showBackdropImage":false,
+  "spriteId":null,
+  "timeUnits":1,
+  "tracks":[
+    {"$GMGraphicTrack":"","%Name":"Sprite79","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetSpriteKeyframe>":"","Keyframes":[
+          {"$Keyframe<AssetSpriteKeyframe>":"","Channels":{
+              "0":{"$AssetSpriteKeyframe":"","Id":{"name":"spr_shadow_in_window_2","path":"sprites/spr_shadow_in_window_2/spr_shadow_in_window_2.yy",},"resourceType":"AssetSpriteKeyframe","resourceVersion":"2.0",},
+            },"Disabled":false,"id":"5c9b7c23-c98e-4f82-b534-75da7d4782d3","IsCreationKey":false,"Key":0.0,"Length":400.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
+        ],"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"Sprite79","resourceType":"GMGraphicTrack","resourceVersion":"2.0","trackColour":4282970845,"tracks":[
+        {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
+              {"$Keyframe<RealKeyframe>":"","Channels":{
+                  "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                  "1":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                },"Disabled":false,"id":"f0dc2dc5-4c68-48b9-bd84-3a152524a9e7","IsCreationKey":false,"Key":69.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"origin","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4282970845,"tracks":[],"traits":0,},
+        {"$GMRealTrack":"","%Name":"position","builtinName":14,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
+              {"$Keyframe<RealKeyframe>":"","Channels":{
+                  "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                  "1":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":118.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                },"Disabled":false,"id":"e8362708-27ca-49e7-a5e9-0f3a76ab42e2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              {"$Keyframe<RealKeyframe>":"","Channels":{
+                  "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                  "1":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-29.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                },"Disabled":false,"id":"55a7c03c-c15d-478b-8073-79da261a6e6d","IsCreationKey":false,"Key":69.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              {"$Keyframe<RealKeyframe>":"","Channels":{
+                  "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                  "1":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-29.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                },"Disabled":false,"id":"3fb9e4f2-e1bb-4545-8d20-0ae33db0920f","IsCreationKey":false,"Key":100.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              {"$Keyframe<RealKeyframe>":"","Channels":{
+                  "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-230.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                  "1":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":-6.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                },"Disabled":false,"id":"e63da9c9-21d5-4314-b407-692bf77a6716","IsCreationKey":false,"Key":111.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"position","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4282970845,"tracks":[],"traits":0,},
+        {"$GMRealTrack":"","%Name":"rotation","builtinName":8,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
+              {"$Keyframe<RealKeyframe>":"","Channels":{
+                  "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":0.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                },"Disabled":false,"id":"5a9f9f48-c8a3-4948-b448-fcf6a3a3e9d1","IsCreationKey":false,"Key":69.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"rotation","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4282970845,"tracks":[],"traits":0,},
+        {"$GMRealTrack":"","%Name":"scale","builtinName":15,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
+              {"$Keyframe<RealKeyframe>":"","Channels":{
+                  "0":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":5.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                  "1":{"$RealKeyframe":"","AnimCurveId":null,"EmbeddedAnimCurve":null,"RealValue":5.0,"resourceType":"RealKeyframe","resourceVersion":"2.0",},
+                },"Disabled":false,"id":"120e9faa-02ac-47b8-a878-8f8402a5fb16","IsCreationKey":false,"Key":69.0,"Length":1.0,"resourceType":"Keyframe<RealKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"scale","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4282970845,"tracks":[],"traits":0,},
+      ],"traits":0,},
   ],
-  "visibleRange": null,
-  "volume": 1.0,
-  "xorigin": 0,
-  "yorigin": 0
+  "visibleRange":null,
+  "volume":1.0,
+  "xorigin":0,
+  "yorigin":0,
 }

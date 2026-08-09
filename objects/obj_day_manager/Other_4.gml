@@ -18,8 +18,10 @@ if room == rm_sleeping {
 	//CHANGE THIS DIALOGUE
 
 	 create_textbox(["N: ...locals are to be on the lookout for Annie Shapiro...",
-	 "N: ...reported missing just a few hours ago...","P: ...Wasn't that the name on the ID badge?"])
-	//CHANGE THIS
-	//alarm[1] = 300
+	 "N: ...reported missing just a few hours ago...", "N: ...her description is as follows...",
+	 "P: ...Wasn't that the name on the ID badge?" ], function() {
+			alarm[1] = 100
+	 })
+
 
 }

@@ -21,7 +21,7 @@ function start_new_day() {
 	global.current_game_day +=1 //CHANGE THIS LATER	
 	global.current_npc_index = 0
 	global.current_day_state = DAY_STATE.WORKING
-	room_goto_fade(rm_hot_dog_van, 0.8)
+	room_goto_fade(rm_hot_dog_van, 2)
 	
 }
 function handle_finish_cleaning() {
