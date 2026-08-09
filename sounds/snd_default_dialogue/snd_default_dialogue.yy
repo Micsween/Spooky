@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_default_dialogue",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":8.7655325,
+  "exportDir":"",
+  "name":"snd_default_dialogue",
+  "parent":{
+    "name":"Text_Box",
+    "path":"folders/Objects/Text_Box.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_default_dialogue.ogg",
+  "volume":1.0,
+}

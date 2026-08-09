@@ -13,7 +13,7 @@ if room == rm_hot_dog_van and global.current_day_state = DAY_STATE.END_DAY {
 	alarm[0] = 60 // GO TO BED
 }
 if room == rm_sleeping {
-	global.current_npc.chat_sprite = Radio
+	global.current_npc.chat_sprite = spr_radio
 	global.current_npc.name = "Radio"
 	//CHANGE THIS DIALOGUE
 
@@ -21,7 +21,7 @@ if room == rm_sleeping {
 	 "N: ...reported missing just a few hours ago...", "N: ...her description is as follows...",
 	 "P: ...Wasn't that the name on the ID badge?" ], function() {
 			alarm[1] = 100
-	 })
+	 }, 0.5, snd_radio_dialogue, false)
 
 
 }

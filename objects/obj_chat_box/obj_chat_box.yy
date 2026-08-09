@@ -37,6 +37,10 @@
     {"$GMObjectProperty":"v2","%Name":"on_complete","filters":[
         "GMScript",
       ],"listItems":[],"multiselect":false,"name":"on_complete","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_default_dialogue","path":"sounds/snd_default_dialogue/snd_default_dialogue.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_default_dialogue","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"repeats","filters":[],"listItems":[],"multiselect":false,"name":"repeats","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

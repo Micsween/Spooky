@@ -31,6 +31,7 @@
     {"$GMObjectProperty":"v2","%Name":"room_destination","filters":[],"listItems":[],"multiselect":false,"name":"room_destination","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"fade_speed","filters":[],"listItems":[],"multiselect":false,"name":"fade_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.2","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"fade_delay","filters":[],"listItems":[],"multiselect":false,"name":"fade_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"display_message","filters":[],"listItems":[],"multiselect":false,"name":"display_message","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Driving home...\"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

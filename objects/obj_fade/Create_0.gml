@@ -4,6 +4,7 @@ wait = 0;
 fade_alpha = 0;
 state = "fade_in";
 target_room = room;
+show_text = false
 
 // Apply passed values safely
 if (variable_struct_exists(self, "room_destination")) {

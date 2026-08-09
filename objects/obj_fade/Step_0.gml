@@ -5,6 +5,7 @@ if (state == "fade_in") {
     
     if (fade_alpha >= 1) {
         fade_alpha = 1;
+		
         state = "fade_wait";
     }
 } 
@@ -16,6 +17,7 @@ else if (state == "fade_out") {
         instance_destroy();
     }
 }else if (state == "fade_wait") {
+		show_text = true
 	current_wait += delta_time / 1000000
 	if (current_wait > wait){
 		state = "fade_out"
