@@ -10,5 +10,16 @@ if room == rm_hot_dog_van and global.current_day_state = DAY_STATE.WORKING {
 	
 }
 if room == rm_hot_dog_van and global.current_day_state = DAY_STATE.END_DAY {
-	alarm[0] = 130 // GO TO BED
+	alarm[0] = 60 // GO TO BED
+}
+if room == rm_sleeping {
+	global.current_npc.chat_sprite = Radio
+	global.current_npc.name = "Radio"
+	//CHANGE THIS DIALOGUE
+
+	 create_textbox(["N: ...locals are to be on the lookout for Annie Shapiro...",
+	 "N: ...reported missing just a few hours ago...","P: ...Wasn't that the name on the ID badge?"])
+	//CHANGE THIS
+	//alarm[1] = 300
+
 }

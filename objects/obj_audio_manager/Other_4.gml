@@ -14,5 +14,9 @@ switch(room){
 		audio_play_sound(snd_van_ambience, 100, true);
 		//pick some outdoor noises
 		break;
+	case rm_sleeping:
+		audio_play_sound(snd_driving_ambience, 100, false)
+		//play sound of a starting car
+		//play sound of driving
 	
 }

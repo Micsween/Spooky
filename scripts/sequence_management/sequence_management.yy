@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sequence_management",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sequence_management",
+  "parent":{
+    "name":"Test",
+    "path":"Test.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -72,6 +72,7 @@ function set_state_load_new_npc(){
 	}
 }
 
+
 function set_state_enter() {
 	with(obj_order_manager) {
 		current_state = NPC_STATE.ENTER
@@ -141,6 +142,7 @@ function create_shadow_in_window_2() {
 }
 function create_shadow_by_van_outside() {
 	//this should run when the player reaches a point in the scene where it can see the animation.
-	seq_id = layer_sequence_create("Assets_2", 320, 352, seq_object_moving_by_van)
+	seq_id = layer_sequence_create("Assets_2", 675, 300, seq_object_moving_by_van)
+	global.current_sequence = seq_id
 }
 

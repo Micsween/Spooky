@@ -189,14 +189,14 @@
       "outro_text": [
         "N: Ugh.. I think I'm going to throw up.",
         "P: Is the food bad?",
-        "N: No.. it's not that... One of my friends didn't show up for his shift today.",
-        "N: I was making fun of him to my coworkers for slacking off...",
+        "N: No.. it's not that... Annie didn't show up for her shift today.",
+        "N: I was making fun of her to my coworkers for slacking off...",
         "N: ...",
-        "N: They found his mutilated body outside the site. He was attacked last night.",
-        "N: His face was unrecognizable. They almost couldn't ID him because his badge was missing.", 
+        "N: They found her body outside the site. She was attacked last night.",
+        "N: She was missing her ID... and her face was...torn up", 
         "P: That's horrible.",
-        "N: He was dead. I was making fun of him...",
-        "N: and he was dead.",
+        "N: She was dead. I was making fun of her...",
+        "N: and she was dead.",
         "N: I'm gonna be sick.",
         "P: *Should I give him the ID badge I found? Someone else might need it.*",
         "N: Who would do this...?"
@@ -230,18 +230,10 @@
       "outro_text": [
         "N: ...",
         "N: ...",
+        "N: I told you to leave.",
         "N: There's no turning back now."
       ]
     },
-    {
-      "id" : "L",
-      "intro_text" :  [
-          "N: "
-        ],
-      "outro_text" :  [
-          "P: "
-        ]
-      },
      {
       "id" : "R",
       "intro_text" :  [

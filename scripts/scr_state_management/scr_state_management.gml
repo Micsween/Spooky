@@ -1,10 +1,10 @@
 function go_to_rm_sleeping() {
-	room_goto_fade(rm_sleeping, 0.025)
+	room_goto_fade(rm_sleeping, 0.025,8.5)
 	
 }
 
 function set_state_cleaning_up() {
-		create_textbox(["P: Time to clean up. I'll take out the trash outside."])
+		create_textbox(["P: Time to clean up. I'll take out both trash bags."])
 		global.current_day_state = DAY_STATE.CLEANING_UP
 		global.current_npc_index = -1
 }
@@ -29,6 +29,7 @@ function handle_finish_cleaning() {
 		case 1:
 			audio_play_sound(snd_stove_sizzle, 100, false)
 			instance_create_layer(x-100 ,y+260,"Instances", obj_id_badge)
+			create_shadow_by_van_outside()
 			break;
 		case 2:
 			set_state_end_day()

@@ -28,6 +28,7 @@ global.obj_order_manager_state = noone
 global.current_npc_index = 0
 global.item_held = noone
 global.obtained_id_badge = false
+global.current_sequence = noone
 
 #macro WINDOW_X_LEFT 832
 #macro WINDOW_X_RIGHT 1602
@@ -40,4 +41,4 @@ enum DAY_STATE {
 	END_DAY
 }
 
-global.current_day_state = DAY_STATE.CLEANING_UP // CHANGE THIS TO INTRO LATER
+global.current_day_state = DAY_STATE.END_DAY // CHANGE THIS TO INTRO LATER
