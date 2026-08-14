@@ -14,7 +14,7 @@ function create_order(){
 	
 	obj = instance_create_layer(1965, 192, "Instances", obj_order )
 	order = [soda_options[soda_i], hot_dog_options[hd_i], chip_options[chip_i], cookie_options[cookie_i]]
-	order = [soda_options[soda_i]]
+	//order = [soda_options[soda_i]]
 	obj_order.order = order
 	return order
 }
@@ -67,7 +67,7 @@ function set_state_load_new_npc(){
 	with(obj_order_manager) {
 		load_next_npc();
 		current_state = NPC_STATE.LOAD_NEW_NPC
-		global.current_npc_index +=1;
+	
 		alarm[0] = 400; 
 	}
 }
@@ -105,6 +105,7 @@ function set_state_outro_dialogue() {
 }
 
 function set_state_exit() {
+	global.current_npc_index +=1;
 	//make this super refined later
 	if global.current_npc_index == 2 {
 		create_shadow_in_window_2()

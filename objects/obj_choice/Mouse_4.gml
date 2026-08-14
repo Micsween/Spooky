@@ -1,0 +1,1 @@
+global.chat_box_is_clickable = true

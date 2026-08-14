@@ -14,7 +14,7 @@ function load_npcs() {
 	}
 }
 
-global.current_game_day = 1
+
 global.chatting = false
 global.current_npc = {
 	name : noone,
@@ -25,7 +25,7 @@ global.current_npc = {
 }
 global.npc_json = load_npcs();
 global.obj_order_manager_state = noone
-global.current_npc_index = 0
+
 global.item_held = noone
 global.obtained_id_badge = false
 global.current_sequence = noone
@@ -40,5 +40,7 @@ enum DAY_STATE {
 	CLEANING_UP,
 	END_DAY
 }
-
-global.current_day_state = DAY_STATE.END_DAY // CHANGE THIS TO INTRO LATER
+global.current_npc_index = 0
+global.chat_box_is_clickable = true
+global.current_game_day = 1
+global.current_day_state = DAY_STATE.CLEANING_UP// CHANGE THIS TO INTRO LATER

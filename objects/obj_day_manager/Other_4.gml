@@ -19,8 +19,8 @@ if room == rm_sleeping {
 
 	 create_textbox(["N: ...locals are to be on the lookout for Annie Shapiro...",
 	 "N: ...reported missing just a few hours ago...", "N: ...her description is as follows...",
-	 "P: ...Wasn't that the name on the ID badge?" ], function() {
-			alarm[1] = 100
+	 "P: ...That name sounds familiar." ], function() {
+			alarm[1] = 400
 	 }, 0.5, snd_radio_dialogue, false)
 
 

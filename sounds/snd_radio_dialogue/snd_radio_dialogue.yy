@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_radio_dialogue",
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

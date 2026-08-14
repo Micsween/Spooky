@@ -1,34 +1,34 @@
 
-var dialogue = ["Hey man, you hear about the new excavation site downtown?",
+global.current_npc.name = "James"
+global.current_npc.chat_sprite  = spr_phone
+var dialogue = [
+"P: Hey James, what's up?",
 
-"Yeah.",
+"N: Hey man, you hear about the new excavation site downtown?",
 
-"Got a call from the manger of the site.",
+"P: Yeah.",
 
-"They need a food truck out there during the evenings.",
+"N: I met someone who works at the site.",
 
-"Most restuarants downtown don't stay open that late.",
+"N: They said most restuarants downtown don't stay open that late.",
+"N: and they need a food truck out there during the evenings.",
 
-"Which is why they want me to park nearby?",
+"N: They're willing to pay a generous fee,",
 
-"Yep.", 
+"N: and reserve you a parking spot outside the site.",
 
-"They're willing to pay a generous fee,",
+"N: I recommended you. Are you up for it?",
 
-"and give you a 24-hour parking spot outside the site.",
+"P: Thanks, man! I'm down. When do I start?",
 
-"Nice. I'm down. When do I start?",
+"N: Tonight, if you can.",
 
-"Tonight, if you can.",
+"P: Great, I'm already in the truck.",
 
-"Great, I'm already in the truck.",
+"P: Tell them I'm on my way."]
 
-"Tell them I'm on my way."]
-
-var names = ["Friend","You","Friend","Friend","Friend","You","Friend","Friend","Friend","You","Friend","You","You"]
-
-
+function set_alarm_1() {
+    alarm[1] = 100;
+}
 //create textbox
-//create_textbox(dialogue, 0.35, function() {
-//    alarm[1] = 100;
-//});
+create_textbox(dialogue, set_alarm_1);

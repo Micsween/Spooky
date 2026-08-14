@@ -41,19 +41,23 @@
     {
       "id" : "L",
       "intro_text" :  [
-        "N: Hi."
-      ],
-      "outro_text" :   [
-        "N: Thanks.",
-        "P: You working as a security guard for the excavation site?",
-        "N: Yeah.",
-        "P: Must be a big project.",
-        "N: They found something revolutionary.",
-        "P: Really? What is it?",
-        "N: I keep asking, but they refuse to tell me.",
-        "P: ...",
-        "N: ",
-        "N: Anyway. Thanks for the meal. I gotta get back to work."
+          "N: You got any food in there?",
+          "P: This is a food truck.",
+          "N: So you don't?",
+          "P: No, I do."
+        ],
+      "outro_text" : [
+          "N: Thanks.",
+          "N: I hate this job.",
+          "P: That makes two of us.",
+          "N: You got that right.",
+          "P: Anyway, are you working as a security guard for the excavation site?",
+          "N: Yeah.",
+          "N: The employees keep saying they dug up something incredible.",
+          "P: Really? What is it?",
+          "N: They won't tell me.",
+          "P: ...",
+          "N: Well. Thanks for the meal. I gotta get back to work."
       ]
     }, 
      {
@@ -68,7 +72,7 @@
     {
       "id" : "C2",
       "intro_text": [
-        "N: Could I get..."
+        "N: I'm so hungry."
       ],
       "outro_text": [
         "N: Looks great."
@@ -88,15 +92,20 @@
         "N: ...Does anyone honor the non-disclosure agreement?",
         "N: Well, it is an amazing discovery.",
         "P: What kind of discovery?",
-        "N: The big kind. Like, changing our understanding of the universe big.",
-        "N: We dug up something that's still... alive.",
+        "N: We found samples of an organism that went into a dormant state that preserved its life, encased in amber.",
         "P: ... what.",
         "N: I know. I thought they were crazy when they called me in.",
+        "P: No, I mean I don't understand what you're saying.",
+        "N: Oh. uh...",
+        "N: We found some amber with a fossil trapped inside, but it's not dead.",
+        "N: It's also... not a dinosaur. We don't know what it is.",
         "N: But, I've been examining samples of it...",
-        "N: And it's real. But they won't let me see it in person.",
+        "N: And it's waking up.",
         "P: *And he says his coworkers are loose-lipped.*",
-        "P: They found something that's really alive?",
-        "N: Shoot. Look, don't tell anyone I told you that, alright? I gotta go. Thanks for the food."
+        "P: That's incredible.",
+        "N: ...",
+        "N: I'm so fired.",
+        "P: Don't worry, I won't tell anyone."
       ]
     },
       {
@@ -120,7 +129,8 @@
     {
       "id" : "R",
       "intro_text" : [
-        "N: Good evening! My name is Rody. I work with the local newspaper.",
+        "N: Good evening! My name is Rody. I work with the local newspaper, the Stellar Tribune.",
+        "P: *What a name...*",
         "N: I've stumbled on something exciting, and I'd like to ask you a few questions about my discoveries.",
         "N: I've been scouting the area, and..",
         "P: Let me guess, is this about the excavation site?",
@@ -135,13 +145,17 @@
         "N: Do you think they found aliens?",
         "P: ...",
         "N: Have you heard anything from the employees that come by for dinner?",
-        "P: I have, actually... One of the lab technicians told me they dug up a living creature.",
-        "N: A living creature?! Man, this is about to be the biggest scoop of my life!",
-        "N: I'm going to do some looking around the premises. I'll catch up with you tomorrow.",
-        "N: Oh, and could I also get a hot dog? Haha."
+        "P: I promised I wouldn't tell anyone.",
+        "N: So you HAVE heard something!",
+        "P: ...",
+        "N: Here, I'll give you a huge tip."
         ],
       "outro_text": [
-        "N: Thanks!!"
+        "P: *Wow, that is a nice tip.*",
+        "P: They dug up a living fossil.",
+        "N: WHAT.",
+        "N: This is going to be the craziest article ever.",
+        "N: I need to do some more investigating."
       ]
     },    
     {
@@ -183,7 +197,7 @@
          {
       "id" : "G",
       "intro_text" : [
-        "N: I.. need a hot dog.",
+        "N: I.. need some food.",
         "P: Gotcha."
       ],
       "outro_text": [
@@ -202,6 +216,25 @@
         "N: Who would do this...?"
       ]
     },
+     {
+      "id" : "L",
+      "intro_text": [
+        "N: You got another beer?",
+        "P: Yeah. Why?",
+        "N: Work was a mess today."
+      ],
+      "outro_text": [
+        "P: What happened?",
+        "N: I found something I shouldn't have.",
+        "P: ...",
+        "P: You gonna spill?",
+        "N: I guess you did just spot me a beer.",
+        "N: Only one person didn't clock out last night.",
+        "P: What does that mean?",
+        "N: ..."
+      ]
+    },
+    
     {
       "id" : "C8",
       "intro_text": [
@@ -237,31 +270,24 @@
      {
       "id" : "R",
       "intro_text" :  [
-        "N: Hey."
-      ],
-      "outro_text" :  [
         "P: Find anything for your article?",
-        "N: Yes... One of the lab technicians was found dead off-site. I got some photos of his body. It's pretty gruesome.",
+        "N: I found a hole in the fence. They have two guards posted outside of it.",
+        "N: The fence is bent outward, like something broke out from inside.. ",
+        "P: Oh shoot.",
+        "N: Whaddya mean?",
+        "P: Is that how she died...?",
+        "N: I did see a white tarp and security tape...!",
         "P: ...",
-        "N: I don't feel good reporting on this. Making his death into some big publicity stunt.",
-        "N: But I overheard the forensics talking.",
-        "N: And whatever killed him wasn't human.",
-        "P: Was it was the creature they dug up?",
-        "N: I think so. But it's business as usual at the site.",
-        "N: You'd think they'd be on high alert after that, but.. it's almost like they're trying to cover it up.",
-        "P: Do you think they are?",
-        "N: I do. I need to shift gears.",
-        "N: I'm going to expose this whole project. That'll get the government to shut it down.",
-        "N: And get the police involved.",
-        "N: If I could just get inside.",
-        "P: {CHOICE: GIVE ID BADGE}",
-        "P: [YES]: This ID badge would get you inside.",
-        "N: Woah! Where did you get this? Thanks!",
-        "P: [NO]: Good luck with that. Security's pretty tight.",
-        "N: Yeah, thanks. I'm going to try my best.",
-        "P: Good luck",
-        "N: I'll come back tomorrow to give you more updates."
-    ]
+        "N: The experiment must've attacked someone...",
+        "N: and they're trying to cover it up!",
+        "P: You might be right.",
+        "P: I didn't see any cops, or even an ambulance.",
+        "N: I need to get in there and do some undercover work.",
+        "P: *Do I give him the id badge?*",
+        "CHOICE"
+      ],
+      "YES" : [ "P: Would this help?", "N: That's perfect!", "N: I'll use this to investigate"],
+      "NO" : ["P: Good luck.", "N: Thanks."]
     }
   ],
   "day3": [

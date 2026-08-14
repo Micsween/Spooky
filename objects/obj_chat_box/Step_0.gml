@@ -12,7 +12,7 @@ if not_done_printing_line() {
 	audio_stop_sound(snd_default_dialogue)
 }
 
-if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
+if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) and global.chat_box_is_clickable {
    if not_done_printing_line() {
 		end_line();
 	

@@ -1,5 +1,5 @@
 if not global.chatting and not global.obtained_id_badge {
-	audio_play_sound(snd_chips_bag, 100, false)
+	audio_play_sound(snd_pickup_id, 100, false)
 	global.obtained_id_badge = true
 	create_textbox(["P: An ID badge? Like the one Doctor Grace was wearing...",
 	"P: 'Doctor Shapiro...'"], function(){

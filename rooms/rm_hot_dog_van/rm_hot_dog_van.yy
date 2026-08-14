@@ -27,6 +27,7 @@
     {"name":"inst_7FA7D98C","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},
     {"name":"van_order_manager","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},
     {"name":"inst_4846DF00","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},
+    {"name":"inst_2639E299","path":"rooms/rm_hot_dog_van/rm_hot_dog_van.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -52,6 +53,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7FA7D98C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FA7D98C","objectId":{"name":"obj_exit_van","path":"objects/obj_exit_van/obj_exit_van.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":7.0,"x":32.0,"y":256.0,},
         {"$GMRInstance":"v4","%Name":"van_order_manager","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"van_order_manager","objectId":{"name":"obj_day_manager","path":"objects/obj_day_manager/obj_day_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2080.0,"y":128.0,},
         {"$GMRInstance":"v4","%Name":"inst_4846DF00","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4846DF00","objectId":{"name":"obj_scary_event_manager","path":"objects/obj_scary_event_manager/obj_scary_event_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":192.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2639E299","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2639E299","objectId":{"name":"obj_choice","path":"objects/obj_choice/obj_choice.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-2.1202815,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_3E2E8825","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3E2E8825","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"spriteId":{"name":"spr_Hot_Dog_Van_Inside","path":"sprites/spr_Hot_Dog_Van_Inside/spr_Hot_Dog_Van_Inside.yy",},"x":0.0,"y":0.0,},
