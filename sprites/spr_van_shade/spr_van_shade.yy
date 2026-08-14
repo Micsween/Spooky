@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_van_shade",
   "bboxMode":0,
-  "bbox_bottom":153,
+  "bbox_bottom":150,
   "bbox_left":0,
   "bbox_right":509,
   "bbox_top":0,

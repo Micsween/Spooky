@@ -14,8 +14,8 @@
   ],
   "name":"Rain",
   "parent":{
-    "name":"Test",
-    "path":"Test.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

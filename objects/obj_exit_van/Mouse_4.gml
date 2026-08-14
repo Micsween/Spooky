@@ -1,4 +1,6 @@
-with(obj_order_manager) {
-	save_state()	
+if not global.chatting {
+	with(obj_order_manager) {
+		save_state()	
+	}
+	alarm[0] = 1
 }
-alarm[0] = 1

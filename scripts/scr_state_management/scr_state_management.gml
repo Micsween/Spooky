@@ -4,9 +4,13 @@ function go_to_rm_sleeping() {
 }
 
 function set_state_cleaning_up() {
-		create_textbox(["P: Time to clean up. I'll take out both trash bags."])
-		global.current_day_state = DAY_STATE.CLEANING_UP
-		global.current_npc_index = -1
+	with(obj_order_manager) {
+		instance_destroy()
+	}
+	global.obj_order_manager_state = noone
+	create_textbox(["P: Time to clean up. I'll take the trash bag outside to the dumpster."])
+	global.current_day_state = DAY_STATE.CLEANING_UP
+	global.current_npc_index = -1
 }
 
 function set_state_end_day(end_day_dialogue = ["P: Let's head home."]) {

@@ -2,7 +2,7 @@
 if can_toss_garbage_bag() {
 	grab_item(noone, snd_complete_order);
 	trash_bags_dumped +=1
-	if trash_bags_dumped == 2 {
+	if trash_bags_dumped == 1 {
 		handle_finish_cleaning()
 		instance_destroy()
 	}

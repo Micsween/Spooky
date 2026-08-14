@@ -68,7 +68,7 @@ function set_state_load_new_npc(){
 		load_next_npc();
 		current_state = NPC_STATE.LOAD_NEW_NPC
 	
-		alarm[0] = 400; 
+		alarm[0] = 200; 
 	}
 }
 
